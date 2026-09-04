@@ -1,0 +1,72 @@
+<svg viewBox="0 0 720 348" role="img"
+  data-steps='["Start with the event, which is the only thing on this drawing that is not a document. September 18, 1895, in the Ryan Block in Davenport. Whatever passed between D.D. Palmer and Harvey Lillard passed there, and everything else here is somebody writing about it afterwards.","Now the channels that survive. Two of them are Palmer in print, years later, and his tellings do not fully agree with one another. That is one witness counted twice, not two witnesses. The third is drawn dashed because it is late and secondhand: an account attributed to the daughter of Harvey Lillard, in which the contact was an accidental blow rather than a deliberate correction.","And the channel that does not survive. Harvey Lillard left no first person account. He was a Black man in 1890s Iowa, and the archive that preserved the Palmer version many times over preserved almost nothing of his. That silence is not random, and any account that treats it as neutral is misreading its own evidence base.","So what the tradition reports arrives down one channel, from one interested author, written long after the fact. A student taught that history means weighing sources should notice there is almost nothing here to weigh. The exercise is not choosing among rival accounts. It is deciding how much confidence a single interested account can carry when nothing checks it."]' aria-label="Everything known about the 1895 founding reaches us through one interested author: two Palmer accounts written years later, a much later account attributed to Lillard's daughter, and no surviving account from Harvey Lillard himself.">
+  <defs>
+    <marker id="arrow-sources" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
+    </marker>
+    <marker id="arrow-sources-mute" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--fig-mute, #8a939e)"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+    <text x="16" y="20" font-weight="600">One event, four possible channels</text>
+
+    <g data-step="1" data-hot="the event itself" data-tip="Palmer was a magnetic healer in his forties with an established practice and a paying clientele. Lillard worked in the building and had been substantially deaf for years. The social distance between a paying patient and a building worker was not small, and it shaped who was believed afterwards.">
+      <rect x="16" y="136" width="140" height="80" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="86" y="164" text-anchor="middle" font-weight="600" font-size="12">September 18, 1895</text>
+      <text x="86" y="182" text-anchor="middle" font-size="12">Ryan Block</text>
+      <text x="86" y="200" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">Davenport</text>
+    </g>
+
+    <rect data-step="2" x="232" y="34" width="214" height="146" rx="10" fill="none" stroke="var(--fig-accent, #a95a22)" stroke-dasharray="6 5"/>
+    <text data-step="2" x="339" y="28" text-anchor="middle" font-size="12" fill="var(--fig-accent, #a95a22)">one interested author</text>
+
+    <g data-step="2" data-hot="D.D. Palmer, in print" data-tip="Retrospective testimony from the person with the largest possible stake in how the event was remembered. That is not worthless evidence, but it sits low in any historian's ranking, and there is nothing independent here to check it against.">
+      <rect x="244" y="46" width="190" height="56" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="339" y="70" text-anchor="middle" font-size="12" font-weight="600">D.D. Palmer, in print</text>
+      <text x="339" y="88" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">written years afterward</text>
+    </g>
+
+    <g data-step="2" data-hot="The Chiropractor's Adjuster" data-tip="The 1910 book, fifteen years after the afternoon it describes, in which the single case has become a universal claim: that the great majority of disease results from vertebral displacement interfering with nerve transmission.">
+      <rect x="244" y="112" width="190" height="56" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="339" y="136" text-anchor="middle" font-size="12" font-weight="600">The Chiropractor's Adjuster</text>
+      <text x="339" y="154" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">1910, and not consistent</text>
+    </g>
+
+    <g data-step="2" data-hot="attributed to the daughter" data-tip="Late, secondhand, and impossible to swap in for Palmer's version. But it is not nothing, and it disagrees with the received account about the most elementary fact in the case: whether the founding act of chiropractic was intentional at all.">
+      <rect x="244" y="200" width="190" height="56" rx="8" fill="none" stroke="currentColor" stroke-dasharray="6 5"/>
+      <text x="339" y="224" text-anchor="middle" font-size="12">attributed to the daughter</text>
+      <text x="339" y="242" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">much later, an accidental blow</text>
+    </g>
+
+    <g data-step="3" data-pulse="" data-hot="the empty box: Harvey Lillard" data-tip="The patient never speaks. No statement in his own words survives, and no clinical record of his hearing exists from before or after, which is why the ordinary alternative explanations for what he reported can never now be tested.">
+      <rect x="244" y="272" width="190" height="56" rx="8" fill="none" stroke="var(--fig-warn, #b4423a)" stroke-dasharray="6 5"/>
+      <text x="339" y="304" text-anchor="middle" font-size="12" fill="var(--fig-warn, #b4423a)">no surviving account</text>
+    </g>
+
+    <path data-step="2" d="M160 166 L 240 78" stroke="currentColor" fill="none" marker-end="url(#arrow-sources)"/>
+    <path data-step="2" d="M160 176 L 240 142" stroke="currentColor" fill="none" marker-end="url(#arrow-sources)"/>
+    <path data-step="2" d="M160 190 L 240 224" stroke="var(--fig-mute, #8a939e)" fill="none" stroke-dasharray="5 4" marker-end="url(#arrow-sources-mute)"/>
+    <path data-step="3" d="M160 202 L 240 296" stroke="var(--fig-warn, #b4423a)" fill="none" stroke-dasharray="5 4"/>
+
+    <text data-step="2" x="176" y="118" font-size="12">told</text>
+    <text data-step="2" x="176" y="156" font-size="12">retold</text>
+    <text data-step="2" x="170" y="238" font-size="12" fill="var(--fig-mute, #8a939e)">recalled</text>
+    <text data-step="3" x="176" y="278" text-anchor="end" font-size="12" fill="var(--fig-warn, #b4423a)">never recorded</text>
+
+    <path data-step="3" data-pulse="" d="M186 268 L 198 280" stroke="var(--fig-warn, #b4423a)" stroke-width="2" fill="none"/>
+    <path data-step="3" data-pulse="" d="M198 268 L 186 280" stroke="var(--fig-warn, #b4423a)" stroke-width="2" fill="none"/>
+
+    <path data-step="4" d="M450 106 L 516 158" stroke="currentColor" fill="none" stroke-width="2" marker-end="url(#arrow-sources)"/>
+    <text data-step="4" x="452" y="102" font-size="12">the main channel</text>
+    <path data-step="4" d="M450 228 L 516 184" stroke="var(--fig-mute, #8a939e)" fill="none" stroke-dasharray="5 4" marker-end="url(#arrow-sources-mute)"/>
+    <text data-step="4" x="452" y="250" font-size="12" fill="var(--fig-mute, #8a939e)">a late variant</text>
+
+    <g data-step="4" data-hot="what the tradition reports" data-tip="Judged as evidence, a single source anecdote whose proposed mechanism cannot work. Judged as a founding, a complete success, because origin stories survive by fixing a date, a place and a lineage, not by being well documented.">
+      <rect x="520" y="130" width="184" height="80" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="612" y="160" text-anchor="middle" font-weight="600">What the tradition</text>
+      <text x="612" y="180" text-anchor="middle" font-weight="600">reports</text>
+      <text x="612" y="200" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">one voice, years later</text>
+    </g>
+  </g>
+</svg>

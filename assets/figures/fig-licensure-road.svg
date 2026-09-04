@@ -1,0 +1,92 @@
+<svg viewBox="0 0 720 484" role="img"
+  data-steps='["The road starts years before chiropractic school. Admission to a CCE accredited program requires either a bachelor degree or a minimum of 90 semester credit hours, which the federal occupational handbook describes as at least three years of undergraduate education, with prerequisite science coursework behind it.","The first gate is admission to an accredited program. On the 90 hour route the accreditor sets a floor of a 3.0 grade point average, or 2.75 to 2.99 carried together with at least 24 semester credits in life and physical science. A bachelor degree is not strictly required by the accreditor, although most matriculants hold one.","The program itself runs four years of full time study. Accreditation requires a minimum of 4,200 instructional hours across classroom, laboratory and clinic, of which at least 1,000 must be supervised patient care.","The national board exams are not one event at the end. Part I falls in the second year, Part II as clinical training begins, and Parts III and IV cluster in the final year inside windows measured backwards from graduation: nine months for Part III, six months for Part IV. The physiotherapy exam is separate and optional, and only some states require it.","Then the state board, which sets its own requirements on top of the national exams and defines what the license will actually permit. Count the road: three years of undergraduate study at the accreditor minimum plus four years of program is seven years, and eight for the many students who finish a bachelor degree first."]'
+  aria-label="The path to a chiropractic license drawn as one road: undergraduate prerequisites, the admission gate to a CCE accredited program, four years and 4,200 instructional hours, the national board exams placed where they fall inside the program, and then a state license.">
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+    <text x="16" y="26" font-size="15" font-weight="600">The road to a chiropractic license</text>
+
+    <rect x="16" y="132" width="562" height="16" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+
+    <g data-step="1" data-hot="the entry requirement" data-tip="Either a bachelor degree or a minimum of 90 semester credit hours from an accredited institution. On the 90 hour route the accreditor asks for a 3.0 grade point average, or 2.75 to 2.99 combined with at least 24 semester credits in life and physical science. Prerequisite science typically covers biology, general and organic chemistry, physics, anatomy and physiology, but the exact course list varies by program.">
+      <rect x="16" y="44" width="176" height="80" rx="8" fill="none" stroke="currentColor"/>
+      <text x="28" y="66" font-weight="600">Undergraduate</text>
+      <text x="28" y="84" font-size="12">90 semester hours minimum</text>
+      <text x="28" y="100" font-size="12">or a bachelor degree</text>
+      <text x="28" y="116" font-size="11" fill="var(--fig-mute, #8a939e)">biology, chemistry, physics</text>
+    </g>
+
+    <g data-step="2" data-pulse="" data-hot="the admission gate" data-tip="The gate is not the school, it is the accreditor. A program accredited by the Council on Chiropractic Education is what a state board will recognize, and the accreditor sets the admission floor, the hour minimums and the clinical requirement that the rest of this road is built from.">
+      <rect x="200" y="118" width="8" height="44" rx="2" fill="var(--fig-accent, #a95a22)"/>
+      <text x="204" y="176" text-anchor="middle" font-size="11" fill="var(--fig-accent, #a95a22)">admission</text>
+    </g>
+
+    <g data-step="3" data-hot="4,200 hours" data-tip="Accreditation requires at least 4,200 instructional hours combining classroom, laboratory and clinic, with at least 1,000 of them in supervised patient care. The profession often compares that raw total with medical school. Treat the hour figures as the fact and the comparison as advocacy framing: the content mix is different and the two are not equivalent training.">
+      <rect x="216" y="44" width="340" height="80" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="232" y="66" font-weight="600">CCE accredited DC program</text>
+      <text x="232" y="84" font-size="12">four years of full time study</text>
+      <text x="232" y="100" font-size="12">4,200 instructional hours minimum</text>
+      <text x="232" y="116" font-size="12">1,000 of them in supervised patient care</text>
+    </g>
+
+    <g data-step="3" stroke="var(--fig-mute, #8a939e)" stroke-dasharray="2 5" fill="none">
+      <path d="M216 150 L216 432"/>
+      <path d="M301 150 L301 432"/>
+      <path d="M386 150 L386 432"/>
+      <path d="M471 150 L471 432"/>
+    </g>
+    <g data-step="3" font-size="11" fill="var(--fig-mute, #8a939e)">
+      <text x="258" y="176" text-anchor="middle">year 1</text>
+      <text x="344" y="176" text-anchor="middle">year 2</text>
+      <text x="428" y="176" text-anchor="middle">year 3</text>
+      <text x="514" y="176" text-anchor="middle">year 4</text>
+    </g>
+    <g data-step="3">
+      <path d="M556 150 L556 438" stroke="var(--fig-accent, #a95a22)" stroke-dasharray="6 4" fill="none"/>
+      <text x="556" y="452" text-anchor="middle" font-size="11" fill="var(--fig-accent, #a95a22)">graduation</text>
+    </g>
+
+    <g data-step="4" data-hot="Part I" data-tip="Basic sciences, delivered by computer in two sessions of 255 questions in total: general and spinal anatomy with physiology in one, chemistry, pathology and microbiology in the other. Students become eligible to sit it in their second year, with the registrar signing off.">
+      <text x="16" y="210" font-weight="600">NBCE Part I</text>
+      <text x="16" y="226" font-size="11" fill="var(--fig-mute, #8a939e)">basic sciences, 255 questions</text>
+      <text x="343" y="191" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">eligible in the second year</text>
+      <rect x="301" y="199" width="85" height="13" rx="6" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-brand, #0f5f66)"/>
+    </g>
+
+    <g data-step="4" data-hot="Part II" data-tip="Clinical sciences across six domains: general diagnosis, neuromusculoskeletal diagnosis, diagnostic imaging, principles of chiropractic, chiropractic practice and associated clinical sciences. The board publishes eligibility rules rather than a fixed date, so this bar is drawn open: it is taken later in the program, generally as students enter clinical training.">
+      <text x="16" y="258" font-weight="600">NBCE Part II</text>
+      <text x="16" y="274" font-size="11" fill="var(--fig-mute, #8a939e)">clinical sciences, six domains</text>
+      <text x="443" y="239" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">as clinical training begins, timing not fixed</text>
+      <rect x="386" y="247" width="114" height="13" rx="6" fill="none" stroke="var(--fig-brand, #0f5f66)" stroke-dasharray="5 4"/>
+    </g>
+
+    <g data-step="4" data-hot="Part III" data-tip="Case management and clinical competency: 130 items made of 80 multiple choice questions, 20 extended case presentations needing two responses each, and 30 diagnostic imaging interpretations. Candidates must already have passed Part I and must be within nine months of graduation. The passing score is 375 on the scaled scale.">
+      <text x="16" y="306" font-weight="600">NBCE Part III</text>
+      <text x="16" y="322" font-size="11" fill="var(--fig-mute, #8a939e)">case management, 130 items</text>
+      <text x="524" y="287" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">within nine months of graduation</text>
+      <rect x="492" y="295" width="64" height="13" rx="6" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-brand, #0f5f66)"/>
+    </g>
+
+    <g data-step="4" data-hot="Part IV" data-tip="The practical exam, and the only one that watches the hands. Seven case management stations and one technique station, each with a two minute chart review and a fourteen minute encounter, the technique station requiring ten adjustment setups. Every encounter is video recorded and scored on safety, positioning, contact points, stabilization and verbalized intent. Eligibility opens six months before graduation.">
+      <text x="16" y="354" font-weight="600">NBCE Part IV</text>
+      <text x="16" y="370" font-size="11" fill="var(--fig-mute, #8a939e)">practical skills, eight stations</text>
+      <text x="534" y="335" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">within six months of graduation</text>
+      <rect x="513" y="343" width="43" height="13" rx="6" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)"/>
+    </g>
+
+    <g data-step="4">
+      <text x="16" y="402" font-weight="600" fill="var(--fig-mute, #8a939e)">NBCE Physiotherapy</text>
+      <text x="16" y="418" font-size="11" fill="var(--fig-mute, #8a939e)">optional, 90 questions</text>
+      <text x="386" y="383" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">any time after 120 hours of physiotherapy instruction</text>
+      <rect x="216" y="391" width="340" height="13" rx="6" fill="none" stroke="var(--fig-mute, #8a939e)" stroke-dasharray="3 4"/>
+    </g>
+
+    <g data-step="5" data-pulse="" data-hot="the state board" data-tip="Nearly every state board requires passage of the national board parts, but the board is the licensing authority and adds its own requirements on top: jurisprudence examinations, background and continuing education rules, and above all the scope of practice, which differs substantially from state to state. The same degree does not buy the same license everywhere.">
+      <rect x="570" y="118" width="8" height="44" rx="2" fill="var(--fig-accent, #a95a22)"/>
+      <text x="704" y="176" text-anchor="end" font-size="11" fill="var(--fig-accent, #a95a22)">state board</text>
+      <rect x="590" y="118" width="114" height="44" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-brand, #0f5f66)" stroke-width="2"/>
+      <text x="647" y="138" text-anchor="middle" font-weight="600" fill="var(--fig-brand, #0f5f66)">Licensed</text>
+      <text x="647" y="155" text-anchor="middle" font-size="12">practice</text>
+    </g>
+
+    <text data-step="5" x="16" y="470" font-size="11" fill="var(--fig-mute, #8a939e)">About seven years from the first prerequisite credit to a license, and eight for a student who finishes a bachelor degree first.</text>
+  </g>
+</svg>

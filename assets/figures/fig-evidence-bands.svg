@@ -1,0 +1,45 @@
+<svg viewBox="0 0 720 340" role="img"
+  data-steps='["Start with the strongest band. For mechanical low back and neck pain the support is reasonable, and in the research manipulation has generally performed about as well as the other active conservative treatments a patient might be offered.","Now the second band. For other musculoskeletal complaints the literature points in several directions at once. That is not a quiet verdict for the treatment and not a quiet one against it.","And the third. For non musculoskeletal conditions the evidence is weak or effectively absent, which is precisely where the founding theory made its largest promises.","Three bands, one profession. Most public argument about chiropractic consists of taking a claim from the weakest band and defending it with the support that belongs to the strongest. No number appears anywhere in this figure, deliberately: a magnitude quoted secondhand is a magnitude nobody has read."]'
+  aria-label="The evidence is three unequal bands, not one verdict: reasonable support for mechanical low back and neck pain, mixed for other musculoskeletal complaints, weak or absent for non musculoskeletal conditions.">
+  <defs>
+    <marker id="arrow-bands" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+    <g data-hot="why bands and not a verdict" data-tip="Does chiropractic work is not a question about anything in particular, because a profession is not the kind of thing that has an efficacy. The answerable question names a treatment, a condition, a comparison and a period, and asking it three times here gives three different answers.">
+      <text x="16" y="36" font-weight="600">Three bands, not one verdict</text>
+    </g>
+
+    <g data-step="1" data-hot="reasonable support" data-tip="Comparable is the operative word, and it means parity rather than superiority. A practitioner may say that manipulation is a reasonable option and that it has generally performed about as well as the alternatives. Parity does not license a ranking, a claim to correct the cause while other treatments mask symptoms, or a promise about this particular patient.">
+      <text x="16" y="82" font-weight="600">Mechanical low back</text>
+      <text x="16" y="100" font-weight="600">and neck pain</text>
+      <rect x="300" y="60" width="360" height="48" rx="6" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-brand, #0f5f66)" stroke-width="2"/>
+      <text x="314" y="82" font-weight="600" fill="var(--fig-brand, #0f5f66)">reasonable support</text>
+      <text x="314" y="100" font-size="12" fill="var(--fig-mute, #8a939e)">comparable to other active conservative care</text>
+    </g>
+
+    <g data-step="2" data-hot="mixed" data-tip="Mixed means the studies disagree, and reviews of the same literature have reached different conclusions depending on which trials they admit and how they handle sham comparisons. Read the methods of a review before its conclusion, and read a guideline recommendation together with the paragraph grading its certainty.">
+      <text x="16" y="162" font-weight="600">Other musculoskeletal</text>
+      <text x="16" y="180" font-weight="600">complaints</text>
+      <rect x="300" y="140" width="200" height="48" rx="6" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="314" y="162" font-weight="600">mixed</text>
+      <text x="314" y="180" font-size="12" fill="var(--fig-mute, #8a939e)">it does not settle either way</text>
+    </g>
+
+    <g data-step="3" data-pulse="" data-hot="weak or absent" data-tip="Asthma, colic, ear infection, blood pressure and a long list of others, inherited from the founding theory that most disease follows interference with nerve transmission. Two easy conclusions to resist: absence of evidence does not establish absence of effect, and the resulting uncertainty does not license the claim, because the burden sits with whoever markets a service to a patient in pain.">
+      <text x="16" y="242" font-weight="600">Non musculoskeletal</text>
+      <text x="16" y="260" font-weight="600">conditions</text>
+      <rect x="300" y="220" width="70" height="48" rx="6" fill="none" stroke="var(--fig-warn, #b4423a)" stroke-dasharray="5 4"/>
+      <text x="384" y="242" font-weight="600" fill="var(--fig-warn, #b4423a)">weak or absent</text>
+      <text x="384" y="260" font-size="12" fill="var(--fig-mute, #8a939e)">little to carry the claim</text>
+    </g>
+
+    <g data-step="4" data-hot="bar length only" data-tip="The bars rank the three bands against one another and do nothing else. There is no scale here and no figure of any kind, on purpose: go to the guidelines and the systematic reviews themselves before you cite a magnitude, and report what they say rather than what you wish they said.">
+      <text x="302" y="292" font-size="12" fill="var(--fig-mute, #8a939e)">weaker</text>
+      <text x="684" y="292" text-anchor="end" font-size="12" fill="var(--fig-mute, #8a939e)">stronger</text>
+      <path d="M300 302 L 682 302" stroke="currentColor" fill="none" marker-end="url(#arrow-bands)"/>
+      <text x="490" y="324" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">bar length shows relative strength only, no scale and no numbers</text>
+    </g>
+  </g>
+</svg>

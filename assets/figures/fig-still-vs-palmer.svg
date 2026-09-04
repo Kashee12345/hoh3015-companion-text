@@ -1,0 +1,74 @@
+<svg viewBox="0 0 720 300" role="img"
+  data-layers='[{"k":"a","label":"The Still route","note":"Announced in 1874 and taught at Kirksville from 1892. The body contains what it needs for its own repair, repair depends on delivery, and delivery depends on unobstructed circulation. So a deranged structure starves the tissue. The rule of the artery is supreme."},{"k":"b","label":"The Palmer route","note":"1895. The same lesion in the same place, but the harm now travels by nerve rather than by blood. That is one hop apart in the mechanism and worlds apart in professional consequence."}]' aria-label="Osteopathy and chiropractic put the lesion in the same place in the spine and then diverge on one hop: Still routes the harm through obstructed blood supply, Palmer through impinged nerve transmission.">
+  <defs>
+    <marker id="arrow-palmer" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+    <text x="16" y="26" font-weight="600">Same lesion, one hop apart</text>
+
+    <text x="16" y="76" font-weight="600">Still</text>
+    <text x="16" y="94" font-size="12" fill="var(--fig-mute, #8a939e)">1874</text>
+
+    <g data-hot="the shared first box" data-tip="Both chains open on the identical claim: the trouble is a spinal segment out of position or not moving as it should. Both men treat it by hand and both refuse drugs. Nothing in the quarrel is about where the lesion sits.">
+      <rect x="132" y="54" width="150" height="54" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="207" y="78" text-anchor="middle" font-size="12">a displaced or restricted</text>
+      <text x="207" y="96" text-anchor="middle" font-size="12">spinal segment</text>
+    </g>
+
+    <path data-layer="a" d="M286 81 L 346 81" stroke="currentColor" fill="none" marker-end="url(#arrow-palmer)"/>
+    <text data-layer="a" x="316" y="72" text-anchor="middle" font-size="12">obstructs</text>
+
+    <g data-layer="a" data-hot="blood supply" data-tip="Still located the harm in the circulation the tissues depend on for their own repair, and compressed the whole system into one line: the rule of the artery is supreme. Three years before 1895 he had already given it a school, a course of study and a diploma.">
+      <rect x="350" y="54" width="176" height="54" rx="8" fill="none" stroke="var(--fig-accent, #a95a22)" stroke-width="2"/>
+      <text x="438" y="78" text-anchor="middle" font-size="13" font-weight="600" fill="var(--fig-accent, #a95a22)">blood supply</text>
+      <text x="438" y="96" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">the rule of the artery</text>
+    </g>
+
+    <path data-layer="a" d="M530 81 L 580 81" stroke="currentColor" fill="none" marker-end="url(#arrow-palmer)"/>
+    <text data-layer="a" x="555" y="72" text-anchor="middle" font-size="12">starves</text>
+
+    <g data-layer="a" data-hot="disease, by the Still route" data-tip="The end of the chain is the same word in both rows, and that is the point. Two incompatible mechanisms are being offered as the general account of illness, which is a great deal of weight for either one to carry.">
+      <rect x="584" y="54" width="120" height="54" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="644" y="87" text-anchor="middle" font-weight="600">disease</text>
+    </g>
+
+    <text x="16" y="218" font-weight="600">Palmer</text>
+    <text x="16" y="236" font-size="12" fill="var(--fig-mute, #8a939e)">1895</text>
+
+    <g data-hot="the same first box again" data-tip="Drawn twice because both routes start from it. Whether Palmer knew of Still's work the surviving record does not say, and historians generally find priority questions poorly formed anyway: the useful question is who built something durable around the idea.">
+      <rect x="132" y="196" width="150" height="54" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="207" y="220" text-anchor="middle" font-size="12">a displaced or restricted</text>
+      <text x="207" y="238" text-anchor="middle" font-size="12">spinal segment</text>
+    </g>
+
+    <path data-layer="b" d="M286 223 L 346 223" stroke="currentColor" fill="none" marker-end="url(#arrow-palmer)"/>
+    <text data-layer="b" x="316" y="214" text-anchor="middle" font-size="12">impinges</text>
+
+    <g data-layer="b" data-hot="nerve transmission" data-tip="Palmer's substitution, and the only one of the three senses of invention he can fairly claim. By 1910 The Chiropractor's Adjuster had stated it as a universal etiology: the great majority of disease results from vertebral displacement interfering with nerve transmission.">
+      <rect x="350" y="196" width="176" height="54" rx="8" fill="none" stroke="var(--fig-accent, #a95a22)" stroke-width="2"/>
+      <text x="438" y="220" text-anchor="middle" font-size="13" font-weight="600" fill="var(--fig-accent, #a95a22)">nerve transmission</text>
+      <text x="438" y="238" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">interference with the signal</text>
+    </g>
+
+    <path data-layer="b" d="M530 223 L 580 223" stroke="currentColor" fill="none" marker-end="url(#arrow-palmer)"/>
+    <text data-layer="b" x="555" y="214" text-anchor="middle" font-size="12">alters</text>
+
+    <g data-layer="b" data-hot="disease, by the Palmer route" data-tip="A specific claim is a falsifiable claim. Having proposed something this precise, chiropractic acquired an obligation to defend it precisely, and that obligation is what the twentieth century came to collect.">
+      <rect x="584" y="196" width="120" height="54" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="644" y="229" text-anchor="middle" font-weight="600">disease</text>
+    </g>
+
+    <path d="M207 112 L 207 192" stroke="var(--fig-mute, #8a939e)" fill="none" stroke-dasharray="4 4"/>
+    <text x="215" y="148" font-size="12" fill="var(--fig-mute, #8a939e)">the same</text>
+    <text x="215" y="164" font-size="12" fill="var(--fig-mute, #8a939e)">first box</text>
+
+    <g data-hot="where the chains part" data-tip="One hop, and the reason for it is not scientific. A distinct mechanism is a distinct territory: it gives a new group its own name for the lesion, its own account of why the neighbors are wrong, and its own claim to be doing something no one else can do.">
+      <path d="M316 36 L 316 46" stroke="var(--fig-accent, #a95a22)" fill="none" stroke-width="2" stroke-dasharray="6 5"/>
+      <path d="M316 112 L 316 192" stroke="var(--fig-accent, #a95a22)" fill="none" stroke-width="2" stroke-dasharray="6 5"/>
+      <path d="M316 258 L 316 276" stroke="var(--fig-accent, #a95a22)" fill="none" stroke-width="2" stroke-dasharray="6 5"/>
+      <text x="316" y="292" text-anchor="middle" font-size="12" fill="var(--fig-accent, #a95a22)">the chains diverge here</text>
+    </g>
+  </g>
+</svg>

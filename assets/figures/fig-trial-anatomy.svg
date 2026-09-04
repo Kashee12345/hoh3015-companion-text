@@ -1,0 +1,93 @@
+<svg viewBox="0 0 720 496" role="img"
+  aria-label="The anatomy of a clinical trial as a flow: the population enrolled, randomization, the two arms, what the comparison arm actually received, blinding, the outcome measured, the follow up window and the difference reported, with the question a reader should ask at each point.">
+  <defs>
+    <marker id="fig-trial-anatomy-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
+    </marker>
+    <marker id="fig-trial-anatomy-arrow-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--fig-accent, #a95a22)"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+    <text x="16" y="26" font-size="15" font-weight="600">The anatomy of a trial</text>
+    <text x="16" y="46" font-size="12" fill="var(--fig-mute, #8a939e)">Every box below is a place where a trial can quietly answer a different question from the one you asked.</text>
+
+    <text x="16" y="78" font-size="12" font-weight="600" fill="var(--fig-accent, #a95a22)">Read the comparator first</text>
+    <text x="16" y="100" font-size="11" fill="var(--fig-mute, #8a939e)">The same treatment, in one</text>
+    <text x="16" y="116" font-size="11" fill="var(--fig-mute, #8a939e)">review, gives three different</text>
+    <text x="16" y="132" font-size="11" fill="var(--fig-mute, #8a939e)">answers depending on what</text>
+    <text x="16" y="148" font-size="11" fill="var(--fig-mute, #8a939e)">the other arm received.</text>
+
+    <text x="482" y="78" font-size="12" font-weight="600">Ask at every box</text>
+    <text x="482" y="100" font-size="11" fill="var(--fig-mute, #8a939e)">Each part of a trial is a place</text>
+    <text x="482" y="116" font-size="11" fill="var(--fig-mute, #8a939e)">where the design can answer a</text>
+    <text x="482" y="132" font-size="11" fill="var(--fig-mute, #8a939e)">different question from the one</text>
+    <text x="482" y="148" font-size="11" fill="var(--fig-mute, #8a939e)">you thought you were asking.</text>
+
+    <g data-hot="population enrolled" data-tip="Ask who was let in and who was kept out. Most people with acute low back pain improve within weeks whatever is done, which is why any uncontrolled series in that population looks like a success, and why the enrolled population decides in advance how much room a treatment has to show anything at all.">
+      <rect x="258" y="56" width="204" height="48" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="360" y="78" text-anchor="middle" font-weight="600">Population enrolled</text>
+      <text x="360" y="95" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">who was let in, and who was not</text>
+    </g>
+    <path d="M360 104 L360 124" stroke="currentColor" fill="none" marker-end="url(#fig-trial-anatomy-arrow)"/>
+
+    <g data-hot="randomization" data-tip="Ask whether allocation was concealed until the moment of assignment. Randomization is the only feature of a trial that balances the causes nobody thought to measure, and it does that job only if the person enrolling the next patient cannot see which arm is coming next.">
+      <rect x="258" y="128" width="204" height="48" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="360" y="150" text-anchor="middle" font-weight="600">Randomization</text>
+      <text x="360" y="167" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">was allocation concealed?</text>
+    </g>
+    <path d="M360 176 L360 190 L176 190 L176 200" stroke="currentColor" fill="none" marker-end="url(#fig-trial-anatomy-arrow)"/>
+    <path d="M360 176 L360 190 L366 190 L366 200" stroke="var(--fig-accent, #a95a22)" fill="none" marker-end="url(#fig-trial-anatomy-arrow-accent)"/>
+
+    <g data-hot="treatment arm" data-tip="Ask what dose. Reviews of spinal manipulation are graded low to very low certainty partly because technique, force, number of sessions and frequency differ from trial to trial, so the arm labeled manipulation is not the same intervention twice and a pooled result is an average over several different treatments.">
+      <rect x="88" y="204" width="176" height="48" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="176" y="226" text-anchor="middle" font-weight="600">Treatment arm</text>
+      <text x="176" y="243" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">manipulation, at some dose</text>
+    </g>
+
+    <g data-hot="the comparison arm" data-tip="This is the one that fools people. Ask what the control group actually received and whether you would expect it to do nothing at all. One Cochrane review of chronic low back pain reported a small improvement in pain against sham, a medium improvement against no treatment, and little to no difference against other conservative care. Same treatment, three verdicts, and the whole difference sits in the other arm.">
+      <rect x="278" y="204" width="176" height="48" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)" stroke-width="2"/>
+      <text x="366" y="226" text-anchor="middle" font-weight="600">Comparison arm</text>
+      <text x="366" y="243" text-anchor="middle" font-size="11" fill="var(--fig-accent, #a95a22)">and what did they get?</text>
+      <rect x="468" y="190" width="236" height="104" rx="8" fill="none" stroke="var(--fig-accent, #a95a22)" stroke-dasharray="5 4"/>
+      <text x="482" y="212" font-size="11" font-weight="600">one review, chronic low back pain</text>
+      <text x="482" y="232" font-size="11">against sham: small improvement</text>
+      <text x="482" y="250" font-size="11">against no treatment: medium</text>
+      <text x="482" y="268" font-size="11">against other conservative care:</text>
+      <text x="482" y="286" font-size="11">little to no difference</text>
+    </g>
+    <path d="M454 228 L464 228" stroke="var(--fig-accent, #a95a22)" fill="none" marker-end="url(#fig-trial-anatomy-arrow-accent)"/>
+
+    <path d="M176 252 L176 312" stroke="currentColor" fill="none" marker-end="url(#fig-trial-anatomy-arrow)"/>
+    <path d="M366 252 L366 312" stroke="currentColor" fill="none" marker-end="url(#fig-trial-anatomy-arrow)"/>
+
+    <g data-hot="blinding" data-tip="Ask who was blinded and to what. Manual therapy has a particular problem here: nobody can be blinded to receiving a thrust, a sham convincing enough to fool the patient may not be inert, and one that is certainly inert is rarely convincing. The practitioner is never blinded at all, so at the very least ask whether the person recording the outcome was.">
+      <rect x="88" y="316" width="366" height="48" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="104" y="338" font-weight="600">Blinding</text>
+      <text x="104" y="356" font-size="11" fill="var(--fig-mute, #8a939e)">could either side tell which arm the patient was in?</text>
+    </g>
+    <path d="M116 364 L116 392" stroke="currentColor" fill="none" marker-end="url(#fig-trial-anatomy-arrow)"/>
+
+    <g data-hot="the outcome measured" data-tip="Ask who held the pencil. Manipulative therapy for infantile colic looked effective on unblinded parent reported crying time, a reduction of roughly one hour and twelve minutes a day, and the effect no longer reached statistical significance once the analysis was restricted to trials with blinded observers. A patient reported outcome in an unblinded trial measures the treatment and the expectation together.">
+      <rect x="16" y="396" width="216" height="56" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="32" y="420" font-weight="600">Outcome measured</text>
+      <text x="32" y="438" font-size="11" fill="var(--fig-mute, #8a939e)">who held the pencil?</text>
+    </g>
+    <path d="M232 424 L248 424" stroke="currentColor" fill="none" marker-end="url(#fig-trial-anatomy-arrow)"/>
+
+    <g data-hot="the follow up window" data-tip="Ask when it was measured and for how long. A meta analysis of manipulation for cervicogenic headache found small statistically significant short term improvements in pain intensity, pain frequency and disability, and no significant effect at intermediate or long term follow up. A treatment that works this week and not next month is a different offer from the one usually advertised.">
+      <rect x="252" y="396" width="216" height="56" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="268" y="420" font-weight="600">Follow up window</text>
+      <text x="268" y="438" font-size="11" fill="var(--fig-mute, #8a939e)">measured when, and for how long?</text>
+    </g>
+    <path d="M468 424 L484 424" stroke="currentColor" fill="none" marker-end="url(#fig-trial-anatomy-arrow)"/>
+
+    <g data-hot="the difference reported" data-tip="Ask whether the difference is one a patient would notice, which is a different question from whether it is statistically significant. Guideline reviewers described manipulation as producing minimal improvement in function against sham manipulation on low quality evidence, and a meta analysis of migraine reported a confidence interval running across zero in both directions, meaning the data are compatible with no effect at all.">
+      <rect x="488" y="396" width="216" height="56" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-brand, #0f5f66)" stroke-width="2"/>
+      <text x="504" y="420" font-weight="600">Difference reported</text>
+      <text x="504" y="438" font-size="11" fill="var(--fig-mute, #8a939e)">meaningful, or only significant?</text>
+    </g>
+
+    <text x="16" y="478" font-size="11" fill="var(--fig-mute, #8a939e)">No trial is refuted by its anatomy. The anatomy tells you which question the trial actually answered.</text>
+  </g>
+</svg>

@@ -1,0 +1,97 @@
+<svg viewBox="0 0 720 486" role="img"
+  data-steps='["A case crossover study uses each patient as their own control. For one person who went on to have a stroke, the study asks whether a visit fell in the hazard window immediately before the event, and compares that with the same person in earlier control windows when nothing happened.","One possible ordering of events. A manipulation injures the artery, a dissection follows, and the stroke follows the dissection. On this reading the visit sitting in the hazard window is the cause of what came after.","The other possible ordering. The dissection has already begun, its early symptoms are neck pain and headache, and those symptoms are the reason the patient sought manual treatment. On this reading the visit sitting in the hazard window is a consequence of the disease, not its cause.","Both orderings place a visit in the hazard window and a stroke after it. The count of visits before the event is identical under either one, so the association by itself cannot tell you which ordering produced it. This is a limit of the design, not a verdict about the treatment.","This is where the observed pattern does some work. Visits to a primary care physician showed an elevation of similar size before the same strokes, and a primary care visit involves no manipulation, which is the finding usually read as favoring the second ordering. It is evidence and not proof: the authors stated plainly that they could not rule out manipulation as a cause of some of these strokes."]'
+  aria-label="What a case crossover study of cervical artery dissection can and cannot establish: the hazard and control window design, the two causal orderings compatible with the same association, and the observed pattern that bears on them.">
+  <defs>
+    <marker id="fig-dissection-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
+    </marker>
+    <marker id="fig-dissection-arrow-mute" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--fig-mute, #8a939e)"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+    <text x="16" y="26" font-size="15" font-weight="600">What a case crossover study can and cannot settle</text>
+    <text x="16" y="46" font-size="12" fill="var(--fig-mute, #8a939e)">The design compares one person with themselves. That is its strength, and it is also the exact place its limit lives.</text>
+
+    <g data-step="1">
+      <text x="16" y="74" font-weight="600">One case, its own control</text>
+      <path d="M40 130 L684 130" stroke="var(--fig-mute, #8a939e)" fill="none" marker-end="url(#fig-dissection-arrow-mute)"/>
+      <text x="684" y="150" text-anchor="end" font-size="11" fill="var(--fig-mute, #8a939e)">time</text>
+      <circle cx="370" cy="108" r="3" fill="var(--fig-mute, #8a939e)"/>
+      <circle cx="385" cy="108" r="3" fill="var(--fig-mute, #8a939e)"/>
+      <circle cx="400" cy="108" r="3" fill="var(--fig-mute, #8a939e)"/>
+    </g>
+
+    <g data-step="1" data-hot="the control windows" data-tip="Referent periods taken from the same person at a time when the outcome had not occurred. Because the comparison sits inside one individual, everything stable about that individual is controlled by construction: age, sex, anatomy, chronic risk factors, all of it cancels out. What the design cannot control is anything that changes over the same short span as the exposure.">
+      <rect x="60" y="88" width="110" height="40" rx="6" fill="none" stroke="currentColor" stroke-dasharray="5 4"/>
+      <text x="115" y="113" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">no visit</text>
+      <text x="115" y="148" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">control window</text>
+      <rect x="190" y="88" width="110" height="40" rx="6" fill="none" stroke="currentColor" stroke-dasharray="5 4"/>
+      <text x="245" y="113" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">no visit</text>
+      <text x="245" y="148" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">control window</text>
+    </g>
+
+    <g data-step="1" data-pulse="" data-hot="the hazard window" data-tip="The period immediately before the event, in which an exposure would have had to fall for it to be a candidate cause at all. How long this window runs is a design decision made by the investigator before any counting begins, and a different length can produce a different answer from the same records.">
+      <rect x="470" y="88" width="130" height="40" rx="6" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)" stroke-width="2"/>
+      <circle cx="498" cy="108" r="5" fill="var(--fig-accent, #a95a22)"/>
+      <text x="512" y="113" font-size="11">visit</text>
+      <text x="535" y="148" text-anchor="middle" font-size="11" fill="var(--fig-accent, #a95a22)">hazard window</text>
+    </g>
+
+    <g data-step="1" data-hot="the event" data-tip="The vertebrobasilar artery stroke that defines a case. The Ontario study counted visits in the days and weeks preceding it, and counted them the same way for chiropractors and for primary care physicians.">
+      <path d="M640 82 L640 142" stroke="var(--fig-warn, #b4423a)" fill="none" stroke-width="2"/>
+      <circle cx="640" cy="130" r="5" fill="var(--fig-warn, #b4423a)"/>
+      <text x="640" y="74" text-anchor="middle" font-size="11" font-weight="600" fill="var(--fig-warn, #b4423a)">stroke</text>
+    </g>
+
+    <g data-step="2" data-hot="ordering A" data-tip="Read left to right, this is the causal claim: a manipulation injures the artery, a dissection follows, and the stroke follows the dissection. Nothing in this figure rules it out, and the authors of the Ontario study did not rule it out either. They wrote that they could not exclude manipulation as a cause of some vertebrobasilar strokes.">
+      <text x="16" y="186" font-weight="600">Ordering A</text>
+      <text x="110" y="186" font-size="11" fill="var(--fig-mute, #8a939e)">the visit as cause</text>
+      <rect x="16" y="198" width="96" height="48" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="64" y="226" text-anchor="middle" font-size="11">manipulation</text>
+      <rect x="128" y="198" width="96" height="48" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="176" y="226" text-anchor="middle" font-size="11">artery injured</text>
+      <rect x="240" y="198" width="96" height="48" rx="8" fill="none" stroke="var(--fig-warn, #b4423a)"/>
+      <text x="288" y="226" text-anchor="middle" font-size="11" fill="var(--fig-warn, #b4423a)">stroke</text>
+      <path d="M112 222 L124 222" stroke="currentColor" fill="none" marker-end="url(#fig-dissection-arrow)"/>
+      <path d="M224 222 L236 222" stroke="currentColor" fill="none" marker-end="url(#fig-dissection-arrow)"/>
+      <text x="16" y="268" font-size="11" fill="var(--fig-mute, #8a939e)">the visit in the hazard window caused what followed</text>
+    </g>
+
+    <g data-step="3" data-hot="ordering B" data-tip="Read left to right, this is reverse causation: the dissection is already under way, its early symptoms are neck pain and headache, and those symptoms are the reason the patient sought manual treatment in the first place. The visit is then a marker of the disease rather than a cause of it.">
+      <text x="370" y="186" font-weight="600">Ordering B</text>
+      <text x="464" y="186" font-size="11" fill="var(--fig-mute, #8a939e)">the visit as consequence</text>
+      <rect x="370" y="198" width="76" height="48" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="408" y="219" text-anchor="middle" font-size="11">dissection</text>
+      <text x="408" y="234" text-anchor="middle" font-size="11">begins</text>
+      <rect x="456" y="198" width="76" height="48" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="494" y="219" text-anchor="middle" font-size="11">neck pain</text>
+      <text x="494" y="234" text-anchor="middle" font-size="11">headache</text>
+      <rect x="542" y="198" width="76" height="48" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)"/>
+      <text x="580" y="219" text-anchor="middle" font-size="11">patient</text>
+      <text x="580" y="234" text-anchor="middle" font-size="11">seeks care</text>
+      <rect x="628" y="198" width="76" height="48" rx="8" fill="none" stroke="var(--fig-warn, #b4423a)"/>
+      <text x="666" y="226" text-anchor="middle" font-size="11" fill="var(--fig-warn, #b4423a)">stroke</text>
+      <path d="M446 222 L452 222" stroke="currentColor" fill="none" marker-end="url(#fig-dissection-arrow)"/>
+      <path d="M532 222 L538 222" stroke="currentColor" fill="none" marker-end="url(#fig-dissection-arrow)"/>
+      <path d="M618 222 L624 222" stroke="currentColor" fill="none" marker-end="url(#fig-dissection-arrow)"/>
+      <text x="370" y="268" font-size="11" fill="var(--fig-mute, #8a939e)">the visit in the hazard window followed what caused it</text>
+    </g>
+
+    <g data-step="4" data-pulse="">
+      <rect x="16" y="286" width="688" height="58" rx="8" fill="none" stroke="var(--fig-accent, #a95a22)" stroke-dasharray="6 4"/>
+      <text x="32" y="310" font-size="12" font-weight="600">Both orderings put a visit in the hazard window and a stroke after it.</text>
+      <text x="32" y="330" font-size="12">The same count of visits appears either way, so the association alone cannot separate them.</text>
+    </g>
+
+    <g data-step="5" data-hot="what the study reported" data-tip="The comparison with primary care is what made this study famous. A visit to a physician involves no manipulation, so an elevation of similar size before both kinds of visit is difficult to explain by manipulation and easy to explain by symptoms driving care seeking. Later commentary notes that the same day primary care group was excluded from the published comparison, which limits how directly same day causation can be tested.">
+      <rect x="16" y="360" width="688" height="94" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="32" y="384" font-size="12" font-weight="600">What the Ontario case crossover study reported</text>
+      <text x="32" y="404" font-size="12">The elevation before a chiropractic visit and before a primary care physician visit was of similar size.</text>
+      <text x="32" y="422" font-size="12">The authors read that as patients seeking care for the early symptoms of a dissection already under way.</text>
+      <text x="32" y="440" font-size="12">They also stated that they could not rule out manipulation as a cause of some of these strokes.</text>
+    </g>
+
+    <text x="16" y="474" font-size="11" fill="var(--fig-mute, #8a939e)">No effect estimate is drawn here: read the primary paper before quoting a number.</text>
+  </g>
+</svg>

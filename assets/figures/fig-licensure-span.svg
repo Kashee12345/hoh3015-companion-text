@@ -1,0 +1,36 @@
+<svg viewBox="0 0 720 260" role="img"
+  data-steps='["Kansas went first, in 1913, and the template mattered more than the date: draft a statute, define a scope, create a separate board of examiners composed of chiropractors, and set educational requirements low enough that those already practicing could be admitted.","Organized medicine did not fight every bill head to head. Several states in the 1920s and 1930s adopted basic science laws instead, requiring every candidate for any healing license to pass an independent examination in subjects taught mainly in medical schools.","Louisiana, the last holdout, did not license chiropractic until 1974. It had a strong medical establishment, a legal culture of its own, and no compelling reason to move until every surrounding state had moved first.","Sixty one years for one small profession to become legal across one country. Legalization was a state by state grind rather than a national event, and because every statute had to say in words what a chiropractor may do, the straight and mixer dispute was written into law separately in each of them."]' aria-label="It took sixty one years to license one profession, from Kansas in 1913 to Louisiana in 1974, with the basic science laws of the 1920s and 1930s adding friction along the way.">
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+    <text x="16" y="28" font-weight="600">One span, state by state</text>
+
+    <g data-step="4" data-pulse="" data-hot="what the span actually settled" data-tip="No legislature in these decades could resolve the scientific question, because there was essentially no research to put in front of one. What each vote decided was something else: whether patients who wanted this care would buy it from someone with defined training and a board that could revoke a license, or from someone with neither.">
+      <path d="M80 88 L 80 72 L 640 72 L 640 88" stroke="var(--fig-accent, #a95a22)" stroke-width="2" fill="none"/>
+      <text x="360" y="62" text-anchor="middle" font-size="13" font-weight="600" fill="var(--fig-accent, #a95a22)">sixty one years to license one profession</text>
+    </g>
+
+    <g data-step="2" data-hot="basic science laws" data-tip="Neutral on their face, and the best defense of them is real: nobody should treat patients while ignorant of the body, and a college teaching anatomy in a few months might graduate someone who could not recognize a case needing urgent referral. The trouble is that a neutral instrument in the hands of an interested examiner is not neutral. The questions were written and graded by people trained in medical schools, and most of the laws were repealed after mid century.">
+      <rect x="144" y="104" width="184" height="66" rx="6" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-warn, #b4423a)" stroke-dasharray="6 4"/>
+      <text x="236" y="124" text-anchor="middle" font-size="12" font-weight="600" fill="var(--fig-warn, #b4423a)">basic science laws</text>
+      <text x="236" y="142" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">1920s and 1930s</text>
+      <text x="236" y="160" text-anchor="middle" font-size="12" fill="var(--fig-warn, #b4423a)">friction along the way</text>
+    </g>
+
+    <path d="M80 170 L 640 170" stroke="currentColor" stroke-width="2" fill="none"/>
+    <path data-step="1" d="M80 160 L 80 180" stroke="currentColor" stroke-width="2" fill="none"/>
+    <path data-step="3" d="M640 160 L 640 180" stroke="currentColor" stroke-width="2" fill="none"/>
+
+    <g data-step="1" data-pulse="" data-hot="Kansas, 1913" data-tip="The first door in the wall. A medical practice act of the period prohibited all paid healing and then listed exemptions, so the whole legal predicament of chiropractic can be compressed into one sentence: it was asking to be added to a list. Kansas added it, and gave every later state a form to copy, including the grandfather clause that admitted practitioners already at work.">
+      <text x="80" y="202" text-anchor="middle" font-weight="600">1913</text>
+      <text x="80" y="220" text-anchor="middle" font-size="12">Kansas</text>
+      <text x="80" y="238" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">first state to license</text>
+    </g>
+
+    <g data-step="3" data-hot="Louisiana, 1974" data-tip="The last state, and the year was not a coincidence. In the same year the AMA dissolved its Committee on Quackery and the Council on Chiropractic Education received federal recognition from the United States Office of Education, and Medicare had begun covering spinal manipulation two years earlier. Legal, educational and payment legitimacy arrived within about two years of one another.">
+      <text x="640" y="202" text-anchor="middle" font-weight="600">1974</text>
+      <text x="640" y="220" text-anchor="middle" font-size="12">Louisiana</text>
+      <text x="640" y="238" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">last state to license</text>
+    </g>
+
+    <text data-step="4" x="380" y="202" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">the other states fall in between, one at a time</text>
+  </g>
+</svg>

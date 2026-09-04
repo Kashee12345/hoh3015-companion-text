@@ -1,0 +1,91 @@
+<svg viewBox="0 0 720 430" role="img"
+  data-steps='["1895 to 1905. Palmer names a lesion you can point to, a vertebra out of place, and it acts by interfering with nerve transmission. Specific, mechanical, and offered as the cause of the great majority of disease.","1906 onward. Langworthy brings the word subluxation into chiropractic use for a broader spinal lesion. The referent widens, the word does not change, and nobody announces that anything has happened.","1990s. A college consensus statement restates the thing in clinical terms. The claim underneath is narrower and more careful than the version Palmer taught, and the term carried over is the same term.","Present. The construct is contested inside the profession and no mechanism is agreed. Now look back up the column: four panels, four different referents.","The word never changed. That is the whole point of the figure. A term that means a displaced bone in one era and a clinical entity in another cannot be tested, only defended, because evidence gathered under one sense keeps being offered in support of another."]' aria-label="One word, four referents: the lesion named subluxation is redefined in each era while the term itself is carried forward unchanged.">
+  <defs>
+    <marker id="arrow-drift" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
+    </marker>
+    <marker id="arrow-drift-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--fig-accent, #a95a22)"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+    <text x="16" y="42" font-size="12" fill="var(--fig-mute, #8a939e)">era</text>
+    <text x="243" y="42" font-size="12" text-anchor="middle" fill="var(--fig-mute, #8a939e)">the lesion named</text>
+    <text x="567" y="42" font-size="12" text-anchor="middle" fill="var(--fig-mute, #8a939e)">the mechanism claimed</text>
+
+    <g data-step="1">
+      <text x="16" y="80" font-weight="600">1895 to 1905</text>
+      <text x="16" y="99" font-size="12" fill="var(--fig-mute, #8a939e)">D.D. Palmer</text>
+    </g>
+    <g data-step="1" data-hot="a vertebra out of place" data-tip="Palmer's lesion is a thing you can put a finger on: a bone slightly displaced, located by hand and moved by hand. That specificity is what makes the claim checkable, and a claim that can be checked can also come out wrong.">
+      <rect x="128" y="54" width="230" height="62" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="243" y="80" text-anchor="middle" font-weight="600">a vertebra out of place</text>
+      <text x="243" y="99" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">found and moved by hand</text>
+    </g>
+    <path data-step="1" d="M358 85 L 424 85" stroke="currentColor" fill="none" marker-end="url(#arrow-drift)"/>
+    <text data-step="1" x="391" y="76" font-size="12" text-anchor="middle" fill="var(--fig-mute, #8a939e)">acts by</text>
+    <g data-step="1" data-hot="interference with nerve transmission" data-tip="The Chiropractor's Adjuster of 1910 held that the great majority of disease results from vertebral displacement interfering with nerve transmission. A theory of nearly all disease resting on a single hop.">
+      <rect x="430" y="54" width="274" height="62" rx="8" fill="none" stroke="currentColor"/>
+      <text x="567" y="80" text-anchor="middle">interference with nerve transmission</text>
+      <text x="567" y="99" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">held to cause most disease</text>
+    </g>
+
+    <g data-step="2">
+      <text x="16" y="158" font-weight="600">1906 onward</text>
+      <text x="16" y="177" font-size="12" fill="var(--fig-mute, #8a939e)">Langworthy</text>
+    </g>
+    <g data-step="2" data-hot="the subluxation, named" data-tip="Solon Langworthy co authored Modernized Chiropractic in 1906 and helped bring the borrowed orthopedic word into chiropractic use, tied to the spinal column and the intervertebral foramen rather than to a founder's revelation.">
+      <rect x="128" y="132" width="230" height="62" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="243" y="158" text-anchor="middle" font-weight="600">the subluxation, named</text>
+      <text x="243" y="177" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">a broader spinal lesion</text>
+    </g>
+    <path data-step="2" d="M358 163 L 424 163" stroke="currentColor" fill="none" marker-end="url(#arrow-drift)"/>
+    <text data-step="2" x="391" y="154" font-size="12" text-anchor="middle" fill="var(--fig-mute, #8a939e)">acts by</text>
+    <g data-step="2" data-hot="a wider lesion, treated more widely" data-tip="From here the word carries two accents at once, Palmer's loaded displacement and a more conventionally anatomical lesion. That double parentage is why later disputes about meaning could never be settled by asking what the term originally meant.">
+      <rect x="430" y="132" width="274" height="62" rx="8" fill="none" stroke="currentColor"/>
+      <text x="567" y="158" text-anchor="middle">a wider lesion, treated more widely</text>
+      <text x="567" y="177" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">the term enters chiropractic use</text>
+    </g>
+
+    <g data-step="3">
+      <text x="16" y="236" font-weight="600">1990s</text>
+      <text x="16" y="255" font-size="12" fill="var(--fig-mute, #8a939e)">college consensus</text>
+    </g>
+    <g data-step="3" data-hot="a clinical entity" data-tip="The Association of Chiropractic Colleges paradigm statement of the 1990s kept subluxation language while framing it as a complex of functional, structural and pathological changes affecting health. Read charitably it is an act of translation; read skeptically it preserves a word too valuable to give up.">
+      <rect x="128" y="210" width="230" height="62" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="243" y="236" text-anchor="middle" font-weight="600">a clinical entity</text>
+      <text x="243" y="255" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">stated in clinical terms</text>
+    </g>
+    <path data-step="3" d="M358 241 L 424 241" stroke="currentColor" fill="none" marker-end="url(#arrow-drift)"/>
+    <text data-step="3" x="391" y="232" font-size="12" text-anchor="middle" fill="var(--fig-mute, #8a939e)">acts by</text>
+    <g data-step="3" data-hot="the old language, a narrower claim" data-tip="A consensus among colleges is a negotiated agreement among institutions with faculties, alumni and mission statements to protect. It records what a field can agree to say, not what a field has found out, and confusing those two is a common error in reading professional literature of any kind.">
+      <rect x="430" y="210" width="274" height="62" rx="8" fill="none" stroke="currentColor"/>
+      <text x="567" y="236" text-anchor="middle">the old language, a narrower claim</text>
+      <text x="567" y="255" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">paradigm statement keeps the word</text>
+    </g>
+
+    <g data-step="4">
+      <text x="16" y="314" font-weight="600">present</text>
+      <text x="16" y="333" font-size="12" fill="var(--fig-mute, #8a939e)">inside the profession</text>
+    </g>
+    <g data-step="4" data-hot="a contested construct" data-tip="Three live positions: keep the word because state practice acts, insurance codes and federal payment rules name it, retire it because it equivocates, or quietly say joint dysfunction in research and reserve subluxation for the paperwork that requires it.">
+      <rect x="128" y="288" width="230" height="62" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-warn, #b4423a)"/>
+      <text x="243" y="314" text-anchor="middle" font-weight="600" fill="var(--fig-warn, #b4423a)">a contested construct</text>
+      <text x="243" y="333" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">its status is disputed</text>
+    </g>
+    <path data-step="4" d="M358 319 L 424 319" stroke="var(--fig-warn, #b4423a)" fill="none" marker-end="url(#arrow-drift)"/>
+    <text data-step="4" x="391" y="310" font-size="12" text-anchor="middle" fill="var(--fig-mute, #8a939e)">acts by</text>
+    <g data-step="4" data-hot="no agreed mechanism" data-tip="This is where equivocation does its damage. Evidence that manipulation helps mechanical low back pain concerns a treatment applied to painful joints, not a mechanism by which displaced vertebrae cause disease throughout the body, and the two get cited as though they were one.">
+      <rect x="430" y="288" width="274" height="62" rx="8" fill="none" stroke="var(--fig-warn, #b4423a)"/>
+      <text x="567" y="314" text-anchor="middle" fill="var(--fig-warn, #b4423a)">no agreed mechanism</text>
+      <text x="567" y="333" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">the dispute is unresolved</text>
+    </g>
+
+    <rect x="16" y="352" width="688" height="66" rx="8" fill="none" stroke="var(--fig-accent, #a95a22)"/>
+    <text x="360" y="374" text-anchor="middle" font-size="15" font-weight="600" fill="var(--fig-accent, #a95a22)">subluxation</text>
+    <path d="M44 394 L 672 394" stroke="var(--fig-accent, #a95a22)" fill="none" marker-end="url(#arrow-drift-accent)"/>
+    <text x="44" y="411" font-size="12" fill="var(--fig-mute, #8a939e)">1906</text>
+    <text x="676" y="411" font-size="12" text-anchor="end" fill="var(--fig-mute, #8a939e)">today</text>
+    <text data-step="5" data-pulse="" x="360" y="411" font-size="12" text-anchor="middle" fill="var(--fig-accent, #a95a22)">one term carried forward while its referent changes</text>
+  </g>
+</svg>

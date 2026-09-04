@@ -1,0 +1,52 @@
+<svg viewBox="0 0 720 360" role="img"
+  data-layers='[{"k":"a","label":"Read literally","note":"Commits the practitioner to defending a real organizing force that a spinal lesion can obstruct, and to the claims about non musculoskeletal disease that follow from it, where the evidence is weak or absent. It also commits him to a doctrine no clinical result can count against, which is what gave the word cult its purchase in 1966."},{"k":"b","label":"Read as metaphor","note":"Commits the practitioner to saying homeostasis when homeostasis is what is meant. If the term means only that, it adds nothing and should be dropped; if it means more than that, the testability problem has been moved rather than solved."},{"k":"c","label":"Set the term aside","note":"Commits the practitioner to answering what then distinguishes a chiropractor from a physical therapist, since manipulation is not the exclusive property of chiropractors, and to justifying a separate degree, a separate licensing board and a separate accrediting agency without it."}]' aria-label="One founding vital term branches into three modern readings, literal force, useful metaphor or discard, and each reading costs the reader something different.">
+  <defs>
+    <marker id="arrow-vitalism" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+    <g data-hot="the founding term" data-tip="Innate intelligence: D.D. Palmer's name for the organizing power he held to run each body from within, a portion of a universal intelligence, expressed through the nervous system as mental impulse. Vitalism was ordinary science in the nineteenth century, not a fringe position, and it receded by replacement rather than by refutation.">
+      <rect x="16" y="136" width="200" height="88" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)" stroke-width="2"/>
+      <text x="116" y="168" text-anchor="middle" font-weight="600" fill="var(--fig-accent, #a95a22)">One founding term</text>
+      <text x="116" y="190" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">a vital principle said to be</text>
+      <text x="116" y="207" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">carried by the nervous system</text>
+    </g>
+
+    <path data-layer="a" d="M216 166 L 322 78" stroke="currentColor" fill="none" marker-end="url(#arrow-vitalism)"/>
+    <text data-layer="a" x="269" y="110" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">read literally</text>
+    <path data-layer="b" d="M216 180 L 322 180" stroke="currentColor" fill="none" marker-end="url(#arrow-vitalism)"/>
+    <text data-layer="b" x="269" y="172" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">read as figure</text>
+    <path data-layer="c" d="M216 194 L 322 282" stroke="currentColor" fill="none" marker-end="url(#arrow-vitalism)"/>
+    <text data-layer="c" x="269" y="256" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">set aside</text>
+
+    <g data-layer="a">
+      <rect x="326" y="30" width="378" height="96" rx="8" fill="none" stroke="currentColor"/>
+      <text x="346" y="56" font-weight="600">Literal force</text>
+      <text x="346" y="78" font-size="12" fill="var(--fig-mute, #8a939e)">a real influence that a spinal lesion can obstruct</text>
+      <g data-hot="what the literal reading costs" data-tip="Literalists are often the most consistent about scope: they do not claim to treat disease, only to correct subluxations. Their critics inside the profession answer that the consistency is purchased by declining to make testable claims at all, which removes them from the conversation in which licensure and payment are settled.">
+        <text x="346" y="104" font-size="12" fill="var(--fig-warn, #b4423a)">cost: carries the non musculoskeletal claims, where the</text>
+        <text x="346" y="120" font-size="12" fill="var(--fig-warn, #b4423a)">evidence is weak or absent</text>
+      </g>
+    </g>
+
+    <g data-layer="b">
+      <rect x="326" y="136" width="378" height="88" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="346" y="162" font-weight="600">Useful metaphor</text>
+      <text x="346" y="184" font-size="12" fill="var(--fig-mute, #8a939e)">the word is kept, the force is not asserted</text>
+      <g data-hot="what the metaphor costs" data-tip="Homeostasis names specific regulated variables, sensors and effectors, and predicts particular failures when particular parts break. Innate intelligence names no variable, no sensor and no failure mode: whatever the body does can be described afterward as innate expressing itself, including dying.">
+        <text x="346" y="210" font-size="12" fill="var(--fig-warn, #b4423a)">cost: a reader outside cannot tell which sense is meant</text>
+      </g>
+    </g>
+
+    <g data-layer="c">
+      <rect x="326" y="234" width="378" height="96" rx="8" fill="none" stroke="currentColor"/>
+      <text x="346" y="260" font-weight="600">Discard the term</text>
+      <text x="346" y="282" font-size="12" fill="var(--fig-mute, #8a939e)">the account is stated without it</text>
+      <g data-hot="what discarding costs" data-tip="Opponents answer that a profession which discards its founding account of itself becomes a technique in search of a home, and that physical therapy already occupies that home. That answer is not a debating point, which is why the people most committed to the doctrine are often the most alert to what would be lost without it.">
+        <text x="346" y="308" font-size="12" fill="var(--fig-warn, #b4423a)">cost: gives up the founding identity and reopens the</text>
+        <text x="346" y="324" font-size="12" fill="var(--fig-warn, #b4423a)">unsettled question of what the scope is</text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,74 @@
+<svg viewBox="0 0 720 470" role="img"
+  aria-label="A scope ladder: activities every state license is built around sit at the bottom and activities only a few jurisdictions permit sit at the top, showing that the word chiropractor names a different legal job in different states.">
+  <defs>
+    <marker id="fig-scope-map-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--fig-mute, #8a939e)"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+    <text x="16" y="26" font-size="15" font-weight="600">One degree, a different legal job in each state</text>
+    <text x="16" y="46" font-size="12" fill="var(--fig-mute, #8a939e)">What a chiropractic license permits is set state by state, so a student should decide where they intend to practice.</text>
+
+    <path d="M246 352 L246 62" stroke="var(--fig-mute, #8a939e)" fill="none" marker-end="url(#fig-scope-map-arrow)"/>
+    <text x="238" y="64" text-anchor="end" font-size="11" fill="var(--fig-mute, #8a939e)">permitted in few jurisdictions</text>
+    <text x="238" y="368" text-anchor="end" font-size="11" fill="var(--fig-mute, #8a939e)">permitted wherever a license exists</text>
+
+    <g data-hot="minor surgery" data-tip="Ninety percent or more of the jurisdictions in the survey exclude minor surgery from chiropractic scope. The useful question is not why the activity is rare but why it appears in any statute at all: scope is written by legislatures, one state at a time, and it moves.">
+      <text x="238" y="84" text-anchor="end">minor surgery</text>
+      <rect x="252" y="71" width="42" height="18" rx="4" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+    </g>
+
+    <g data-hot="obstetric care" data-tip="Also outside scope in ninety percent or more of jurisdictions surveyed. Notice the gap between what a statute permits and what a profession has evidence for. A scope statute is a political settlement reached in one legislature, not a finding about whether the activity works.">
+      <text x="238" y="126" text-anchor="end">obstetric care</text>
+      <rect x="252" y="113" width="42" height="18" rx="4" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+    </g>
+
+    <g data-hot="prescribing from a formulary" data-tip="New Mexico created a certified advanced practice chiropractic physician credential by statute, authorizing a defined formulary of herbal and homeopathic medicines, over the counter drugs, vitamins, minerals and enzymes, glandular products, amino acids, dietary supplements, bioidentical hormones, sterile water and saline, Sarapin, caffeine, procaine, oxygen, epinephrine and vapocoolants, while dangerous drugs, controlled substances and injectables need separate approval from the state pharmacy and medical boards. That statute is scheduled to sunset on July 1, 2028, which is a reminder that a scope can be repealed as easily as it was granted.">
+      <text x="238" y="168" text-anchor="end">prescribing from a formulary</text>
+      <rect x="252" y="155" width="42" height="18" rx="4" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)" stroke-width="2"/>
+    </g>
+
+    <path d="M304 68 L298 68 L298 176 L304 176" stroke="var(--fig-mute, #8a939e)" fill="none"/>
+    <text x="314" y="96" font-size="12">90 percent or more of jurisdictions do not</text>
+    <text x="314" y="114" font-size="12">include prescription rights, obstetric care</text>
+    <text x="314" y="132" font-size="12">or minor surgery in chiropractic scope</text>
+    <text x="314" y="158" font-size="11" fill="var(--fig-accent, #a95a22)">New Mexico is the documented exception</text>
+
+    <g data-hot="needle procedures" data-tip="Rules differ sharply. Texas permits a needle only to draw blood for diagnostic purposes and for acupuncture, while other states set their own separate rules for dry needling and for needle electromyography. Two graduates of the same program, licensed in two states, do not have the same hands.">
+      <text x="238" y="214" text-anchor="end">needle procedures</text>
+      <rect x="252" y="201" width="98" height="18" rx="4" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="358" y="214" font-size="11" fill="var(--fig-mute, #8a939e)">rules differ state by state</text>
+    </g>
+
+    <g data-hot="advanced imaging" data-tip="Ordering or performing computed tomography and magnetic resonance imaging is allowed in some jurisdictions, Connecticut among them. Ohio requires diplomate status from the American Chiropractic Board of Radiology for some advanced imaging privileges, so scope varies by credential inside a single state as well as between states.">
+      <text x="238" y="256" text-anchor="end">advanced imaging, CT and MRI</text>
+      <rect x="252" y="243" width="148" height="18" rx="4" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="408" y="256" font-size="11" fill="var(--fig-mute, #8a939e)">some jurisdictions only</text>
+    </g>
+
+    <g data-hot="physiotherapy modalities" data-tip="The national board offers a separate physiotherapy examination, 90 questions in 75 minutes, with eligibility requiring 120 hours of physiotherapy instruction. Some states require a passing score before a graduate may use those modalities and others do not, which is how an optional exam in school becomes a compulsory one depending on where the graduate lands.">
+      <text x="238" y="298" text-anchor="end">physiotherapy modalities</text>
+      <rect x="252" y="285" width="218" height="18" rx="4" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="478" y="298" font-size="11" fill="var(--fig-mute, #8a939e)">some states require a separate exam</text>
+    </g>
+
+    <g data-hot="spinal adjustment" data-tip="Manual adjustment of the spine is the activity the license is built around and the one rung a student can count on in any state. Everything above it is negotiated locally. No figure is drawn on this band because the source quantifies only the three at the top of the ladder.">
+      <text x="238" y="340" text-anchor="end" font-weight="600">spinal adjustment</text>
+      <rect x="252" y="327" width="300" height="18" rx="4" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-brand, #0f5f66)" stroke-width="2"/>
+      <text x="560" y="340" font-size="11" fill="var(--fig-brand, #0f5f66)">the core of the license</text>
+    </g>
+
+    <path d="M16 380 L704 380" stroke="var(--fig-mute, #8a939e)" fill="none"/>
+
+    <g data-hot="the two ends of the range" data-tip="These rankings come from a cross sectional survey of state jurisdictions, read here through a secondary summary. Treat them as a shape rather than a scoreboard: the year the underlying data were collected was not confirmed, and scope statutes change from legislative session to legislative session. Check the board rules of the state you intend to practice in, for the year you intend to practice.">
+      <text x="16" y="400" font-size="12" font-weight="600">Broadest scopes reported</text>
+      <text x="16" y="418" font-size="11" fill="var(--fig-mute, #8a939e)">Missouri, New Mexico, Kansas, Utah,</text>
+      <text x="16" y="434" font-size="11" fill="var(--fig-mute, #8a939e)">Oklahoma, Illinois, Alabama</text>
+      <text x="376" y="400" font-size="12" font-weight="600">Most restrictive scopes reported</text>
+      <text x="376" y="418" font-size="11" fill="var(--fig-mute, #8a939e)">New Hampshire, Hawaii, Michigan,</text>
+      <text x="376" y="434" font-size="11" fill="var(--fig-mute, #8a939e)">New Jersey, Mississippi, Texas</text>
+    </g>
+
+    <text x="16" y="458" font-size="11" fill="var(--fig-mute, #8a939e)">Bar length is relative only. The top three bands carry a documented figure, the rest are ordered without one.</text>
+  </g>
+</svg>
