@@ -1,0 +1,75 @@
+<svg viewBox="0 0 720 450" role="img" aria-label="A lumbar vertebra seen from above: the load bearing body lies in front, the arch of pedicles, laminae and spinous process encloses the vertebral foramen behind it, and of all these parts only the spinous process can be felt through the skin.">
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13" fill="currentColor">
+    <text x="16" y="24" font-weight="600">Lumbar vertebra, superior view</text>
+    <text x="16" y="42" font-size="12" fill="var(--fig-mute, #8a939e)">anterior at the top, posterior at the bottom</text>
+
+    <g data-hot="Vertebral body" data-tip="The thick block of bone at the front that carries almost all of the load passed down the column. Its flat top and bottom surfaces are where the intervertebral discs attach. It sits deep inside the trunk and cannot be reached from the back.">
+      <path d="M 298 140 C 268 136 270 102 280 80 C 293 54 330 44 360 44 C 390 44 427 54 440 80 C 450 102 452 136 422 140 C 410 124 310 124 298 140 Z" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M 114 88 L 272 106" stroke="var(--fig-mute, #8a939e)" fill="none"/>
+      <text x="16" y="92">Vertebral body</text>
+    </g>
+
+    <g data-hot="Vertebral foramen" data-tip="The opening enclosed by the body in front and the arch behind. Stacked one on another these openings form the vertebral canal. In the lumbar region the canal holds the cauda equina rather than the spinal cord itself, because the cord usually ends near L1 or L2.">
+      <path d="M 336 125 L 384 125 C 402 127 410 140 407 174 C 404 212 386 256 361 284 C 336 256 318 212 315 174 C 312 140 320 127 336 125 Z" fill="none" stroke="var(--fig-brand, #0f5f66)" stroke-width="2" stroke-dasharray="6 4" pointer-events="all"/>
+      <text x="360" y="200" text-anchor="middle" font-size="12" fill="var(--fig-brand, #0f5f66)">vertebral</text>
+      <text x="360" y="216" text-anchor="middle" font-size="12" fill="var(--fig-brand, #0f5f66)">foramen</text>
+    </g>
+
+    <g data-hot="Pedicle" data-tip="The short thick strut that joins the arch to the body, and the strongest part of the arch. Notches on its upper and lower edges form the roof and the floor of the intervertebral foramen, so the pedicles set the height of the opening each spinal nerve leaves through.">
+      <path d="M 300 132 L 282 176 L 322 186 L 330 130 Z" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M 420 132 L 438 176 L 398 186 L 390 130 Z" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M 66 142 L 292 152" stroke="var(--fig-mute, #8a939e)" fill="none"/>
+      <text x="16" y="146">Pedicle</text>
+    </g>
+
+    <g data-hot="Transverse process" data-tip="A long thin lever sticking out sideways for muscles and ligaments to pull on. In the lumbar region it lies buried under the erector spinae mass, so it is felt only indirectly and never as clearly as the spinous process.">
+      <path d="M 280 158 C 244 160 202 166 180 174 C 173 177 173 189 180 192 C 204 198 246 202 282 200 Z" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M 440 158 C 476 160 518 166 540 174 C 547 177 547 189 540 192 C 516 198 474 202 438 200 Z" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M 142 226 L 204 199" stroke="var(--fig-mute, #8a939e)" fill="none"/>
+      <text x="16" y="232">Transverse process</text>
+    </g>
+
+    <g data-hot="Lamina" data-tip="The flat plate that roofs the vertebral canal from behind. It is the piece of bone removed in a laminectomy, and it is the broad surface a practitioner contacts when a thrust is not delivered on the spinous process itself.">
+      <path d="M 314 240 L 352 294 L 342 314 L 290 256 Z" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M 406 240 L 368 294 L 378 314 L 430 256 Z" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M 656 340 L 398 275" stroke="var(--fig-mute, #8a939e)" fill="none"/>
+      <text x="704" y="344" text-anchor="end">Lamina</text>
+    </g>
+
+    <g data-hot="Superior articular process" data-tip="The upward facing pillar that meets the downward facing process of the vertebra above to form a facet joint. Two of these joints and one disc make up the three joint complex of a single motion segment.">
+      <path d="M 292 186 C 268 190 258 218 266 244 C 274 268 300 272 314 254 C 328 236 326 202 308 190 C 303 186 297 185 292 186 Z" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M 428 186 C 452 190 462 218 454 244 C 446 268 420 272 406 254 C 392 236 394 202 412 190 C 417 186 423 185 428 186 Z" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M 130 296 L 266 244" stroke="var(--fig-mute, #8a939e)" fill="none"/>
+      <text x="16" y="290">Superior articular</text>
+      <text x="16" y="306">process</text>
+    </g>
+
+    <g data-hot="Superior articular facet surface" data-tip="The cartilage covered joint surface itself. Its plane decides which movements the segment allows. In the lumbar spine it lies close to the sagittal plane and faces backward and inward, which is why this region bends forward freely and rotates very little.">
+      <path d="M 310 198 C 324 214 326 240 310 258" fill="none" stroke="var(--fig-accent, #a95a22)" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M 410 198 C 396 214 394 240 410 258" fill="none" stroke="var(--fig-accent, #a95a22)" stroke-width="3.5" stroke-linecap="round"/>
+      <path d="M 596 276 L 398 242" stroke="var(--fig-mute, #8a939e)" fill="none"/>
+      <text x="704" y="268" text-anchor="end" fill="var(--fig-accent, #a95a22)">Superior articular</text>
+      <text x="704" y="284" text-anchor="end" fill="var(--fig-accent, #a95a22)">facet surface</text>
+    </g>
+
+    <g data-hot="Mammillary process" data-tip="A small tubercle on the back of the superior articular process. The multifidus and a slip of longissimus attach here. It is a target used on imaging rather than something a hand can find through the muscle.">
+      <path d="M 266 240 C 254 246 252 262 264 266 C 276 270 282 258 280 246 Z" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M 454 240 C 466 246 468 262 456 266 C 444 270 438 258 440 246 Z" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="1.5"/>
+      <path d="M 140 350 L 258 258" stroke="var(--fig-mute, #8a939e)" fill="none"/>
+      <text x="16" y="356">Mammillary process</text>
+    </g>
+
+    <g data-hot="Pars interarticularis" data-tip="The narrow bridge of bone between the superior and the inferior articular process. It carries the load that passes from one facet joint to the next and it is the usual site of the stress fracture called spondylolysis, most often at L5 in young athletes.">
+      <path d="M 310 234 L 332 266 L 316 278 L 294 246 Z" fill="none" stroke="var(--fig-accent, #a95a22)" stroke-width="2" stroke-dasharray="5 3"/>
+      <path d="M 162 392 L 312 260" stroke="var(--fig-mute, #8a939e)" fill="none"/>
+      <text x="16" y="398">Pars interarticularis</text>
+    </g>
+
+    <g data-hot="Spinous process" data-tip="The blade of bone projecting straight backward in the midline. This is the part you can feel through the skin, and for most examiners it is the only part of the vertebra they ever touch, which is why so much of spinal examination rests on one small bony tip.">
+      <path d="M 340 292 L 338 386 C 338 404 346 414 360 416 C 374 414 382 404 382 386 L 380 292 Z" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)" stroke-width="2.5"/>
+      <path d="M 600 414 L 382 398" stroke="var(--fig-mute, #8a939e)" fill="none"/>
+      <text x="704" y="412" text-anchor="end">Spinous process</text>
+      <text x="704" y="430" text-anchor="end" font-size="12" fill="var(--fig-accent, #a95a22)">the part you can feel</text>
+    </g>
+  </g>
+</svg>

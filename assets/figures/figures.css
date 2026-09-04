@@ -1,0 +1,59 @@
+/* Figure interaction chrome. Loaded alongside figures.js. */
+.fig-controls{display:flex;align-items:center;gap:8px;flex-wrap:wrap;
+  margin:14px 0 0;padding-top:14px;border-top:1px solid var(--line)}
+.fig-btn{font:inherit;font-size:.83rem;font-weight:650;cursor:pointer;
+  border:1px solid var(--line);background:var(--surface,var(--page,#fff));color:var(--ink);
+  border-radius:9px;padding:7px 13px;line-height:1.2;transition:border-color .12s,background .12s}
+.fig-btn:hover:not(:disabled){border-color:var(--fig-brand);color:var(--fig-brand)}
+.fig-btn:disabled{opacity:.35;cursor:default}
+.fig-btn-primary{background:var(--fig-brand);border-color:transparent;color:var(--btn-ink,#fff)}
+.fig-btn-primary:hover{filter:brightness(1.08);color:var(--btn-ink,#fff)}
+.fig-btn-ghost{background:transparent;color:var(--muted)}
+.fig-btn-ghost[aria-pressed="true"]{border-color:var(--fig-brand);color:var(--fig-brand)}
+.fig-dots{display:flex;gap:0;align-items:center}
+/* The dot stays 9px to the eye. The button around it is 24 by 24 so it is a real
+   target for a finger or a shaky hand, which WCAG 2.2 asks for. */
+.fig-dot{width:24px;height:24px;padding:0;cursor:pointer;border:0;background:transparent;
+  display:inline-flex;align-items:center;justify-content:center;position:relative}
+.fig-dot::before{content:"";width:9px;height:9px;border-radius:50%;
+  border:1.5px solid var(--line);background:transparent;transition:transform .14s}
+.fig-dot:hover::before{transform:scale(1.3)}
+.fig-dot.done::before{background:var(--fig-mute);border-color:var(--fig-mute)}
+.fig-dot.on::before{background:var(--fig-brand);border-color:var(--fig-brand);transform:scale(1.35)}
+.fig-dot:focus-visible{outline:2.5px solid var(--fig-brand);outline-offset:-2px;border-radius:6px}
+.fig-count{font-family:var(--mono);font-size:.7rem;letter-spacing:.06em;color:var(--muted);
+  margin-left:2px;white-space:nowrap}
+.fig-seg{display:inline-flex;border:1px solid var(--line);border-radius:9px;overflow:hidden}
+.fig-segbtn{font:inherit;font-size:.8rem;font-weight:650;cursor:pointer;border:0;
+  background:transparent;color:var(--muted);padding:7px 13px;line-height:1.2}
+.fig-segbtn + .fig-segbtn{border-left:1px solid var(--line)}
+.fig-segbtn:hover{color:var(--ink)}
+.fig-segbtn[aria-pressed="true"]{background:var(--fig-brand);color:var(--btn-ink,#fff)}
+.fig-segbtn[aria-pressed="true"]{background:var(--fig-brand);color:#fff}
+
+.fig-readout{font-size:.88rem;line-height:1.5;color:var(--muted);margin:10px 0 0;
+  min-height:2.6em;transition:color .15s}
+.fig-readout.on{color:var(--ink-soft,var(--ink))}
+.fig-readout{color:var(--muted)}
+.fig-readout b{color:var(--fig-accent-strong,var(--fig-accent));font-weight:700}
+
+.fig-interactive figcaption{margin-top:12px}
+
+/* element states inside the svg */
+.fig-off{opacity:0;pointer-events:none;transition:opacity .3s ease}
+.fig-now{animation:figNow .55s ease}
+.fig-pulse{animation:figNow .55s ease, figPulse 1.5s ease .55s 2}
+@keyframes figPulse{0%,100%{filter:none}50%{filter:drop-shadow(0 0 6px var(--fig-warn))}}
+@keyframes figNow{0%{opacity:0;transform:translateY(3px)}100%{opacity:1;transform:none}}
+[data-step],[data-layer]{transition:opacity .3s ease}
+.fig-hot{cursor:pointer}
+.fig-hot:focus{outline:none}
+.fig-hot:focus-visible > *,.fig-hot:focus-visible{outline:2px solid var(--fig-accent);outline-offset:3px}
+.fig-hot.is-active{filter:drop-shadow(0 0 5px var(--fig-accent))}
+.fig-hot:hover{filter:drop-shadow(0 0 4px var(--fig-accent))}
+
+@media (prefers-reduced-motion: reduce){
+  .fig-off{transition:none} .fig-now,.fig-pulse{animation:none}
+  [data-step],[data-layer]{transition:none}
+}
+@media print{ .fig-controls,.fig-readout{display:none} .fig-off{opacity:1 !important} }

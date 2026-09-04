@@ -1,0 +1,214 @@
+<svg viewBox="0 0 720 600" role="img"
+  data-steps='["The column has to do two things that work against each other. It has to hold the head, arms and trunk up against gravity, and it has to let all of that move. Every design choice below is a compromise between those two.", "Each region settles the compromise differently. The neck moves most and carries least. The thoracic spine is tied to the ribs and moves least per segment. The lumbar spine carries everything above it. The sacrum gives up movement entirely and hands the load to the pelvis.", "The four curves are how a flexible column can still bear load. Cervical and lumbar are lordotic, convex toward the front. Thoracic and sacral are kyphotic, convex toward the back. A stack of alternating curves behaves like a spring, which a straight rod cannot.", "Where two regions meet, a mobile segment sits directly on a stiff one and load concentrates at the join. The cervicothoracic, thoracolumbar and lumbosacral junctions are the three places this happens, and they are where degenerative change and injury cluster."]' aria-label="The vertebral column in side view: five regions with 7 cervical, 12 thoracic and 5 lumbar vertebrae above a fused sacrum and coccyx, four alternating curves that let a flexible column carry load, and three junctions where the trade off between movement and support changes abruptly.">
+  <defs>
+    <marker id="fig-regions-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13" fill="currentColor">
+    <g data-step="1">
+      <text x="16" y="30" font-weight="600">Two jobs at once</text>
+      <text x="16" y="48" font-size="12" fill="var(--fig-mute, #8a939e)">and every region settles them differently</text>
+      <rect x="296" y="14" width="168" height="46" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-brand, #0f5f66)" stroke-width="1.5"/>
+      <text x="380" y="36" text-anchor="middle" font-weight="600" fill="var(--fig-brand, #0f5f66)">hold you up</text>
+      <text x="380" y="53" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">carry the load down</text>
+      <rect x="516" y="14" width="168" height="46" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)" stroke-width="1.5"/>
+      <text x="600" y="36" text-anchor="middle" font-weight="600" fill="var(--fig-accent, #a95a22)">let you move</text>
+      <text x="600" y="53" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">flex, bend and rotate</text>
+      <path d="M 472 37 L 508 37" stroke="currentColor" fill="none" marker-start="url(#fig-regions-arrow)" marker-end="url(#fig-regions-arrow)"/>
+      <text x="490" y="74" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">in tension</text>
+    </g>
+
+    <g stroke="currentColor" stroke-width="1.4" fill="var(--fig-fill, rgba(127,127,127,.08))">
+      <g transform="rotate(23.61 156.0 95.0)">
+        <rect x="136.0" y="90.0" width="20.0" height="10.0" rx="3"/>
+        <rect x="156.0" y="90.0" width="12" height="10.0" rx="2"/>
+        <path d="M 168.0 95.0 L 184.3 99.7" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <g transform="rotate(22.27 150.3 108.0)">
+        <rect x="130.3" y="103.0" width="20.0" height="10.0" rx="3"/>
+        <rect x="150.3" y="103.0" width="12" height="10.0" rx="2"/>
+        <path d="M 162.3 108.0 L 178.6 112.7" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <g transform="rotate(15.07 145.8 121.0)">
+        <rect x="125.8" y="116.0" width="20.0" height="10.0" rx="3"/>
+        <rect x="145.8" y="116.0" width="12" height="10.0" rx="2"/>
+        <path d="M 157.8 121.0 L 174.1 125.7" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <g transform="rotate(-2.27 144.0 134.0)">
+        <rect x="124.0" y="129.0" width="20.0" height="10.0" rx="3"/>
+        <rect x="144.0" y="129.0" width="12" height="10.0" rx="2"/>
+        <path d="M 156.0 134.0 L 172.3 138.7" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <g transform="rotate(-22.14 147.0 147.0)">
+        <rect x="127.0" y="142.0" width="20.0" height="10.0" rx="3"/>
+        <rect x="147.0" y="142.0" width="12" height="10.0" rx="2"/>
+        <path d="M 159.0 147.0 L 175.4 151.7" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <g transform="rotate(-26.59 153.3 160.0)">
+        <rect x="133.3" y="155.0" width="20.0" height="10.0" rx="3"/>
+        <rect x="153.3" y="155.0" width="12" height="10.0" rx="2"/>
+        <path d="M 165.3 160.0 L 181.7 164.7" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <g transform="rotate(-21.32 159.2 173.0)">
+        <rect x="139.2" y="168.0" width="20.0" height="10.0" rx="3"/>
+        <rect x="159.2" y="168.0" width="12" height="10.0" rx="2"/>
+        <path d="M 171.2 173.0 L 187.5 177.7" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <g transform="rotate(-19.06 164.2 187.5)">
+        <rect x="138.2" y="181.0" width="26.0" height="13.0" rx="3"/>
+        <rect x="164.2" y="181.0" width="12" height="13.0" rx="2"/>
+        <path d="M 176.2 187.5 L 196.2 209.8" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <g transform="rotate(-20.07 169.7 203.0)">
+        <rect x="143.7" y="196.5" width="26.0" height="13.0" rx="3"/>
+        <rect x="169.7" y="196.5" width="12" height="13.0" rx="2"/>
+        <path d="M 181.7 203.0 L 201.8 225.3" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <g transform="rotate(-19.10 175.3 218.5)">
+        <rect x="149.3" y="212.0" width="26.0" height="13.0" rx="3"/>
+        <rect x="175.3" y="212.0" width="12" height="13.0" rx="2"/>
+        <path d="M 187.3 218.5 L 207.4 240.8" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <g transform="rotate(-16.74 180.3 234.0)">
+        <rect x="154.3" y="227.5" width="26.0" height="13.0" rx="3"/>
+        <rect x="180.3" y="227.5" width="12" height="13.0" rx="2"/>
+        <path d="M 192.3 234.0 L 212.4 256.3" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <g transform="rotate(-12.92 184.5 249.5)">
+        <rect x="158.5" y="243.0" width="26.0" height="13.0" rx="3"/>
+        <rect x="184.5" y="243.0" width="12" height="13.0" rx="2"/>
+        <path d="M 196.5 249.5 L 216.6 271.8" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <g transform="rotate(-6.98 187.3 265.0)">
+        <rect x="161.3" y="258.5" width="26.0" height="13.0" rx="3"/>
+        <rect x="187.3" y="258.5" width="12" height="13.0" rx="2"/>
+        <path d="M 199.3 265.0 L 219.4 287.3" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <g transform="rotate(1.99 188.0 280.5)">
+        <rect x="162.0" y="274.0" width="26.0" height="13.0" rx="3"/>
+        <rect x="188.0" y="274.0" width="12" height="13.0" rx="2"/>
+        <path d="M 200.0 280.5 L 220.1 302.8" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <g transform="rotate(8.49 186.5 296.0)">
+        <rect x="160.5" y="289.5" width="26.0" height="13.0" rx="3"/>
+        <rect x="186.5" y="289.5" width="12" height="13.0" rx="2"/>
+        <path d="M 198.5 296.0 L 218.6 318.3" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <g transform="rotate(12.74 183.5 311.5)">
+        <rect x="157.5" y="305.0" width="26.0" height="13.0" rx="3"/>
+        <rect x="183.5" y="305.0" width="12" height="13.0" rx="2"/>
+        <path d="M 195.5 311.5 L 215.6 333.8" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <g transform="rotate(15.43 179.6 327.0)">
+        <rect x="153.6" y="320.5" width="26.0" height="13.0" rx="3"/>
+        <rect x="179.6" y="320.5" width="12" height="13.0" rx="2"/>
+        <path d="M 191.6 327.0 L 211.7 349.3" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <g transform="rotate(16.70 175.1 342.5)">
+        <rect x="149.1" y="336.0" width="26.0" height="13.0" rx="3"/>
+        <rect x="175.1" y="336.0" width="12" height="13.0" rx="2"/>
+        <path d="M 187.1 342.5 L 207.2 364.8" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <g transform="rotate(16.16 170.5 358.0)">
+        <rect x="144.5" y="351.5" width="26.0" height="13.0" rx="3"/>
+        <rect x="170.5" y="351.5" width="12" height="13.0" rx="2"/>
+        <path d="M 182.5 358.0 L 202.5 380.3" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <g transform="rotate(19.74 165.4 375.5)">
+        <rect x="133.4" y="367.0" width="32.0" height="17.0" rx="3"/>
+        <rect x="165.4" y="367.0" width="12" height="17.0" rx="2"/>
+        <path d="M 177.4 375.5 L 205.3 378.4" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <g transform="rotate(23.34 155.4 397.5)">
+        <rect x="123.4" y="389.0" width="32.0" height="17.0" rx="3"/>
+        <rect x="155.4" y="389.0" width="12" height="17.0" rx="2"/>
+        <path d="M 167.4 397.5 L 195.2 400.4" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <g transform="rotate(-8.77 152.4 419.5)">
+        <rect x="120.4" y="411.0" width="32.0" height="17.0" rx="3"/>
+        <rect x="152.4" y="411.0" width="12" height="17.0" rx="2"/>
+        <path d="M 164.4 419.5 L 192.3 422.4" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <g transform="rotate(-22.66 159.3 441.5)">
+        <rect x="127.3" y="433.0" width="32.0" height="17.0" rx="3"/>
+        <rect x="159.3" y="433.0" width="12" height="17.0" rx="2"/>
+        <path d="M 171.3 441.5 L 199.1 444.4" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <g transform="rotate(-26.22 169.5 463.5)">
+        <rect x="137.5" y="455.0" width="32.0" height="17.0" rx="3"/>
+        <rect x="169.5" y="455.0" width="12" height="17.0" rx="2"/>
+        <path d="M 181.5 463.5 L 209.4 466.4" stroke-width="3.6" stroke-linecap="round" fill="none"/>
+      </g>
+      <path d="M 136.0 477.0 L 143.8 485.5 L 152.1 494.0 L 160.8 502.5 L 169.1 511.0 L 176.6 519.5 L 183.9 528.0 L 190.6 536.5 L 196.5 545.0 L 213.5 545.0 L 212.8 536.5 L 211.1 528.0 L 209.0 519.5 L 206.6 511.0 L 203.4 502.5 L 199.9 494.0 L 196.6 485.5 L 194.0 477.0 Z"/>
+      <path d="M 196.5 545.0 L 198.0 548.8 L 199.0 552.5 L 199.7 556.2 L 200.1 560.0 L 200.3 563.8 L 200.4 567.5 L 200.4 571.2 L 200.4 575.0 L 206.4 575.0 L 207.8 571.2 L 209.1 567.5 L 210.4 563.8 L 211.6 560.0 L 212.5 556.2 L 213.2 552.5 L 213.6 548.8 L 213.5 545.0 Z"/>
+    </g>
+    <g stroke="var(--fig-mute, #8a939e)" stroke-width="1" fill="none">
+      <path d="M 148.7 490.6 L 198.5 490.6"/>
+      <path d="M 162.5 504.2 L 204.1 504.2"/>
+      <path d="M 175.1 517.8 L 208.5 517.8"/>
+      <path d="M 186.7 531.4 L 211.9 531.4"/>
+    </g>
+
+    <g>
+      <path d="M 248 88 L 242 88 L 242 181 L 248 181" fill="none" stroke="var(--fig-mute, #8a939e)"/>
+      <text x="256" y="128" font-weight="600">Cervical</text>
+      <text x="256" y="145" font-size="12" fill="var(--fig-mute, #8a939e)">7 vertebrae</text>
+      <path d="M 248 181 L 242 181 L 242 367 L 248 367" fill="none" stroke="var(--fig-mute, #8a939e)"/>
+      <text x="256" y="266" font-weight="600">Thoracic</text>
+      <text x="256" y="283" font-size="12" fill="var(--fig-mute, #8a939e)">12 vertebrae</text>
+      <path d="M 248 367 L 242 367 L 242 477 L 248 477" fill="none" stroke="var(--fig-mute, #8a939e)"/>
+      <text x="256" y="414" font-weight="600">Lumbar</text>
+      <text x="256" y="431" font-size="12" fill="var(--fig-mute, #8a939e)">5 vertebrae</text>
+      <path d="M 248 477 L 242 477 L 242 545 L 248 545" fill="none" stroke="var(--fig-mute, #8a939e)"/>
+      <text x="256" y="505" font-weight="600">Sacrum</text>
+      <text x="256" y="522" font-size="12" fill="var(--fig-mute, #8a939e)">5 fused into one</text>
+      <path d="M 248 545 L 242 545 L 242 577 L 248 577" fill="none" stroke="var(--fig-mute, #8a939e)"/>
+      <text x="256" y="562" font-weight="600">Coccyx</text>
+      <text x="256" y="579" font-size="12" fill="var(--fig-mute, #8a939e)">about 4 fused</text>
+    </g>
+
+    <g data-step="2">
+      <text x="404" y="120" fill="var(--fig-accent, #a95a22)">most movement of any region</text>
+      <text x="404" y="137" font-size="12" fill="var(--fig-mute, #8a939e)">carries only the weight of the head</text>
+      <text x="404" y="258" fill="var(--fig-accent, #a95a22)">least movement per segment</text>
+      <text x="404" y="275" font-size="12" fill="var(--fig-mute, #8a939e)">the ribs hold it, and it carries the chest</text>
+      <text x="404" y="406" fill="var(--fig-accent, #a95a22)">large flexion, very little rotation</text>
+      <text x="404" y="423" font-size="12" fill="var(--fig-mute, #8a939e)">carries everything above it</text>
+      <text x="404" y="510" fill="var(--fig-accent, #a95a22)">no movement at all</text>
+      <text x="404" y="527" font-size="12" fill="var(--fig-mute, #8a939e)">fused, it hands the load to the pelvis</text>
+    </g>
+
+    <g data-step="3">
+      <polyline points="138.0,90.0 135.3,96.5 132.4,103.0 129.7,109.5 127.3,116.0 125.4,122.5 124.2,129.0 124.1,135.5 125.3,142.0 127.7,148.5 130.8,155.0 134.1,161.5 137.1,168.0 139.8,174.5 142.0,181.0" fill="none" stroke="var(--fig-accent, #a95a22)" stroke-width="2.5" stroke-dasharray="7 5"/>
+      <text x="16" y="124" font-size="12" font-weight="600" fill="var(--fig-accent, #a95a22)">lordosis</text>
+      <text x="16" y="139" font-size="11" fill="var(--fig-mute, #8a939e)">convex forward</text>
+      <polyline points="136.0,181.0 140.6,194.3 145.4,207.6 150.1,220.9 154.4,234.1 158.0,247.4 160.7,260.7 162.0,274.0 161.6,287.3 159.8,300.6 157.0,313.9 153.6,327.1 149.7,340.4 145.7,353.7 142.0,367.0" fill="none" stroke="var(--fig-accent, #a95a22)" stroke-width="2.5" stroke-dasharray="7 5"/>
+      <text x="16" y="262" font-size="12" font-weight="600" fill="var(--fig-accent, #a95a22)">kyphosis</text>
+      <text x="16" y="277" font-size="11" fill="var(--fig-mute, #8a939e)">convex backward</text>
+      <polyline points="136.0,367.0 133.6,374.9 130.5,382.7 126.7,390.6 123.0,398.4 120.5,406.3 119.9,414.1 120.9,422.0 122.9,429.9 125.7,437.7 129.0,445.6 132.6,453.4 136.4,461.3 140.3,469.1 144.0,477.0" fill="none" stroke="var(--fig-accent, #a95a22)" stroke-width="2.5" stroke-dasharray="7 5"/>
+      <text x="16" y="410" font-size="12" font-weight="600" fill="var(--fig-accent, #a95a22)">lordosis</text>
+      <text x="16" y="425" font-size="11" fill="var(--fig-mute, #8a939e)">convex forward</text>
+      <polyline points="136.0,477.0 140.4,481.9 144.9,486.7 149.7,491.6 154.6,496.4 159.6,501.3 164.4,506.1 169.1,511.0 173.4,515.9 177.7,520.7 181.8,525.6 185.9,530.4 189.7,535.3 193.3,540.1 196.5,545.0" fill="none" stroke="var(--fig-accent, #a95a22)" stroke-width="2.5" stroke-dasharray="7 5"/>
+      <text x="16" y="500" font-size="12" font-weight="600" fill="var(--fig-accent, #a95a22)">kyphosis</text>
+      <text x="16" y="515" font-size="11" fill="var(--fig-mute, #8a939e)">convex backward</text>
+      <text x="404" y="566" font-size="12" fill="var(--fig-accent, #a95a22)">a straight column would have to be rigid.</text>
+      <text x="404" y="583" font-size="12" fill="var(--fig-accent, #a95a22)">four alternating curves let it flex and bear load.</text>
+    </g>
+
+    <g data-step="4" data-pulse="">
+      <circle cx="162.0" cy="181" r="8" fill="none" stroke="var(--fig-warn, #b4423a)" stroke-width="2.5"/>
+      <path d="M 172.0 181 L 398 182" stroke="var(--fig-warn, #b4423a)" fill="none" stroke-dasharray="4 3"/>
+      <text x="404" y="186" font-size="12" font-weight="600" fill="var(--fig-warn, #b4423a)">cervicothoracic junction</text>
+      <text x="404" y="201" font-size="11" fill="var(--fig-mute, #8a939e)">a mobile neck sits on a ribbed cage</text>
+      <circle cx="168.0" cy="367" r="8" fill="none" stroke="var(--fig-warn, #b4423a)" stroke-width="2.5"/>
+      <path d="M 178.0 367 L 398 358" stroke="var(--fig-warn, #b4423a)" fill="none" stroke-dasharray="4 3"/>
+      <text x="404" y="362" font-size="12" font-weight="600" fill="var(--fig-warn, #b4423a)">thoracolumbar junction</text>
+      <text x="404" y="377" font-size="11" fill="var(--fig-mute, #8a939e)">the ribs stop and rotation has to change hands</text>
+      <circle cx="176.0" cy="477" r="8" fill="none" stroke="var(--fig-warn, #b4423a)" stroke-width="2.5"/>
+      <path d="M 186.0 477 L 398 462" stroke="var(--fig-warn, #b4423a)" fill="none" stroke-dasharray="4 3"/>
+      <text x="404" y="466" font-size="12" font-weight="600" fill="var(--fig-warn, #b4423a)">lumbosacral junction</text>
+      <text x="404" y="481" font-size="11" fill="var(--fig-mute, #8a939e)">the last mobile segment sits on solid bone</text>
+    </g>
+  </g>
+</svg>

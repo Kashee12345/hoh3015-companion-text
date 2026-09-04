@@ -1,0 +1,114 @@
+<svg viewBox="0 0 720 500" role="img"
+  data-layers='[{"k": "cerv", "label": "Cervical", "note": "Cervical facets lie close to the coronal plane but are tipped about 45 degrees back from the horizontal. A slope that shallow lets the surfaces slide past each other in almost any direction, so the neck rotates 85 degrees to each side and bends 49 degrees to each side. What it prevents is separating the two: below C2 rotation and side bending are coupled and cannot be produced one without the other."}, {"k": "thor", "label": "Thoracic", "note": "Thoracic facets are near the coronal plane too but stand steeper, about 60 degrees from the horizontal. The joint surfaces alone would permit a good deal of rotation, and the pooled figure is still 47 degrees to each side. What limits this region is not the facet at all: it is the rib cage and the sternum tying every level to the one above and below."}, {"k": "lumb", "label": "Lumbar", "note": "Lumbar facets turn to face each other across the midline, lying close to the sagittal plane and standing vertical. A sagittal surface slides freely forward and back, which is why lumbar flexion reaches 65 degrees, as much as the neck. But it presents a flat wall to any twist, so axial rotation falls to about 15.3 degrees to each side, roughly one fifth of the neck."}]' aria-label="One motion segment carries three joints, a disc in front and two facet joints behind, and the orientation of the facet surfaces decides which movements each region allows: shallow and near coronal in the neck, which rotates 85 degrees to each side, and vertical and near sagittal in the low back, which rotates only about 15 degrees to each side.">
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13" fill="currentColor">
+    <text x="16" y="24" font-weight="600">The three joint complex</text>
+    <text x="16" y="42" font-size="12" fill="var(--fig-mute, #8a939e)">one disc in front, two facet joints behind, at every level</text>
+    <text x="16" y="74" font-size="12" fill="var(--fig-mute, #8a939e)">one motion segment, from the side</text>
+    <g stroke="currentColor" stroke-width="1.5" fill="var(--fig-fill, rgba(127,127,127,.08))">
+      <rect x="110" y="92" width="110" height="52" rx="4"/>
+      <rect x="110" y="174" width="110" height="52" rx="4"/>
+      <rect x="220" y="108" width="48" height="20" rx="3"/>
+      <rect x="220" y="190" width="48" height="20" rx="3"/>
+      <path d="M 268 118 L 326 132" stroke-width="6" stroke-linecap="round" fill="none"/>
+      <path d="M 268 200 L 326 214" stroke-width="6" stroke-linecap="round" fill="none"/>
+    </g>
+    <rect x="110" y="144" width="110" height="30" rx="4" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-brand, #0f5f66)" stroke-width="2"/>
+    <text x="165" y="163" text-anchor="middle" font-size="12" fill="var(--fig-brand, #0f5f66)">disc</text>
+    <text x="16" y="112" font-size="12">vertebral</text>
+    <text x="16" y="128" font-size="12">body</text>
+    <path d="M 74 118 L 106 108" stroke="var(--fig-mute, #8a939e)" fill="none"/>
+    <path d="M 92 264 L 150 171" stroke="var(--fig-mute, #8a939e)" fill="none"/>
+    <text x="16" y="278" font-size="12">intervertebral disc</text>
+    <text x="16" y="294" font-size="11" fill="var(--fig-mute, #8a939e)">takes the compression</text>
+    <path d="M 316 88 L 268 144" stroke="var(--fig-mute, #8a939e)" fill="none"/>
+    <text x="300" y="64" font-size="12">facet joints</text>
+    <text x="300" y="80" font-size="11" fill="var(--fig-mute, #8a939e)">choose the direction</text>
+    <path d="M 226 159 L 300 159" stroke="var(--fig-mute, #8a939e)" fill="none" stroke-dasharray="4 3"/>
+    <text x="304" y="163" font-size="11" fill="var(--fig-mute, #8a939e)">transverse</text>
+    <g data-layer="cerv">
+      <path d="M 238.3 132.5 L 276.5 170.7" stroke="currentColor" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.8"/>
+      <path d="M 223.5 147.3 L 261.7 185.5" stroke="currentColor" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.8"/>
+      <path d="M 228.1 137.1 L 271.9 180.9" stroke="var(--fig-accent, #a95a22)" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+      <path d="M 292.0 159.0 A 42 42 0 0 1 279.7 188.7" fill="none" stroke="var(--fig-accent, #a95a22)" stroke-width="1.5"/>
+    </g>
+    <g data-layer="thor">
+      <path d="M 245.6 130.4 L 272.6 177.1" stroke="currentColor" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.8"/>
+      <path d="M 227.4 140.9 L 254.4 187.6" stroke="currentColor" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.8"/>
+      <path d="M 234.5 132.2 L 265.5 185.8" stroke="var(--fig-accent, #a95a22)" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+      <path d="M 292.0 159.0 A 42 42 0 0 1 271.0 195.4" fill="none" stroke="var(--fig-accent, #a95a22)" stroke-width="1.5"/>
+    </g>
+    <g data-layer="lumb">
+      <path d="M 260.5 132.0 L 260.5 186.0" stroke="currentColor" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.8"/>
+      <path d="M 239.5 132.0 L 239.5 186.0" stroke="currentColor" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.8"/>
+      <path d="M 250.0 128.0 L 250.0 190.0" stroke="var(--fig-accent, #a95a22)" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+      <path d="M 292.0 159.0 A 42 42 0 0 1 250.0 201.0" fill="none" stroke="var(--fig-accent, #a95a22)" stroke-width="1.5"/>
+    </g>
+    <text x="520" y="74" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">the same joint, from above</text>
+    <path d="M 520 86 L 520 272" stroke="var(--fig-mute, #8a939e)" fill="none" stroke-dasharray="4 3"/>
+    <path d="M 424 168 L 616 168" stroke="var(--fig-mute, #8a939e)" fill="none" stroke-dasharray="4 3"/>
+    <text x="520" y="288" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">sagittal plane</text>
+    <text x="622" y="172" font-size="11" fill="var(--fig-mute, #8a939e)">coronal plane</text>
+    <g stroke="currentColor" stroke-width="1.5" fill="var(--fig-fill, rgba(127,127,127,.08))">
+      <path d="M 478 138 C 478 112 494 100 520 100 C 546 100 562 112 562 138 C 546 130 494 130 478 138 Z"/>
+      <path d="M 486 142 L 474 182 L 500 190 L 506 140 Z"/>
+      <path d="M 554 142 L 566 182 L 540 190 L 534 140 Z"/>
+      <path d="M 500 192 L 514 228 L 526 228 L 540 192 Z"/>
+      <path d="M 514 228 L 513 252 C 513 259 527 259 527 252 L 526 228 Z"/>
+    </g>
+    <path d="M 490 144 C 480 168 492 190 508 200" fill="none" stroke="var(--fig-mute, #8a939e)" stroke-width="1.2" stroke-dasharray="4 3"/>
+    <path d="M 550 144 C 560 168 548 190 532 200" fill="none" stroke="var(--fig-mute, #8a939e)" stroke-width="1.2" stroke-dasharray="4 3"/>
+    <g data-layer="cerv">
+      <path d="M 470.2 193.2 L 509.8 198.8" stroke="var(--fig-accent, #a95a22)" stroke-width="7" stroke-linecap="round" fill="none"/>
+      <path d="M 530.2 198.8 L 569.8 193.2" stroke="var(--fig-accent, #a95a22)" stroke-width="7" stroke-linecap="round" fill="none"/>
+    </g>
+    <g data-layer="thor">
+      <path d="M 471.0 189.8 L 509.0 202.2" stroke="var(--fig-accent, #a95a22)" stroke-width="7" stroke-linecap="round" fill="none"/>
+      <path d="M 531.0 202.2 L 569.0 189.8" stroke="var(--fig-accent, #a95a22)" stroke-width="7" stroke-linecap="round" fill="none"/>
+    </g>
+    <g data-layer="lumb">
+      <path d="M 483.2 177.2 L 496.8 214.8" stroke="var(--fig-accent, #a95a22)" stroke-width="7" stroke-linecap="round" fill="none"/>
+      <path d="M 543.2 214.8 L 556.8 177.2" stroke="var(--fig-accent, #a95a22)" stroke-width="7" stroke-linecap="round" fill="none"/>
+    </g>
+    <path d="M 30 462 L 110 462" stroke="var(--fig-mute, #8a939e)" fill="none" stroke-dasharray="4 3"/>
+    <path d="M 200 462 L 280 462" stroke="var(--fig-mute, #8a939e)" fill="none" stroke-dasharray="4 3"/>
+    <text x="16" y="486" font-size="12">rotation, each side</text>
+    <text x="200" y="486" font-size="12">flexion</text>
+    <text x="16" y="332" font-size="11" fill="var(--fig-mute, #8a939e)">both gauges drawn to one scale, in degrees</text>
+    <g data-layer="cerv">
+      <path d="M 30.0 462.0 L 37.0 382.3" stroke="var(--fig-accent, #a95a22)" stroke-width="2.5" fill="none"/>
+      <path d="M 110.0 462.0 A 80 80 0 0 0 37.0 382.3" fill="none" stroke="var(--fig-accent, #a95a22)" stroke-width="2.5"/>
+      <text x="43.0" y="374.3" font-size="12" font-weight="600" fill="var(--fig-accent, #a95a22)">85</text>
+      <path d="M 200.0 462.0 L 235.1 390.1" stroke="var(--fig-brand, #0f5f66)" stroke-width="2.5" fill="none"/>
+      <path d="M 280.0 462.0 A 80 80 0 0 0 235.1 390.1" fill="none" stroke="var(--fig-brand, #0f5f66)" stroke-width="2.5"/>
+      <text x="241.1" y="382.1" font-size="12" font-weight="600" fill="var(--fig-brand, #0f5f66)">64</text>
+    </g>
+    <g data-layer="thor">
+      <path d="M 30.0 462.0 L 84.6 403.5" stroke="var(--fig-accent, #a95a22)" stroke-width="2.5" fill="none"/>
+      <path d="M 110.0 462.0 A 80 80 0 0 0 84.6 403.5" fill="none" stroke="var(--fig-accent, #a95a22)" stroke-width="2.5"/>
+      <text x="90.6" y="399.5" font-size="12" font-weight="600" fill="var(--fig-accent, #a95a22)">47</text>
+      <path d="M 200.0 462.0 L 271.9 426.9" stroke="var(--fig-brand, #0f5f66)" stroke-width="2.5" fill="none"/>
+      <path d="M 280.0 462.0 A 80 80 0 0 0 271.9 426.9" fill="none" stroke="var(--fig-brand, #0f5f66)" stroke-width="2.5"/>
+      <text x="277.9" y="422.9" font-size="12" font-weight="600" fill="var(--fig-brand, #0f5f66)">26</text>
+    </g>
+    <g data-layer="lumb">
+      <path d="M 30.0 462.0 L 107.2 440.9" stroke="var(--fig-accent, #a95a22)" stroke-width="2.5" fill="none"/>
+      <path d="M 110.0 462.0 A 80 80 0 0 0 107.2 440.9" fill="none" stroke="var(--fig-accent, #a95a22)" stroke-width="2.5"/>
+      <text x="113.2" y="440.9" font-size="12" font-weight="600" fill="var(--fig-accent, #a95a22)">15.3</text>
+      <path d="M 200.0 462.0 L 233.8 389.5" stroke="var(--fig-brand, #0f5f66)" stroke-width="2.5" fill="none"/>
+      <path d="M 280.0 462.0 A 80 80 0 0 0 233.8 389.5" fill="none" stroke="var(--fig-brand, #0f5f66)" stroke-width="2.5"/>
+      <text x="239.8" y="403.5" font-size="12" font-weight="600" fill="var(--fig-brand, #0f5f66)">65</text>
+    </g>
+    <g data-layer="cerv">
+      <text x="300" y="352" font-size="13" font-weight="600" fill="var(--fig-accent, #a95a22)">Cervical: plane 45 degrees from transverse</text>
+      <text x="300" y="370" font-size="12" fill="var(--fig-mute, #8a939e)">rotation 85 and bending 49 each side, always coupled</text>
+    </g>
+    <g data-layer="thor">
+      <text x="300" y="400" font-size="13" font-weight="600" fill="var(--fig-accent, #a95a22)">Thoracic: plane 60 degrees from transverse</text>
+      <text x="300" y="418" font-size="12" fill="var(--fig-mute, #8a939e)">the joint allows 47 each side, the ribs are the limit</text>
+    </g>
+    <g data-layer="lumb">
+      <text x="300" y="448" font-size="13" font-weight="600" fill="var(--fig-accent, #a95a22)">Lumbar: plane vertical, close to sagittal</text>
+      <text x="300" y="466" font-size="12" fill="var(--fig-mute, #8a939e)">flexion 65 like the neck, rotation only 15.3 each side</text>
+    </g>
+  </g>
+</svg>
