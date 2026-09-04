@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Spine You Will Touch | HOH 3015 Companion Text</title>
+<meta name="description" content="The seven chapter companion text for HOH 3015 Chiropractic History, Theory, and Practice at Vermont State University. No purchase required.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><text y='19' font-size='19'>&#128218;</text></svg>">
+<style>
+:root{
+  --bg:#f6f3ec; --page:#fffdf8; --ink:#1b2430; --ink-soft:#39445200; --muted:#5f6b78;
+  --line:#ded6c6; --line-soft:#eae4d6; --brand:#0f5f66; --brand-soft:#e2eeee;
+  --accent:#a95a22; --accent-soft:#f6e9dc; --good:#2c6e49;
+  --serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,serif;
+  --sans:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+  --fs:1.0;
+}
+:root{ --ink-soft:#394452; --btn-ink:#ffffff; --fig-accent-strong:#8a4718;
+  --fig-accent:#a95a22; --fig-brand:#0f5f66; --fig-warn:#b4423a;
+  --fig-mute:#7c8894; --fig-fill:rgba(27,36,48,.055); --u3:#7a5ea8; }
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#12161c; --page:#181e26; --ink:#e9ecef; --ink-soft:#c6ccd4; --muted:#98a3af;
+    --line:#2c353f; --line-soft:#222a33; --brand:#5cb5bb; --brand-soft:#163234;
+    --accent:#e0a06a; --accent-soft:#33261b; --good:#6fbf90;
+    --fig-accent:#e8b184; --fig-accent-strong:#f0c39c; --fig-brand:#5cb5bb;
+    --fig-warn:#e8877e; --fig-mute:#98a3af; --fig-fill:rgba(233,236,239,.07);
+    --btn-ink:#0d1418;
+  }
+}
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.68}
+
+/* ---- top bar ---- */
+.bar{position:sticky;top:0;z-index:30;background:color-mix(in srgb,var(--bg) 90%,transparent);
+  backdrop-filter:blur(10px) saturate(1.4);border-bottom:1px solid var(--line)}
+.bar-in{max-width:1080px;margin:0 auto;padding:9px 20px;display:flex;align-items:center;gap:12px}
+.bar h1{font-family:var(--serif);font-size:1rem;font-weight:600;margin:0;letter-spacing:-.01em;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.bar .sub{color:var(--muted);font-size:.78rem;font-weight:400;display:block}
+.spacer{margin-left:auto}
+.ctrl{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--page);
+  color:var(--ink);border-radius:999px;padding:7px 13px;font-size:.83rem;font-weight:650;cursor:pointer;
+  font-family:inherit}
+.ctrl:hover{border-color:var(--brand);color:var(--brand)}
+.ctrl.icon{padding:7px 10px;min-width:34px;justify-content:center}
+.progress{height:3px;background:var(--line-soft)}
+.progress > i{display:block;height:100%;width:0;background:var(--brand);transition:width .3s ease}
+
+/* ---- contents drawer ---- */
+.scrim{position:fixed;inset:0;background:rgba(10,14,20,.44);opacity:0;pointer-events:none;
+  transition:opacity .2s ease;z-index:40}
+.scrim.on{opacity:1;pointer-events:auto}
+.toc{position:fixed;top:0;left:0;bottom:0;width:min(420px,88vw);background:var(--page);z-index:50;
+  border-right:1px solid var(--line);transform:translateX(-102%);transition:transform .24s ease;
+  display:flex;flex-direction:column;visibility:hidden}
+.toc.on{transform:none;visibility:visible}
+.toc-head{padding:20px 22px 14px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:12px}
+.toc-head h2{font-family:var(--serif);font-size:1.1rem;margin:0;font-weight:600}
+.toc-head .spacer{margin-left:auto}
+.toc ol{list-style:none;margin:0;padding:10px 12px 24px;overflow-y:auto;flex:1}
+.toc-item{display:flex;gap:13px;align-items:flex-start;width:100%;text-align:left;background:none;
+  border:0;padding:11px 12px;border-radius:9px;cursor:pointer;color:inherit;font-family:inherit;font-size:.93rem}
+.toc-item:hover{background:var(--brand-soft)}
+.toc-item.here{background:var(--brand-soft);box-shadow:inset 3px 0 0 var(--brand)}
+.toc-n{font-family:var(--mono);font-size:.72rem;font-weight:700;color:var(--muted);padding-top:3px}
+.toc-t{flex:1;font-weight:600;line-height:1.35}
+.toc-m{display:block;font-weight:400;font-size:.78rem;color:var(--muted);margin-top:2px}
+.toc-dot{width:9px;height:9px;border-radius:50%;border:1.5px solid var(--line);margin-top:5px;flex:0 0 auto}
+.toc-item.read .toc-dot{background:var(--good);border-color:var(--good)}
+.toc-foot{padding:12px 22px 18px;border-top:1px solid var(--line);font-size:.8rem;color:var(--muted)}
+
+/* ---- reading area ---- */
+main{max-width:1080px;margin:0 auto;padding:0 20px}
+.chap{display:none;padding:46px 0 8px;max-width:40em;margin:0 auto;
+  font-size:calc(1.06rem * var(--fs));font-family:var(--serif)}
+.chap.on{display:block}
+.ch-num{font-family:var(--mono);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;
+  color:var(--accent);margin:0 0 10px;font-weight:700}
+.chap h2{font-family:var(--serif);font-size:calc(1.9rem * var(--fs));line-height:1.16;font-weight:600;
+  letter-spacing:-.02em;margin:0 0 18px}
+.ch-hook{font-size:calc(1.08rem * var(--fs));color:var(--muted);font-style:italic;
+  border-left:2px solid var(--accent);padding-left:16px;margin:0 0 30px}
+.chap p{margin:0 0 20px;color:var(--ink-soft)}
+.chap strong{color:var(--ink);font-weight:650}
+.ch-note{background:var(--page);border:1px solid var(--line);border-left:3px solid var(--brand);
+  border-radius:0 10px 10px 0;padding:18px 22px;margin:28px 0;font-family:var(--sans);
+  font-size:calc(.94rem * var(--fs))}
+.ch-note h3{margin:0 0 7px;font-size:.76rem;letter-spacing:.1em;text-transform:uppercase;
+  color:var(--brand);font-weight:700}
+.ch-note p{margin:0;color:var(--ink-soft)}
+.ch-handoff{margin-top:28px;padding-top:20px;border-top:1px solid var(--line-soft);
+  color:var(--muted);font-style:italic}
+
+/* ---- chapter opener plate ---- */
+.ch-plate{display:block;width:100%;height:auto;margin:0 0 26px;color:var(--ink);
+  max-width:none}
+
+/* ---- figures ---- */
+.ch-fig{margin:36px -40px;padding:22px 22px 0;background:var(--page);border:1px solid var(--line);
+  border-radius:14px;font-family:var(--sans)}
+.ch-fig svg{display:block;width:100%;height:auto;color:var(--ink);cursor:zoom-in}
+.ch-fig figcaption{font-size:calc(.88rem * var(--fs));color:var(--muted);line-height:1.55;
+  margin-top:16px;padding:14px 0 18px;border-top:1px solid var(--line)}
+.ch-fig figcaption::before{content:"Figure";font-family:var(--mono);font-size:.64rem;
+  letter-spacing:.14em;text-transform:uppercase;color:var(--fig-accent);display:block;
+  margin-bottom:5px;font-weight:700}
+
+/* figure lightbox */
+.lb{position:fixed;inset:0;background:rgba(8,11,15,.88);z-index:80;display:none;
+  align-items:center;justify-content:center;padding:28px;cursor:zoom-out}
+.lb.on{display:flex}
+.lb-inner{background:var(--page);border-radius:16px;padding:26px;max-width:1100px;width:100%;
+  max-height:92vh;overflow:auto;cursor:default}
+.lb-inner svg{width:100%;height:auto;color:var(--ink)}
+.lb-fig{margin:0;padding:0;background:none;border:0}
+.lb-fig figcaption{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin-top:16px;padding-top:14px;border-top:1px solid var(--line)}
+.lb-fig .ch-fig figcaption::before{content:none}
+.lb-cap{font-family:var(--sans);font-size:.9rem;color:var(--muted);margin-top:16px;
+  padding-top:14px;border-top:1px solid var(--line)}
+.lb-close{position:absolute;top:18px;right:22px;background:none;border:0;color:#fff;
+  font-size:2rem;cursor:pointer;line-height:1;opacity:.8}
+.lb-close:hover{opacity:1}
+
+/* ---- pull quote ---- */
+.ch-pull{font-family:var(--serif);font-size:calc(1.3rem * var(--fs));line-height:1.38;
+  color:var(--ink);font-style:italic;border-left:3px solid var(--fig-accent);
+  padding:2px 0 2px 24px;margin:34px 0}
+
+/* ---- key terms ---- */
+.ch-terms{background:var(--page);border:1px solid var(--line);border-radius:14px;
+  padding:22px 26px;margin:32px 0;font-family:var(--sans);font-size:calc(.94rem * var(--fs))}
+.ch-terms h3{font-family:var(--mono);font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--fig-brand);margin:0 0 12px;font-weight:700}
+.ch-terms dl{margin:0}
+.ch-terms dt{font-weight:700;margin-top:13px;color:var(--ink)}
+.ch-terms dt:first-of-type{margin-top:0}
+.ch-terms dd{margin:3px 0 0;color:var(--ink-soft);line-height:1.55}
+
+/* ---- discussion springboard ---- */
+.ch-spring{border:1px dashed var(--fig-accent);border-radius:14px;padding:20px 26px;margin:32px 0;
+  font-family:var(--sans);font-size:calc(.95rem * var(--fs));
+  background:color-mix(in srgb, var(--fig-accent) 8%, transparent)}
+.ch-spring h3{font-family:var(--mono);font-size:.68rem;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--fig-accent);margin:0 0 8px;font-weight:700}
+.ch-spring p{margin:0;color:var(--ink-soft)}
+
+/* ---- cover ---- */
+#cover{display:block;max-width:40em;margin:0 auto;padding:78px 0 40px;text-align:center}
+#cover.off{display:none}
+#cover .kicker{font-family:var(--mono);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--accent)}
+#cover h2{font-family:var(--serif);font-size:clamp(2rem,6vw,3rem);line-height:1.1;font-weight:600;
+  letter-spacing:-.025em;margin:18px 0 14px}
+#cover .by{color:var(--muted);font-size:.95rem;margin-bottom:30px}
+#cover .blurb{font-family:var(--serif);font-size:1.1rem;color:var(--ink-soft);text-align:left;margin-bottom:30px}
+.cover-art{display:block;width:min(660px,100%);height:auto;margin:10px auto 26px;color:var(--ink)}
+.cov-ch{cursor:pointer}
+.cov-ch .cov-t,.cov-ch .cov-n,.cov-ch .cov-lead,.cov-ch .cov-dot{transition:opacity .16s,fill .16s}
+.cov-ch:hover .cov-t{fill:var(--brand)}
+.cov-ch:hover .cov-lead{opacity:.85}
+.cov-ch:hover .cov-hit{fill:var(--brand-soft)}
+.cov-ch:focus{outline:none}
+.cov-ch:focus-visible .cov-hit{fill:var(--brand-soft);stroke:var(--brand);stroke-width:1.5}
+@media (max-width:620px){.cover-art{width:100%}}
+#cover .stat-row{display:flex;gap:26px;justify-content:center;flex-wrap:wrap;margin:26px 0 4px;
+  font-family:var(--mono);font-size:.74rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+#cover .stat-row b{display:block;font-size:1.5rem;color:var(--brand);letter-spacing:-.02em;
+  font-family:var(--serif);font-weight:600;text-transform:none}
+
+/* ---- pager ---- */
+.pager{max-width:40em;margin:0 auto;padding:34px 0 70px;display:flex;gap:12px;justify-content:space-between;
+  border-top:1px solid var(--line);margin-top:34px}
+.pgbtn{flex:1;max-width:47%;text-align:left;background:var(--page);border:1px solid var(--line);
+  border-radius:10px;padding:13px 16px;cursor:pointer;color:inherit;font-family:inherit;font-size:.9rem}
+.pgbtn:disabled{opacity:.35;cursor:default}
+.pgbtn:not(:disabled):hover{border-color:var(--brand)}
+.pgbtn .lbl{display:block;font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);
+  font-family:var(--mono);font-weight:700;margin-bottom:3px}
+.pgbtn .ttl{font-weight:650;line-height:1.3}
+.pgbtn.next{text-align:right}
+
+.tip{max-width:40em;margin:0 auto 0;padding:0 0 40px;font-size:.82rem;color:var(--muted);text-align:center}
+kbd{font-family:var(--mono);font-size:.76rem;background:var(--page);border:1px solid var(--line);
+  border-bottom-width:2px;border-radius:5px;padding:1px 6px}
+
+@media (max-width:900px){ .ch-fig{margin:32px 0} }
+@media (max-width:640px){
+  .bar h1{font-size:.9rem}
+  .chap{padding-top:34px}
+  .hide-sm{display:none}
+}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;
+  clip:rect(0 0 0 0);white-space:nowrap;border:0}
+.skiplink{position:absolute;left:-9999px;top:0;z-index:100;background:var(--brand);color:#fff;
+  padding:10px 16px;border-radius:0 0 8px 0;font-family:var(--sans);font-size:.9rem;
+  font-weight:650;text-decoration:none}
+.skiplink:focus{left:0}
+main:focus{outline:none}
+:focus-visible{outline:2.5px solid var(--brand);outline-offset:2px;border-radius:3px}
+
+@media (prefers-reduced-motion: reduce){
+  *,*::before,*::after{animation-duration:.001ms !important;animation-iteration-count:1 !important;
+    transition-duration:.001ms !important;scroll-behavior:auto !important}
+}
+
+@media print{
+  .bar,.pager,.tip,.toc,.scrim,.lb,.skiplink,.sr-only,#startBtn,
+  .fig-controls,.fig-readout,.progress{display:none !important}
+  main{padding:0}
+  .chap{display:block !important;max-width:none;page-break-before:always}
+  .chap:first-of-type{page-break-before:avoid}
+  #cover{display:block !important;page-break-after:always;text-align:center}
+  #cover .cov-hit{display:none}
+  .cover-art{width:4.6in;margin:20px auto}
+  .stat-row{display:none}
+  body{background:#fff;color:#000;font-size:11pt}
+  .ch-plate{display:none}
+  .ch-fig,.ch-note,.ch-pull,.ch-terms,.ch-check{page-break-inside:avoid}
+  .ch-fig svg{max-height:4.2in}
+  h2,h3{page-break-after:avoid}
+  a[href^="http"]::after{content:" (" attr(href) ")";font-size:.8em;color:#555}
+  @page{size:letter;margin:0.8in}
+}
+/*--FIGCSS--*/
+</style>
+</head>
+<body>
+
+<a class="skiplink" href="#main">Skip to the text</a>
+
+<header class="bar">
+  <div class="bar-in">
+    <button class="ctrl" id="tocBtn" aria-label="Open contents" aria-expanded="false" aria-controls="toc">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+      <span class="hide-sm">Contents</span>
+    </button>
+    <h1>The Spine You Will Touch<span class="sub" id="crumb">HOH 3015 companion text</span></h1>
+    <span class="spacer"></span>
+    <button class="ctrl" id="printBtn" aria-label="Print this book, or save it as a PDF">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9V3h12v6M6 18H4v-7h16v7h-2M8 15h8v6H8z"/></svg>
+      <span class="hide-sm">Print or PDF</span>
+    </button>
+    <button class="ctrl icon" id="smaller" aria-label="Smaller text">A</button>
+    <button class="ctrl icon" id="bigger" aria-label="Larger text" style="font-size:1.02rem">A</button>
+  </div>
+  <div class="progress"><i id="bar"></i></div>
+</header>
+
+<div class="scrim" id="scrim"></div>
+<nav class="toc" id="toc" aria-label="Contents">
+  <div class="toc-head">
+    <h2>Contents</h2>
+    <span class="spacer"></span>
+    <button class="ctrl icon" id="tocClose" aria-label="Close contents">&times;</button>
+  </div>
+  <ol>
+    <li><button class="toc-item" data-go="0"><span class="toc-n">&#9670;</span><span class="toc-t">Cover<span class="toc-m">About this text</span></span><span class="toc-dot" aria-hidden="true"></span></button></li>
+<!--TOC-->
+  </ol>
+  <div class="toc-foot" id="tocFoot">Your place is saved in this browser only.</div>
+</nav>
+
+<p class="sr-only" id="announce" role="status" aria-live="polite"></p>
+
+<main id="main" tabindex="-1">
+
+<div id="cover">
+  <p class="kicker">Companion text</p>
+  <h2>The Spine You Will Touch</h2>
+  <p class="by">The reading for HOH 3015 Chiropractic History, Theory, and Practice<br>Akash Garg, D.C. &middot; Vermont State University</p>
+  <!--COVER-->
+  <div class="blurb">
+    <p>Seven chapters, one for each week of the session. This is the required reading for the
+    course and it costs you nothing. Read the chapter early in the week and everything else, the
+    lecture, the discussion, the assignment, will land better.</p>
+    <p>Every chapter states a question, works toward an answer, and tells you where the evidence
+    runs out. Where the record is genuinely contested, this book says so instead of picking the
+    comfortable version. Nothing you do in this reader is tracked or recorded.</p>
+  </div>
+  <div class="stat-row">
+    <span><b>7</b>chapters</span><span><b>__FIGS__</b>figures</span><span><b>__WORDS__</b>words</span><span><b>0</b>tracking</span>
+  </div>
+  <button class="ctrl" id="startBtn" style="background:var(--brand);color:var(--btn-ink);border-color:transparent;padding:11px 22px">Begin chapter 1</button>
+</div>
+
+<!--CHAPTERS-->
+
+<div class="pager" id="pager">
+  <button class="pgbtn prev" id="prevBtn"><span class="lbl">Previous</span><span class="ttl">Cover</span></button>
+  <button class="pgbtn next" id="nextBtn"><span class="lbl">Next</span><span class="ttl">Chapter 1</span></button>
+</div>
+<p class="tip">Use <kbd>&larr;</kbd> and <kbd>&rarr;</kbd> to turn pages, or <kbd>c</kbd> for contents.</p>
+
+</main>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Figure, shown large">
+  <button class="lb-close" id="lbClose" aria-label="Close figure">&times;</button>
+  <div class="lb-inner" id="lbInner"></div>
+</div>
+
+<script>
+/*--FIGJS--*/
+</script>
+<script>
+(function(){
+  var KEY = 'hoh3015_book_v1';
+  var chaps = Array.prototype.slice.call(document.querySelectorAll('.chap'));
+  var cover = document.getElementById('cover');
+  var items = Array.prototype.slice.call(document.querySelectorAll('.toc-item'));
+  var bar = document.getElementById('bar');
+  var crumb = document.getElementById('crumb');
+  var prevBtn = document.getElementById('prevBtn'), nextBtn = document.getElementById('nextBtn');
+  var toc = document.getElementById('toc'), scrim = document.getElementById('scrim');
+  var titles = chaps.map(function(c){ return c.getAttribute('data-title') || 'Chapter'; });
+  var state = { at: 0, read: [], fs: 1 };
+
+  try { var raw = localStorage.getItem(KEY); if (raw) { var p = JSON.parse(raw);
+    if (p && typeof p === 'object') { state.at = p.at|0; state.read = Array.isArray(p.read)? p.read : [];
+      state.fs = typeof p.fs === 'number' ? p.fs : 1; } } } catch(e){}
+  if (state.at < 0 || state.at > chaps.length) state.at = 0;
+
+  function save(){ try { localStorage.setItem(KEY, JSON.stringify(state)); } catch(e){} }
+
+  function render(){
+    document.documentElement.style.setProperty('--fs', state.fs);
+    cover.classList.toggle('off', state.at !== 0);
+    chaps.forEach(function(c,i){ c.classList.toggle('on', state.at === i+1); });
+    items.forEach(function(b){
+      var n = +b.dataset.go;
+      b.classList.toggle('here', n === state.at);
+      b.classList.toggle('read', state.read.indexOf(n) !== -1 && n !== 0);
+    });
+    var pct = state.read.filter(function(n){return n>0;}).length / chaps.length * 100;
+    bar.style.width = pct + '%';
+    crumb.textContent = state.at === 0 ? 'Companion text'
+      : 'Chapter ' + state.at + ' of ' + chaps.length + '  ·  ' + Math.round(pct) + '% read';
+    document.getElementById('tocFoot').textContent =
+      state.read.filter(function(n){return n>0;}).length + ' of ' + chaps.length +
+      ' chapters marked read. Your place is saved in this browser only.';
+    prevBtn.disabled = state.at === 0;
+    nextBtn.disabled = state.at === chaps.length;
+    prevBtn.querySelector('.ttl').textContent = state.at <= 1 ? 'Cover' : titles[state.at-2];
+    nextBtn.querySelector('.ttl').textContent = state.at >= chaps.length ? 'End of the book' : titles[state.at];
+  }
+
+  function go(n){
+    state.at = Math.max(0, Math.min(chaps.length, n));
+    if (state.at > 0 && state.read.indexOf(state.at) === -1) state.read.push(state.at);
+    save(); render(); window.scrollTo({top:0, behavior:'instant'});
+    closeToc();
+    var ann = document.getElementById('announce');
+    if (ann) ann.textContent = state.at === 0
+      ? 'Cover'
+      : 'Chapter ' + state.at + ' of ' + chaps.length + ', ' + titles[state.at - 1];
+    var m = document.getElementById('main');
+    if (m) m.focus({ preventScroll: true });
+  }
+  var tocBtn = document.getElementById('tocBtn');
+  function openToc(){
+    toc.classList.add('on'); scrim.classList.add('on');
+    tocBtn.setAttribute('aria-expanded','true');
+    var first = toc.querySelector('.toc-item'); if(first) first.focus();
+  }
+  function closeToc(){
+    var was = toc.classList.contains('on');
+    toc.classList.remove('on'); scrim.classList.remove('on');
+    tocBtn.setAttribute('aria-expanded','false');
+    if(was) tocBtn.focus();
+  }
+
+  /* The cover chapter markers only navigate when scripting is on, so they get their
+     link roles here rather than in the drawing. Same reason the cover drawing stops
+     being a single image once its parts are reachable. */
+  (function(){
+    var art = document.querySelector('#cover .cover-art');
+    if(!art) return;
+    var rows = art.querySelectorAll('.cov-ch');
+    if(!rows.length) return;
+    art.setAttribute('role','group');
+    rows.forEach(function(g){
+      g.setAttribute('role','link');
+      g.setAttribute('tabindex','0');
+      var lbl = g.getAttribute('data-label');
+      if(lbl) g.setAttribute('aria-label', lbl);
+    });
+  })();
+
+  document.getElementById('printBtn').addEventListener('click', function(){
+    window.print();
+  });
+
+  document.getElementById('tocBtn').addEventListener('click', openToc);
+  document.getElementById('tocClose').addEventListener('click', closeToc);
+  scrim.addEventListener('click', closeToc);
+  document.addEventListener('click', function(e){
+    var t = e.target.closest && e.target.closest('[data-go]');
+    if (t) go(+t.dataset.go);
+  });
+  document.addEventListener('keydown', function(e){
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    var t = e.target.closest && e.target.closest('.cov-ch');
+    if (t) { e.preventDefault(); go(+t.dataset.go); }
+  });
+  prevBtn.addEventListener('click', function(){ go(state.at - 1); });
+  nextBtn.addEventListener('click', function(){ go(state.at + 1); });
+  document.getElementById('startBtn').addEventListener('click', function(){ go(1); });
+  document.getElementById('bigger').addEventListener('click', function(){
+    state.fs = Math.min(1.4, +(state.fs + 0.08).toFixed(2)); save(); render(); });
+  document.getElementById('smaller').addEventListener('click', function(){
+    state.fs = Math.max(0.86, +(state.fs - 0.08).toFixed(2)); save(); render(); });
+  document.addEventListener('keydown', function(e){
+    if (e.target && /INPUT|TEXTAREA/.test(e.target.tagName)) return;
+    if (e.key === 'ArrowRight') go(state.at + 1);
+    else if (e.key === 'ArrowLeft') go(state.at - 1);
+    else if (e.key === 'c' || e.key === 'C') { toc.classList.contains('on') ? closeToc() : openToc(); }
+    else if (e.key === 'Escape') { if(lb.classList.contains('on')) closeLb(); else closeToc(); }
+  });
+
+  /* figure lightbox: click any diagram to see it large */
+  var lb = document.getElementById('lb'), lbInner = document.getElementById('lbInner');
+  var lbReturn = null;
+  function openLb(fig){
+    lbReturn = document.activeElement;
+    var svg = fig.querySelector('svg'), cap = fig.querySelector('figcaption');
+    if(!svg) return;
+    lbInner.innerHTML = '<figure class="ch-fig lb-fig">' + svg.outerHTML +
+      (cap ? '<figcaption>' + cap.innerHTML + '</figcaption>' : '') + '</figure>';
+    lb.classList.add('on');
+    if (typeof window.enhanceFigures === 'function') window.enhanceFigures(lbInner);
+    document.getElementById('lbClose').focus();
+  }
+  function closeLb(){
+    var was = lb.classList.contains('on');
+    lb.classList.remove('on'); lbInner.innerHTML='';
+    if (was && lbReturn && lbReturn.focus) lbReturn.focus();
+    lbReturn = null;
+  }
+  document.addEventListener('click', function(e){
+    var fig = e.target.closest && e.target.closest('.ch-fig');
+    if (fig && e.target.closest('svg')) { openLb(fig); return; }
+    if (e.target === lb || e.target.id === 'lbClose') closeLb();
+  });
+
+  /* Hub deep link: book/index.html#ch-09 opens straight to that chapter. */
+  (function(){
+    var m = /^#ch-(\d{1,2})$/.exec(location.hash || '');
+    if(m){ var n = parseInt(m[1], 10); if(n >= 1 && n <= chaps.length) state.at = n; }
+  })();
+
+  render();
+})();
+</script>
+</body>
+</html>
