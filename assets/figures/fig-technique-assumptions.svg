@@ -1,0 +1,73 @@
+<svg viewBox="0 0 720 390" role="img"
+  data-steps='["Two questions come first, and they are answered before any patient is in the room: what the clinically relevant lesion is, and how you find it in this particular body.","Now the named systems. Students usually meet them as a menu of styles, as though the difference were a matter of taste. Each one is really a theory of the lesion wearing work clothes.","Every system must commit to an answer in each column. Change the account of the lesion and the examination changes with it, which is why the locating procedure is the part that gives a system away.","Both answers are settled before the first contact, so the examination can only find what they allow. That is what makes a system testable: it has told you in advance what would count as evidence against it."]'
+  aria-label="Every technique system answers two questions before it touches anyone: what the lesion is, and how it is located, so the examination can only find what those assumptions allow.">
+  <defs>
+    <marker id="arrow-technique" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
+    </marker>
+    <marker id="arrow-technique-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--fig-accent, #a95a22)"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+    <text data-step="2" x="101" y="40" text-anchor="middle" font-weight="600">Technique system</text>
+    <text data-step="1" x="365" y="40" text-anchor="middle" font-weight="600">What is the lesion?</text>
+    <text data-step="1" x="619" y="40" text-anchor="middle" font-weight="600">How is it located?</text>
+
+    <rect data-step="2" x="16" y="56" width="170" height="200" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+    <g data-step="2" data-hot="Diversified" data-tip="The closest thing the profession has to a common language, taught as core curriculum in most programs and eclectic by design. Its working account of the lesion is restricted joint motion, found by palpating segments through their range. It commits to less than the systematized approaches, which makes it hard to refute and equally hard to confirm.">
+      <text x="101" y="86" text-anchor="middle" font-size="12">Diversified</text>
+    </g>
+    <g data-step="2" data-hot="Gonstead" data-tip="Commits to considerably more: the lesion is a specific segment displaced in a describable direction relative to the one below, named from full spine radiographs in a formal listing vocabulary before the patient is touched. Admirably falsifiable, and the heaviest burden, since imaging and palpation must be measuring the same thing.">
+      <text x="101" y="116" text-anchor="middle" font-size="12">Gonstead</text>
+    </g>
+    <g data-step="2" data-hot="Activator Methods" data-tip="A handheld spring loaded instrument delivers a small, fast, reproducible impulse, and the level is chosen by a protocol built around comparative leg length. The mechanical claim is modest and testable. The diagnostic claim is exposed, because the whole locating step depends on the leg check meaning what the system says it means.">
+      <text x="101" y="146" text-anchor="middle" font-size="12">Activator Methods</text>
+    </g>
+    <g data-step="2" data-hot="Thompson drop table" data-tip="A table with segmented sections cocked to a set tension that drop as the thrust is delivered, so a lighter push does the work. The commitment is largely biomechanical, and part of the motive has nothing to do with any theory of the lesion: manual thrusting many times a day for a working life is a real occupational hazard.">
+      <text x="101" y="176" text-anchor="middle" font-size="12">Thompson drop table</text>
+    </g>
+    <g data-step="2" data-hot="Sacro Occipital Technique" data-tip="Sorts patients into categories by patterns of pelvic and cranial findings and treats many of them with wedge shaped blocks under the pelvis. Two claims are bundled here and can come apart: sustained low load positioning, which could be studied on its own terms, and a rhythmic cranial motion, which mainstream anatomy does not accept.">
+      <text x="101" y="206" text-anchor="middle" font-size="12">Sacro Occipital Technique</text>
+    </g>
+    <g data-step="2" data-hot="upper cervical approaches" data-tip="Direct descendants of the late work of B.J. Palmer, carrying the founding theory in its purest form. If one lesion at the top of the spine can disturb the whole nervous system, one precise correction there should be enough. The commitment is maximal: one lesion, one place, systemic consequences.">
+      <text x="101" y="236" text-anchor="middle" font-size="12">upper cervical approaches</text>
+    </g>
+
+    <path data-step="3" d="M186 156 L 272 156" stroke="currentColor" fill="none" marker-end="url(#arrow-technique)"/>
+    <text data-step="3" x="231" y="148" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">must commit to</text>
+
+    <rect data-step="1" x="280" y="56" width="170" height="200" rx="8" fill="none" stroke="var(--fig-accent, #a95a22)"/>
+    <text data-step="1" x="365" y="86" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">one answer is assumed</text>
+    <g data-step="3">
+      <text x="365" y="120" text-anchor="middle" font-size="12">a position out of place</text>
+      <text x="365" y="150" text-anchor="middle" font-size="12">a restricted motion</text>
+      <text x="365" y="180" text-anchor="middle" font-size="12">a functional disturbance</text>
+      <text x="365" y="214" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">or some mixture</text>
+    </g>
+
+    <path data-step="3" d="M450 156 L 526 156" stroke="currentColor" fill="none" marker-end="url(#arrow-technique)"/>
+    <text data-step="3" x="488" y="148" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">which fixes</text>
+
+    <rect data-step="1" x="534" y="56" width="170" height="200" rx="8" fill="none" stroke="var(--fig-accent, #a95a22)"/>
+    <text data-step="1" x="619" y="86" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">one method follows</text>
+    <g data-step="3">
+      <text x="619" y="120" text-anchor="middle" font-size="12">palpation by hand</text>
+      <text x="619" y="150" text-anchor="middle" font-size="12">an instrument reading</text>
+      <text x="619" y="180" text-anchor="middle" font-size="12">a positional finding</text>
+      <text x="619" y="214" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">or some mixture</text>
+    </g>
+
+    <g data-step="4">
+      <path d="M365 256 L 365 290 L 619 290 L 619 256" fill="none" stroke="var(--fig-accent, #a95a22)"/>
+      <path d="M492 290 L 492 306" stroke="var(--fig-accent, #a95a22)" fill="none" marker-end="url(#arrow-technique-accent)"/>
+      <text x="482" y="304" text-anchor="end" font-size="12" fill="var(--fig-accent, #a95a22)">both settled before the first contact</text>
+    </g>
+
+    <g data-step="4" data-pulse="">
+      <rect x="16" y="312" width="688" height="62" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)" stroke-dasharray="5 4"/>
+      <text x="360" y="338" text-anchor="middle" font-weight="600">The examination can only find what the assumptions allow</text>
+      <text x="360" y="359" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">the patient is met after both answers are already fixed</text>
+    </g>
+  </g>
+</svg>

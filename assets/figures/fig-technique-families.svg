@@ -1,0 +1,141 @@
+<svg viewBox="0 0 720 380" role="img"
+  data-layers='[{"k":"div","label":"Diversified","note":"The non proprietary baseline the others define themselves against: hands to find the segment, hands to move it, and no instrument of its own."},{"k":"gon","label":"Gonstead","note":"Gonstead differs on the assessment side, adding full spine films and a skin temperature instrument, then takes the rotation out of an otherwise ordinary thrust."},{"k":"act","label":"Activator Methods","note":"The only system here that hands the delivery to an instrument, and the only one whose impulse comes with a stated energy and pulse duration."},{"k":"thm","label":"Thompson Drop Table","note":"A delivery innovation rather than an assessment one: the table drops with the thrust, so the practitioner supplies less of the force."},{"k":"sot","label":"Sacro Occipital","note":"Delivers no thrust at all, using blocks under the pelvis and the weight and breathing of the patient to apply a slow sustained force."},{"k":"fdc","label":"Flexion Distraction","note":"Selected by the complaint rather than by a located segment, and its delivery is a sustained rhythm rather than a single event."},{"k":"upc","label":"Upper cervical","note":"Nearly all of the effort goes into calculating a vector from films, after which very little force is applied at a single joint."}]'
+  aria-label="Seven named chiropractic technique systems on one shared frame of two questions, how the practitioner decides where to work and how the correction is delivered, showing that the systems differ far more on the first question than on the second.">
+  <defs>
+    <marker id="fig-technique-families-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+
+    <rect x="16" y="16" width="688" height="34" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)"/>
+    <text x="32" y="38" font-size="11" fill="var(--fig-mute, #8a939e)">technique system</text>
+
+    <g data-hot="question one" data-tip="This is where the systems differ most and where the evidence is worst. A systematic review found examiners agree reasonably about where a patient reports pain on pressure, but agree at or near chance about which segment is restricted.">
+      <rect x="16" y="64" width="316" height="46" rx="8" fill="none" stroke="currentColor"/>
+      <text x="32" y="86" font-size="12" font-weight="600">How a practitioner decides where to work</text>
+      <text x="32" y="102" font-size="11" fill="var(--fig-mute, #8a939e)">question one, and the one they disagree about</text>
+    </g>
+
+    <g data-hot="question two" data-tip="Delivery reduces to a short list: a manual thrust, an instrument impulse, a table section that drops, blocks under the pelvis, or a table that moves rhythmically. Two of the seven systems here deliver no thrust at all.">
+      <rect x="388" y="64" width="316" height="46" rx="8" fill="none" stroke="currentColor"/>
+      <text x="404" y="86" font-size="12" font-weight="600">How the correction is delivered</text>
+      <text x="404" y="102" font-size="11" fill="var(--fig-mute, #8a939e)">question two, where the answers converge</text>
+    </g>
+
+    <rect x="16" y="122" width="316" height="170" rx="8" fill="none" stroke="var(--fig-mute, #8a939e)"/>
+    <rect x="388" y="122" width="316" height="170" rx="8" fill="none" stroke="var(--fig-mute, #8a939e)"/>
+    <path d="M336 207 L 382 207" stroke="currentColor" fill="none" marker-end="url(#fig-technique-families-arrow)"/>
+    <text x="359" y="198" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">then</text>
+
+    <text data-layer="div" x="360" y="39" text-anchor="middle" font-size="15" font-weight="600" fill="var(--fig-accent, #a95a22)">Diversified</text>
+    <g data-layer="div" font-size="12">
+      <text x="36" y="150">static and motion palpation</text>
+      <text x="36" y="168">patient history</text>
+      <text x="36" y="186">orthopedic and neurologic examination</text>
+      <text x="36" y="212" fill="var(--fig-mute, #8a939e)">no proprietary instrument</text>
+      <text x="408" y="150">manual high velocity low amplitude thrust</text>
+      <text x="408" y="168">aimed at one specific spinal segment</text>
+      <text x="408" y="186">intended to restore joint motion</text>
+      <text x="408" y="212" fill="var(--fig-mute, #8a939e)">used in some form by roughly 96 percent</text>
+      <text x="408" y="230" fill="var(--fig-mute, #8a939e)">of chiropractors</text>
+    </g>
+
+    <text data-layer="gon" x="360" y="39" text-anchor="middle" font-size="15" font-weight="600" fill="var(--fig-accent, #a95a22)">Gonstead, from 1923</text>
+    <g data-layer="gon" font-size="12">
+      <text x="36" y="150">full spine X ray analysis</text>
+      <text x="36" y="168">the Gonstead Radiographic Parallel</text>
+      <text x="36" y="186">measuring system</text>
+      <text x="36" y="212">the Nervoscope, a handheld instrument</text>
+      <text x="36" y="230">reading paraspinal skin temperature</text>
+      <text x="36" y="248">differences</text>
+      <text x="408" y="150">hands on high velocity low amplitude thrust</text>
+      <text x="408" y="168">specific to one segment</text>
+      <text x="408" y="186">with the rotational component removed</text>
+      <text x="408" y="212" fill="var(--fig-mute, #8a939e)">the thrust is guided by the film analysis</text>
+    </g>
+
+    <text data-layer="act" x="360" y="39" text-anchor="middle" font-size="15" font-weight="600" fill="var(--fig-accent, #a95a22)">Activator Methods</text>
+    <g data-layer="act" font-size="12">
+      <text x="36" y="150">patient prone</text>
+      <text x="36" y="168">functional leg lengths compared</text>
+      <text x="36" y="186">manual muscle testing and isolation tests</text>
+      <text x="36" y="212" fill="var(--fig-mute, #8a939e)">the segment is localised before any</text>
+      <text x="36" y="230" fill="var(--fig-mute, #8a939e)">force is applied</text>
+      <text x="408" y="150">a spring loaded handheld instrument</text>
+      <text x="408" y="168">rather than a manual thrust</text>
+      <text x="408" y="186">a small controlled impulse, no more than</text>
+      <text x="408" y="204">about 0.3 joules over a pulse of roughly</text>
+      <text x="408" y="222">3 milliseconds</text>
+    </g>
+
+    <text data-layer="thm" x="360" y="39" text-anchor="middle" font-size="15" font-weight="600" fill="var(--fig-accent, #a95a22)">Thompson Drop Table</text>
+    <g data-layer="thm" font-size="12">
+      <text x="36" y="150" fill="var(--fig-mute, #8a939e)">not described in the reference file for</text>
+      <text x="36" y="168" fill="var(--fig-mute, #8a939e)">this book, which covers the table and the</text>
+      <text x="36" y="186" fill="var(--fig-mute, #8a939e)">thrust but no assessment protocol</text>
+      <text x="36" y="212" fill="var(--fig-warn, #b4423a)">treat that as a gap in the sources,</text>
+      <text x="36" y="230" fill="var(--fig-warn, #b4423a)">not as an absence in the technique</text>
+      <text x="408" y="150">a controlled high velocity low amplitude</text>
+      <text x="408" y="168">thrust from the practitioner</text>
+      <text x="408" y="186">on a segmented table whose sections</text>
+      <text x="408" y="204">drop slightly as the thrust lands</text>
+      <text x="408" y="230" fill="var(--fig-mute, #8a939e)">gravity assists, so the practitioner</text>
+      <text x="408" y="248" fill="var(--fig-mute, #8a939e)">supplies less force</text>
+    </g>
+
+    <text data-layer="sot" x="360" y="39" text-anchor="middle" font-size="15" font-weight="600" fill="var(--fig-accent, #a95a22)">Sacro Occipital Technique</text>
+    <g data-layer="sot" font-size="12">
+      <text x="36" y="150">premise driven: the relationship between</text>
+      <text x="36" y="168">pelvis, spine and cranium, the sacrum</text>
+      <text x="36" y="186">and occiput in particular, is held to</text>
+      <text x="36" y="204">govern spinal function</text>
+      <text x="36" y="230" fill="var(--fig-mute, #8a939e)">correcting pelvic position is held to</text>
+      <text x="36" y="248" fill="var(--fig-mute, #8a939e)">have downstream effects</text>
+      <text x="408" y="150">graduated wedge shaped blocks placed</text>
+      <text x="408" y="168">under the pelvis</text>
+      <text x="408" y="186">the body weight and breathing of the</text>
+      <text x="408" y="204">patient apply gentle sustained force</text>
+      <text x="408" y="230" fill="var(--fig-mute, #8a939e)">no discrete thrust</text>
+    </g>
+
+    <text data-layer="fdc" x="360" y="39" text-anchor="middle" font-size="15" font-weight="600" fill="var(--fig-accent, #a95a22)">Flexion Distraction, the Cox technique</text>
+    <g data-layer="fdc" font-size="12">
+      <text x="36" y="150">chosen by the condition rather than by a</text>
+      <text x="36" y="168">located segment: developed for disc</text>
+      <text x="36" y="186">related complaints</text>
+      <text x="36" y="212" fill="var(--fig-mute, #8a939e)">no assessment protocol is given in the</text>
+      <text x="36" y="230" fill="var(--fig-mute, #8a939e)">reference file for this book</text>
+      <text x="408" y="150">a specialised segmented table</text>
+      <text x="408" y="168">rhythmic gentle flexion with traction</text>
+      <text x="408" y="186">and distraction of the lumbar spine</text>
+      <text x="408" y="204">intended to reduce intradiscal pressure</text>
+      <text x="408" y="222">and nerve root compression</text>
+      <text x="408" y="248" fill="var(--fig-mute, #8a939e)">no thrust</text>
+    </g>
+
+    <text data-layer="upc" x="360" y="39" text-anchor="middle" font-size="15" font-weight="600" fill="var(--fig-accent, #a95a22)">Upper cervical work</text>
+    <g data-layer="upc" font-size="12">
+      <text x="36" y="150">precise X ray imaging of head and neck</text>
+      <text x="36" y="168">NUCCA: double pivot point mathematical</text>
+      <text x="36" y="186">analysis, plus an Anatometer to track</text>
+      <text x="36" y="204">posture with fewer repeat films</text>
+      <text x="36" y="230">Blair: customised non orthogonal angled</text>
+      <text x="36" y="248">views, skin temperature and leg length</text>
+      <text x="408" y="150">low force contact at occiput and atlas</text>
+      <text x="408" y="168">NUCCA: gentle, non thrust, non twisting,</text>
+      <text x="408" y="186">specifically vectored</text>
+      <text x="408" y="212">Blair: toggle torque without recoil, with</text>
+      <text x="408" y="230">a sustained pisiform lead contact</text>
+      <text x="408" y="256" fill="var(--fig-mute, #8a939e)">Toggle Recoil: quick toggle then rapid</text>
+      <text x="408" y="274" fill="var(--fig-mute, #8a939e)">withdrawal, details not verified</text>
+    </g>
+
+    <g data-hot="the shape of the field" data-tip="Read across the layers and the right hand column repeats itself far more than the left. The systems mostly agree about what a correction is. What they disagree about is how a target is found in the first place.">
+      <rect x="16" y="308" width="688" height="56" rx="8" fill="none" stroke="var(--fig-accent, #a95a22)"/>
+      <text x="360" y="332" text-anchor="middle" font-weight="600" fill="var(--fig-accent, #a95a22)">Every system answers the same two questions.</text>
+      <text x="360" y="352" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">Switch layers and watch the right hand column repeat itself while the left hand column keeps changing.</text>
+    </g>
+
+  </g>
+</svg>

@@ -1,0 +1,106 @@
+<svg viewBox="0 0 720 560" role="img" aria-label="The back of a standing torso with the seven spinal landmarks a student can find by hand, and with the published error rate attached to each one that has one: C7 is the most prominent spinous in only about 60 to 70 percent of people, the supracristal plane crosses L5 rather than L4 in about 20 percent, and the T7 correspondence holds only with the arms at the sides.">
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13" fill="currentColor">
+    <text x="384" y="26" font-size="14" font-weight="600">Palpable landmarks, from behind</text>
+    <text x="384" y="44" font-size="12" fill="var(--fig-mute, #8a939e)">standing, with the arms hanging at the sides</text>
+
+    <path d="M 146 184 C 176 172 194 160 208 96 L 252 96 C 266 160 284 172 314 184 C 300 250 292 320 290 380 C 292 404 294 420 296 438 C 296 472 292 498 286 520 L 174 520 C 168 498 164 472 164 438 C 166 420 168 404 170 380 C 168 320 160 250 146 184 Z" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="1.5"/>
+    <g fill="none" stroke="currentColor" stroke-width="1.5">
+      <path d="M 150 190 C 132 210 126 258 128 318 C 129 366 133 404 138 430 L 162 430 C 157 400 154 362 156 318 C 158 266 160 220 168 194"/>
+      <path d="M 310 190 C 328 210 334 258 332 318 C 331 366 327 404 322 430 L 298 430 C 303 400 306 362 304 318 C 302 266 300 220 292 194"/>
+    </g>
+    <ellipse cx="230" cy="62" rx="32" ry="42" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="1.5"/>
+    <path d="M 230 110 L 230 516" stroke="var(--fig-mute, #8a939e)" stroke-width="1" fill="none" stroke-dasharray="3 4"/>
+    <g fill="none" stroke="var(--fig-mute, #8a939e)" stroke-width="1.4">
+      <path d="M 204 202 L 209 284 L 172 218 Z"/>
+      <path d="M 256 202 L 251 284 L 288 218 Z"/>
+      <path d="M 206 222 L 168 200"/>
+      <path d="M 254 222 L 292 200"/>
+      <path d="M 219 485 C 200 478 178 462 170 438 C 168 432 163 434 162 446"/>
+      <path d="M 241 485 C 260 478 282 462 290 438 C 292 432 297 434 298 446"/>
+      <path d="M 214 462 L 246 462 L 232 516 Z"/>
+    </g>
+    <text x="108" y="196" font-size="10" text-anchor="end" fill="var(--fig-mute, #8a939e)">scapula</text>
+    <text x="112" y="452" font-size="10" text-anchor="end" fill="var(--fig-mute, #8a939e)">iliac crest</text>
+    <g stroke="var(--fig-mute, #8a939e)" stroke-width="1.6">
+      <path d="M 224 116 L 236 116"/>
+      <path d="M 224 129 L 236 129"/>
+      <path d="M 224 142 L 236 142"/>
+      <path d="M 224 155 L 236 155"/>
+      <path d="M 224 168 L 236 168"/>
+      <path d="M 224 181 L 236 181"/>
+      <path d="M 224 196 L 236 196"/>
+      <path d="M 224 211 L 236 211"/>
+      <path d="M 224 226 L 236 226"/>
+      <path d="M 224 241 L 236 241"/>
+      <path d="M 224 256 L 236 256"/>
+      <path d="M 224 271 L 236 271"/>
+      <path d="M 224 286 L 236 286"/>
+      <path d="M 224 301 L 236 301"/>
+      <path d="M 224 316 L 236 316"/>
+      <path d="M 224 331 L 236 331"/>
+      <path d="M 224 346 L 236 346"/>
+      <path d="M 224 361 L 236 361"/>
+      <path d="M 224 380 L 236 380"/>
+      <path d="M 224 399 L 236 399"/>
+      <path d="M 224 418 L 236 418"/>
+      <path d="M 224 437 L 236 437"/>
+      <path d="M 224 456 L 236 456"/>
+      <path d="M 224 471 L 236 471"/>
+      <path d="M 224 485 L 236 485"/>
+      <path d="M 224 497 L 236 497"/>
+      <path d="M 224 508 L 236 508"/>
+    </g>
+
+    <g data-hot="External occipital protuberance" data-tip="The bony ridge in the midline at the base of the skull. Run a finger up the back of the neck until it stops. Every level you count off below the skull starts from here.">
+      <circle cx="230" cy="96" r="6.5" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)" stroke-width="2.2"/>
+      <path d="M 238 96 L 378 88" stroke="var(--fig-mute, #8a939e)" fill="none"/>
+      <text x="384" y="92" font-weight="600">External occipital protuberance</text>
+      <text x="384" y="108" font-size="12" fill="var(--fig-mute, #8a939e)">the ridge at the base of the skull</text>
+    </g>
+    <g data-hot="C2 spinous process" data-tip="The first spinous process you can feel below the skull, because the arch of C1 carries no spinous process to find. It is a fixed starting point in a way that C7 is not.">
+      <circle cx="230" cy="116" r="6.5" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)" stroke-width="2.2"/>
+      <path d="M 238 116 L 378 148" stroke="var(--fig-mute, #8a939e)" fill="none"/>
+      <text x="384" y="152" font-weight="600">C2 spinous process</text>
+      <text x="384" y="168" font-size="12" fill="var(--fig-mute, #8a939e)">the first bone you can feel below the skull</text>
+    </g>
+    <g data-hot="C7, the vertebra prominens" data-tip="Easiest to find with the neck bent forward. But C7 is the most prominent spinous process in only about 60 to 70 percent of people. In the rest, T1 or another nearby level is as prominent or more so, and counting down from a level you have misread moves every level you then mark.">
+      <circle cx="230" cy="181" r="6.5" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)" stroke-width="2.2"/>
+      <path d="M 238 181 L 378 208" stroke="var(--fig-mute, #8a939e)" fill="none"/>
+      <text x="384" y="212" font-weight="600">C7, the vertebra prominens</text>
+      <text x="384" y="228" font-size="12" fill="var(--fig-warn, #b4423a)">most prominent in only about 60 to 70 percent</text>
+      <text x="384" y="244" font-size="12" fill="var(--fig-warn, #b4423a)">of people, so counting from it can go wrong</text>
+    </g>
+    <g data-hot="T3 spinous process" data-tip="Level with the root of the scapular spine, the medial end where the spine of the scapula meets the vertebral border of the bone. Like every scapular landmark it travels with the shoulder, so the arm position has to be fixed before you use it.">
+      <path d="M 150 226 L 312 226" stroke="var(--fig-accent, #a95a22)" stroke-width="1.4" fill="none" stroke-dasharray="6 4"/>
+      <circle cx="230" cy="226" r="6.5" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)" stroke-width="2.2"/>
+      <path d="M 238 226 L 378 284" stroke="var(--fig-mute, #8a939e)" fill="none"/>
+      <text x="384" y="288" font-weight="600">T3 spinous process</text>
+      <text x="384" y="304" font-size="12" fill="var(--fig-mute, #8a939e)">level with the root of the scapular spine</text>
+    </g>
+    <g data-hot="T7 spinous process" data-tip="Level with the inferior angle of the scapula, but only with the person standing upright and the arms hanging at the sides. Prone, or with the arms raised, the scapula slides and the same angle commonly sits nearer T6. Record the position you examined in.">
+      <path d="M 150 286 L 312 286" stroke="var(--fig-accent, #a95a22)" stroke-width="1.4" fill="none" stroke-dasharray="6 4"/>
+      <circle cx="230" cy="286" r="6.5" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)" stroke-width="2.2"/>
+      <path d="M 238 286 L 378 344" stroke="var(--fig-mute, #8a939e)" fill="none"/>
+      <text x="384" y="348" font-weight="600">T7 spinous process</text>
+      <text x="384" y="364" font-size="12" fill="var(--fig-mute, #8a939e)">level with the inferior angle of the scapula</text>
+      <text x="384" y="380" font-size="12" fill="var(--fig-warn, #b4423a)">only when standing with arms at the sides</text>
+    </g>
+    <g data-hot="L4 and the supracristal plane" data-tip="The line joining the tops of the two iliac crests is used to find L4, both for lumbar puncture and for counting lumbar levels. In roughly 20 percent of people that line crosses L5 instead. This landmark has a known and quantified error rate, and it should be taught with it.">
+      <path d="M 140 437 L 322 437" stroke="var(--fig-accent, #a95a22)" stroke-width="1.4" fill="none" stroke-dasharray="6 4"/>
+      <circle cx="230" cy="437" r="6.5" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)" stroke-width="2.2"/>
+      <path d="M 238 437 L 378 420" stroke="var(--fig-mute, #8a939e)" fill="none"/>
+      <text x="384" y="424" font-weight="600">L4 spinous process</text>
+      <text x="384" y="440" font-size="12" fill="var(--fig-mute, #8a939e)">level with the tops of the iliac crests</text>
+      <text x="384" y="456" font-size="12" fill="var(--fig-warn, #b4423a)">at L5 instead in about 20 percent of people</text>
+    </g>
+    <g data-hot="S2 at the PSIS dimples" data-tip="The posterior superior iliac spines show as a pair of skin dimples about 3 cm out from the midline, and they lie at the level of the S2 spinous tubercle. They are among the more reliably visible landmarks on the back.">
+      <ellipse cx="217" cy="485" rx="6" ry="4" fill="none" stroke="var(--fig-accent, #a95a22)" stroke-width="2"/>
+      <ellipse cx="243" cy="485" rx="6" ry="4" fill="none" stroke="var(--fig-accent, #a95a22)" stroke-width="2"/>
+      <circle cx="230" cy="485" r="6.5" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)" stroke-width="2.2"/>
+      <path d="M 247 485 L 378 496" stroke="var(--fig-mute, #8a939e)" fill="none"/>
+      <text x="384" y="500" font-weight="600">S2, at the PSIS dimples</text>
+      <text x="384" y="516" font-size="12" fill="var(--fig-mute, #8a939e)">the dimples about 3 cm out from the midline</text>
+    </g>
+    <text x="16" y="546" font-size="12" fill="var(--fig-warn, #b4423a)">Three of these seven carry a published error rate. Learn the caveat with the landmark.</text>
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+<svg viewBox="0 0 720 410" role="img"
+  data-steps='["One patient, one spine, one day. Nothing in this body changes between the two examinations that follow.","Examiner A palpates, judges, and marks a segment. Trained, experienced, and doing exactly what the technique system asks.","Examiner B examines the same spine and marks a different segment. The distance between the two marks is what interexaminer reliability measures, and agreement here is a precondition for everything else, because a finding two clinicians cannot reproduce cannot be validated against any outcome.","Now the consequence. To test whether correcting the lesion at the right level beats treating some other level, you must be able to identify the right level reproducibly. If you cannot, the two arms of the trial are not distinguishable and a null result tells you nothing."]'
+  aria-label="Two trained examiners mark different segments in the same spine, so a trial of correcting the lesion cannot be clean.">
+  <defs>
+    <marker id="arrow-reliability" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
+    </marker>
+    <marker id="arrow-reliability-warn" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--fig-warn, #b4423a)"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+    <g data-step="1" data-hot="one spine" data-tip="The systems of this chapter do not even agree on what in this spine counts as the lesion: a position out of place, a restricted motion, or a functional disturbance. Two examiners can therefore be looking for different kinds of thing before either of them has been wrong about anything.">
+      <text x="362" y="38" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">one patient, one spine, one day</text>
+      <rect x="330" y="50" width="64" height="28" rx="5" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <rect x="330" y="86" width="64" height="28" rx="5" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <rect x="330" y="122" width="64" height="28" rx="5" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <rect x="330" y="158" width="64" height="28" rx="5" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <rect x="330" y="194" width="64" height="28" rx="5" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <rect x="330" y="230" width="64" height="28" rx="5" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <rect x="330" y="266" width="64" height="28" rx="5" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+    </g>
+
+    <g data-step="2" data-hot="Examiner A" data-tip="Nothing in this figure turns on incompetence. Both examiners are trained and experienced, and both are following the procedure their system prescribes, which is exactly what makes the disagreement awkward rather than merely embarrassing.">
+      <rect x="30" y="62" width="180" height="56" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="120" y="88" text-anchor="middle" font-weight="600">Examiner A</text>
+      <text x="120" y="107" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">trained and experienced</text>
+      <path d="M210 92 L 312 100" stroke="currentColor" fill="none" marker-end="url(#arrow-reliability)"/>
+      <text x="262" y="82" text-anchor="middle" font-size="12">palpates and marks here</text>
+      <circle cx="322" cy="100" r="9" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="2"/>
+      <text x="322" y="104" text-anchor="middle" font-size="12" font-weight="600">A</text>
+    </g>
+
+    <g data-step="3" data-hot="Examiner B" data-tip="Which procedure was used matters. Tests that ask the patient to report something, such as pain provocation on pressure, and range of motion measured with an instrument, have generally performed better. Judgments of position or end feel by hand, and procedures built on comparative leg length or on temperature readings, have generally performed worse.">
+      <rect x="510" y="216" width="180" height="56" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="600" y="242" text-anchor="middle" font-weight="600">Examiner B</text>
+      <text x="600" y="261" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">trained and experienced</text>
+      <path d="M510 240 L 412 244" stroke="currentColor" fill="none" marker-end="url(#arrow-reliability)"/>
+      <text x="462" y="230" text-anchor="middle" font-size="12">palpates and marks here</text>
+      <circle cx="402" cy="244" r="9" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="2"/>
+      <text x="402" y="248" text-anchor="middle" font-size="12" font-weight="600">B</text>
+    </g>
+
+    <g data-step="3" data-pulse="" data-hot="the disagreement" data-tip="A defender can concede the span and still hold ground: reliability studies typically use unfamiliar examiners, a single pass, no history and no second visit, which is not how a segment is identified in practice. That integrated clinical judgment can be studied too, and the profession has largely not studied it.">
+      <path d="M300 104 L 300 240" stroke="var(--fig-warn, #b4423a)" fill="none" stroke-width="2" marker-start="url(#arrow-reliability-warn)" marker-end="url(#arrow-reliability-warn)"/>
+      <text x="288" y="166" text-anchor="end" font-size="12" fill="var(--fig-warn, #b4423a)">two segments,</text>
+      <text x="288" y="184" text-anchor="end" font-size="12" fill="var(--fig-warn, #b4423a)">not one</text>
+    </g>
+
+    <g data-step="4">
+      <path d="M362 294 L 362 326" stroke="var(--fig-warn, #b4423a)" fill="none" marker-end="url(#arrow-reliability-warn)"/>
+      <text x="374" y="314" font-size="12" fill="var(--fig-warn, #b4423a)">the target is not reproducible</text>
+    </g>
+
+    <g data-step="4" data-hot="the consequence" data-tip="Unreliable location does not merely add noise to a study. It makes the specific hypothesis untestable, so the profession's most distinctive claim has been protected from evidence by a limitation in its own examination methods. Poor reliability at the locating step does not by itself show that the treatment fails.">
+      <rect x="180" y="330" width="380" height="64" rx="8" fill="none" stroke="var(--fig-warn, #b4423a)" stroke-dasharray="5 4"/>
+      <text x="370" y="356" text-anchor="middle" font-weight="600" fill="var(--fig-warn, #b4423a)">a trial of correcting the lesion cannot be clean</text>
+      <text x="370" y="378" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">different examiners would treat different segments</text>
+    </g>
+  </g>
+</svg>

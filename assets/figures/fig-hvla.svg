@@ -1,0 +1,88 @@
+<svg viewBox="0 0 720 396" role="img"
+  data-steps='["The patient is positioned and one segment is isolated. Everything that follows depends on this: the practitioner has to have a particular joint under the hands, not a region.","The contact is taken on a specific bony landmark, so the force has somewhere definite to go. Palpation places that contact, which is also where a good deal of the uncertainty in the procedure lives.","Now the slow part. Tissue slack is taken out and pre load applied, the practitioner feeling for the end of the available motion. This takes most of the elapsed time of the whole procedure.","The thrust. High velocity means fast, low amplitude means a small excursion, and the two together carry the joint briefly past its passive range of motion. It is over almost as soon as it has begun.","Release, and now look at the shape of the trace. The thrust is a spike at the end of a long slow ramp. Almost all of the time and almost all of the skill sit in the setup, not in the thrust, which is the opposite of how the procedure looks from the outside."]'
+  aria-label="A high velocity low amplitude thrust drawn as a sequence beside a force over time trace: positioning, contact, a long slow ramp of slack taking and pre load, then a brief spike of thrust and release, showing that almost all the time is in the setup.">
+  <defs>
+    <marker id="fig-hvla-arrow-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--fig-accent, #a95a22)"/>
+    </marker>
+    <marker id="fig-hvla-arrow-brand" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--fig-brand, #0f5f66)"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+
+    <text x="16" y="40" font-size="12" fill="var(--fig-mute, #8a939e)">what the hands do</text>
+    <text x="356" y="40" font-size="12" fill="var(--fig-mute, #8a939e)">force over time</text>
+
+    <g data-hot="why there are no numbers here" data-tip="Both axes are qualitative. The reference file for this book carries no verified figure for the excursion of a thrust or for how long one lasts, so this trace shows the shape of the event and nothing more. A drawn number would be an invented one.">
+      <path d="M356 60 L 356 300" stroke="currentColor" fill="none"/>
+      <text transform="rotate(-90 342 180)" x="342" y="180" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">force applied, not to scale</text>
+    </g>
+    <path d="M356 300 L 702 300" stroke="currentColor" fill="none"/>
+    <text x="360" y="314" font-size="11" fill="var(--fig-mute, #8a939e)">time</text>
+
+    <g data-step="1" data-hot="positioned and isolated" data-tip="Position is not a preliminary, it is part of the technique. The patient is placed so that the segment above and the segment below are taken out of play and the available motion at one joint is the only motion left.">
+      <path d="M16 288 L 320 288" stroke="var(--fig-mute, #8a939e)" stroke-width="2" fill="none"/>
+      <rect x="24" y="210" width="288" height="70" rx="20" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <rect x="53" y="228" width="30" height="34" rx="4" fill="none" stroke="var(--fig-mute, #8a939e)"/>
+      <rect x="93" y="228" width="30" height="34" rx="4" fill="none" stroke="var(--fig-mute, #8a939e)"/>
+      <rect x="133" y="228" width="30" height="34" rx="4" fill="none" stroke="var(--fig-mute, #8a939e)"/>
+      <rect x="173" y="228" width="30" height="34" rx="4" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)" stroke-width="2"/>
+      <rect x="213" y="228" width="30" height="34" rx="4" fill="none" stroke="var(--fig-mute, #8a939e)"/>
+      <rect x="253" y="228" width="30" height="34" rx="4" fill="none" stroke="var(--fig-mute, #8a939e)"/>
+      <text x="168" y="304" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">patient positioned, segment isolated</text>
+    </g>
+
+    <g data-step="2" data-hot="the contact" data-tip="The contact is a named bony landmark, found by hand. Even the easy ones are not certain: the most prominent process at the base of the neck is C7 in only about sixty to seventy percent of people, so identifying a level by palpation alone is not fully reliable.">
+      <polygon points="176,188 200,188 194,206 182,206" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)" stroke-width="2"/>
+      <path d="M188 206 L 188 222" stroke="var(--fig-accent, #a95a22)" fill="none" marker-end="url(#fig-hvla-arrow-accent)"/>
+      <text x="188" y="162" text-anchor="middle" font-size="12" fill="var(--fig-accent, #a95a22)">contact taken on one</text>
+      <text x="188" y="178" text-anchor="middle" font-size="12" fill="var(--fig-accent, #a95a22)">named bony landmark</text>
+    </g>
+
+    <g data-step="3" data-hot="pre load" data-tip="Taking up slack means removing the free play in skin, muscle and joint capsule until the practitioner can feel the end of the passive range. Do this badly and the thrust lands in soft tissue instead of at a joint.">
+      <path d="M170 190 L 170 224" stroke="var(--fig-brand, #0f5f66)" stroke-width="2" fill="none" marker-end="url(#fig-hvla-arrow-brand)"/>
+      <text x="162" y="208" text-anchor="end" font-size="12" fill="var(--fig-brand, #0f5f66)">pre load</text>
+    </g>
+
+    <g data-step="4" data-hot="low amplitude" data-tip="Low amplitude means the joint travels only a short distance. The gauge here is qualitative: the reference file for this book carries no verified figure for how far a thrust moves a segment, so none is drawn.">
+      <path d="M202 226 L 214 226" stroke="var(--fig-accent, #a95a22)" stroke-width="2" fill="none"/>
+      <path d="M202 236 L 214 236" stroke="var(--fig-accent, #a95a22)" stroke-width="2" fill="none"/>
+      <path d="M208 226 L 208 236" stroke="var(--fig-accent, #a95a22)" stroke-width="2" fill="none"/>
+      <path d="M216 204 L 209 222" stroke="var(--fig-accent, #a95a22)" fill="none"/>
+      <text x="218" y="200" font-size="11" fill="var(--fig-accent, #a95a22)">excursion: small</text>
+    </g>
+
+    <path data-step="1" d="M362 292 L 404 292" stroke="currentColor" stroke-width="2" fill="none"/>
+    <text data-step="2" x="404" y="282" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">contact</text>
+
+    <path data-step="3" d="M404 292 C 470 288, 530 250, 600 208" stroke="var(--fig-brand, #0f5f66)" stroke-width="2" fill="none"/>
+
+    <g data-step="3" data-hot="where the time goes" data-tip="This bracket is the honest proportion of the procedure. The ramp is where the practitioner is deciding, feeling and correcting, and it is many times longer than the event the patient remembers.">
+      <path d="M404 308 L 404 316 L 600 316 L 600 308" stroke="var(--fig-mute, #8a939e)" fill="none"/>
+      <text x="502" y="332" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">taking up slack and pre load</text>
+    </g>
+
+    <g data-step="4" data-pulse="" data-hot="the thrust" data-tip="A rapid, small displacement force that moves the joint briefly past its passive range of motion. In many but not all cases it produces an audible pop, which is a by product rather than the aim.">
+      <path d="M600 208 L 614 76 L 630 216" stroke="var(--fig-accent, #a95a22)" stroke-width="2" fill="none"/>
+      <path d="M598 84 L 611 76" stroke="var(--fig-accent, #a95a22)" fill="none"/>
+      <text x="596" y="88" text-anchor="end" font-size="12" fill="var(--fig-accent, #a95a22)">high velocity, low amplitude</text>
+    </g>
+
+    <g data-step="4">
+      <path d="M600 308 L 600 316 L 630 316 L 630 308" stroke="var(--fig-accent, #a95a22)" stroke-width="2" fill="none"/>
+      <path d="M615 316 L 615 338" stroke="var(--fig-accent, #a95a22)" fill="none"/>
+      <text x="615" y="350" text-anchor="middle" font-size="12" fill="var(--fig-accent, #a95a22)">the thrust</text>
+    </g>
+
+    <path data-step="5" d="M630 216 C 646 252, 660 288, 694 292" stroke="currentColor" stroke-width="2" fill="none"/>
+    <text data-step="5" x="676" y="252" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">release</text>
+
+    <g data-step="5" data-pulse="">
+      <rect x="16" y="340" width="688" height="48" rx="8" fill="none" stroke="var(--fig-accent, #a95a22)"/>
+      <text x="360" y="360" text-anchor="middle" font-weight="600" fill="var(--fig-accent, #a95a22)">The skill and the time are in the ramp, not in the spike.</text>
+      <text x="360" y="378" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">the thrust is a small fast event at the end of a long slow setup</text>
+    </g>
+
+  </g>
+</svg>

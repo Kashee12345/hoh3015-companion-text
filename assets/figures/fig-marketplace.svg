@@ -1,0 +1,75 @@
+<svg viewBox="0 0 720 348" role="img"
+  data-steps='["Seven kinds of healer in the 1890s, all of them selling to the same public. Regulars competed with homeopaths, eclectics, hydropaths, Thomsonians, patent medicine sellers and magnetic healers, and the boundaries between these groups were argued about far more than they were enforced.","Between the healer and the patient sits the licensing gate, which in principle decides who may treat the sick. In practice the statutes were narrow, unevenly enforced, and full of definitional gaps about what counted as the practice of medicine.","So the lanes run straight through. Where the practical requirements to begin treating patients were a room, a shingle and a willingness to be sued, every one of these sects reached the same patients, and the question of who counted as a legitimate healer stayed open.","That vacuum is the structural reason a new sect could take root at all. Chiropractic in 1895 did not have to defeat the gate, only to walk through the gap. And because the gate was legal from the beginning, the fight over chiropractic was legal from the beginning too, which is why so much of this history happens in courtrooms and statehouses rather than in journals."]' aria-label="In the 1890s regulars, homeopaths, eclectics, hydropaths, Thomsonians, patent medicine sellers and magnetic healers all reached patients through the same weak licensing gate, so a new sect could pass straight through it too.">
+  <defs>
+    <marker id="arrow-marketplace" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
+    </marker>
+    <marker id="arrow-marketplace-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--fig-accent, #a95a22)"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+    <text x="16" y="20" font-weight="600">The 1890s medical marketplace</text>
+
+    <g data-step="1" data-hot="regulars" data-tip="The physicians of the day, organized and credentialed, but with a limited therapeutic arsenal and without the cultural authority they would hold fifty years later. Hearing the word irregular and supplying the word fraudulent imports a settlement that had not yet occurred.">
+      <rect x="16" y="31" width="170" height="26" rx="6" fill="none" stroke="currentColor"/>
+      <text x="101" y="48" text-anchor="middle" font-size="12">regulars</text>
+    </g>
+    <path data-step="3" d="M190 44 L 552 44" stroke="currentColor" fill="none" marker-end="url(#arrow-marketplace)"/>
+
+    <g data-step="1" data-hot="homeopaths" data-tip="Treated with very highly diluted remedies, chosen because at full strength they would produce in a healthy person the symptoms the patient already had. A rival system with its own schools and its own patients, not a fringe of one.">
+      <rect x="16" y="65" width="170" height="26" rx="6" fill="none" stroke="currentColor"/>
+      <text x="101" y="82" text-anchor="middle" font-size="12">homeopaths</text>
+    </g>
+    <path data-step="3" d="M190 78 L 552 78" stroke="currentColor" fill="none" marker-end="url(#arrow-marketplace)"/>
+
+    <g data-step="1" data-hot="eclectics" data-tip="Built their practice on botanical remedies and, as the name says, claimed the right to take whatever seemed to work from any school rather than commit to a single doctrine.">
+      <rect x="16" y="99" width="170" height="26" rx="6" fill="none" stroke="currentColor"/>
+      <text x="101" y="116" text-anchor="middle" font-size="12">eclectics</text>
+    </g>
+    <path data-step="3" d="M190 112 L 552 112" stroke="currentColor" fill="none" marker-end="url(#arrow-marketplace)"/>
+
+    <g data-step="1" data-hot="hydropaths" data-tip="Put water at the center of the cure: baths, packs, wraps and compresses, usually joined to a regimen of plain living. Like the others here, a drugless system with a single organizing agent.">
+      <rect x="16" y="133" width="170" height="26" rx="6" fill="none" stroke="currentColor"/>
+      <text x="101" y="150" text-anchor="middle" font-size="12">hydropaths</text>
+    </g>
+    <path data-step="3" d="M190 146 L 552 146" stroke="currentColor" fill="none" marker-end="url(#arrow-marketplace)"/>
+
+    <g data-step="1" data-hot="Thomsonians" data-tip="Followers of Samuel Thomson's botanical system, which was sold as something a household could apply for itself. Its selling point was that you did not need to pay a physician at all.">
+      <rect x="16" y="167" width="170" height="26" rx="6" fill="none" stroke="currentColor"/>
+      <text x="101" y="184" text-anchor="middle" font-size="12">Thomsonians</text>
+    </g>
+    <path data-step="3" d="M190 180 L 552 180" stroke="currentColor" fill="none" marker-end="url(#arrow-marketplace)"/>
+
+    <g data-step="1" data-hot="patent medicine sellers" data-tip="Bottled proprietary remedies sold direct to the public on the strength of advertising, with the formula kept secret and often no examination of the patient at all. The lane that needed no practitioner in it.">
+      <rect x="16" y="201" width="170" height="26" rx="6" fill="none" stroke="currentColor"/>
+      <text x="101" y="218" text-anchor="middle" font-size="12">patent medicine sellers</text>
+    </g>
+    <path data-step="3" d="M190 214 L 552 214" stroke="currentColor" fill="none" marker-end="url(#arrow-marketplace)"/>
+
+    <g data-step="1" data-hot="magnetic healers" data-tip="Held that a vital force in the body could be depleted or restored by the direct action of a skilled operator's hands. D.D. Palmer made his living this way through the 1880s, so he came to 1895 already committed to an inner force running through the body.">
+      <rect x="16" y="235" width="170" height="26" rx="6" fill="none" stroke="currentColor"/>
+      <text x="101" y="252" text-anchor="middle" font-size="12">magnetic healers</text>
+    </g>
+    <path data-step="3" d="M190 248 L 552 248" stroke="currentColor" fill="none" marker-end="url(#arrow-marketplace)"/>
+
+    <g data-step="4" data-pulse="" data-hot="chiropractic, 1895" data-tip="The newcomer, and the only lane on this drawing that did not exist yet. What it added was a claim the neighbors did not make: that interference with nerve transmission at one named vertebral site is the general cause of disease. A distinct mechanism is a distinct territory.">
+      <rect x="16" y="269" width="170" height="26" rx="6" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)"/>
+      <text x="101" y="286" text-anchor="middle" font-size="12" fill="var(--fig-accent, #a95a22)">chiropractic, 1895</text>
+    </g>
+    <path data-step="4" d="M190 282 L 552 282" stroke="var(--fig-accent, #a95a22)" fill="none" stroke-width="2" marker-end="url(#arrow-marketplace-accent)"/>
+    <text data-step="4" x="200" y="276" font-size="12" fill="var(--fig-accent, #a95a22)">the new sect uses the gap</text>
+
+    <path data-step="2" data-pulse="" d="M364 24 L 364 310" stroke="var(--fig-accent, #a95a22)" fill="none" stroke-width="3" stroke-dasharray="14 20"/>
+    <path data-step="2" data-pulse="" d="M380 24 L 380 310" stroke="var(--fig-accent, #a95a22)" fill="none" stroke-width="3" stroke-dasharray="14 20"/>
+    <text data-step="2" x="372" y="318" text-anchor="middle" font-size="12" fill="var(--fig-accent, #a95a22)">licensing gate: weak, and mostly gaps</text>
+
+    <path data-step="3" d="M560 28 L 560 298" stroke="currentColor" fill="none"/>
+    <path data-step="3" d="M560 163 L 620 163" stroke="currentColor" fill="none" stroke-width="2" marker-end="url(#arrow-marketplace)"/>
+    <text data-step="3" x="590" y="152" text-anchor="middle" font-size="12">reach</text>
+
+    <rect data-step="3" x="624" y="136" width="80" height="54" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+    <text data-step="3" x="664" y="160" text-anchor="middle" font-weight="600">the same</text>
+    <text data-step="3" x="664" y="178" text-anchor="middle" font-weight="600">patients</text>
+  </g>
+</svg>

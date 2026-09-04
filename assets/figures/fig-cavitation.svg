@@ -1,0 +1,90 @@
+<svg viewBox="0 0 720 392" role="img"
+  data-steps='["Before anything happens the two joint surfaces sit close together with a thin film of synovial fluid between them. There is no gas cavity in the joint.","The thrust separates the surfaces. The fluid between them cannot fill the widening space fast enough, so the pressure within it falls.","At that moment a gas cavity forms in the fluid. This is tribonucleation, and the 2015 real time MRI study found that the sound arrives here, at the inception of the cavity.","Just afterwards the surfaces are apart and the sound is already over. The older explanation, that the crack is a bubble already present collapsing, is the one the imaging ruled out.","So the pop is a by product of the joint separating. It is not the treatment, and whether or not you hear one tells you nothing about whether the adjustment did anything."]'
+  aria-label="What the audible pop is: real time MRI in 2015 showed the sound occurs at the inception of a gas cavity as joint surfaces separate under tension, not at the collapse of a pre existing bubble, and the sound is a by product rather than the treatment.">
+  <defs>
+    <marker id="fig-cavitation-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+
+    <text x="16" y="26" font-size="12" fill="var(--fig-mute, #8a939e)">one synovial joint, three moments</text>
+
+    <g data-step="1" data-hot="a thin film of fluid" data-tip="A synovial joint is two cartilage covered surfaces with a small volume of fluid between them. At rest that fluid is a film, not a reservoir, and it contains no gas cavity to collapse later.">
+      <rect x="16" y="64" width="216" height="190" rx="8" fill="none" stroke="var(--fig-mute, #8a939e)"/>
+      <text x="124" y="52" text-anchor="middle" font-weight="600">Before the thrust</text>
+      <text x="124" y="89" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">joint surface</text>
+      <rect x="40" y="95" width="168" height="32" rx="6" fill="none" stroke="currentColor" stroke-width="2"/>
+      <rect x="40" y="127" width="168" height="20" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="none"/>
+      <text x="124" y="141" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">synovial fluid</text>
+      <rect x="40" y="147" width="168" height="32" rx="6" fill="none" stroke="currentColor" stroke-width="2"/>
+      <text x="124" y="195" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">joint surface</text>
+      <text x="124" y="216" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">surfaces close together</text>
+      <text x="124" y="234" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">no gas cavity present</text>
+    </g>
+
+    <g data-step="2">
+      <rect x="252" y="64" width="216" height="190" rx="8" fill="none" stroke="var(--fig-mute, #8a939e)"/>
+      <text x="360" y="52" text-anchor="middle" font-weight="600">As the surfaces separate</text>
+      <rect x="276" y="79" width="168" height="32" rx="6" fill="none" stroke="currentColor" stroke-width="2"/>
+      <rect x="276" y="111" width="168" height="52" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="none"/>
+      <rect x="276" y="163" width="168" height="32" rx="6" fill="none" stroke="currentColor" stroke-width="2"/>
+      <text x="360" y="208" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">pressure in the fluid falls</text>
+    </g>
+
+    <g data-step="2" data-hot="separation under tension" data-tip="The thrust pulls the surfaces apart faster than fluid can flow in behind them. The fluid is put under tension, and a liquid under enough tension will not simply stretch.">
+      <path d="M266 79 L 266 66" stroke="currentColor" fill="none" marker-end="url(#fig-cavitation-arrow)"/>
+      <path d="M266 195 L 266 208" stroke="currentColor" fill="none" marker-end="url(#fig-cavitation-arrow)"/>
+      <path d="M454 79 L 454 66" stroke="currentColor" fill="none" marker-end="url(#fig-cavitation-arrow)"/>
+      <path d="M454 195 L 454 208" stroke="currentColor" fill="none" marker-end="url(#fig-cavitation-arrow)"/>
+      <text x="360" y="74" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">pulled apart</text>
+    </g>
+
+    <g data-step="3" data-hot="tribonucleation" data-tip="Tribonucleation is the formation of a new gas cavity when two surfaces in a fluid are pulled apart quickly. The cavity is created at this instant. It was not sitting in the joint beforehand waiting to be popped.">
+      <ellipse cx="360" cy="137" rx="32" ry="13" fill="none" stroke="var(--fig-accent, #a95a22)" stroke-width="2"/>
+      <text x="360" y="141" text-anchor="middle" font-size="11" fill="var(--fig-accent, #a95a22)">gas cavity</text>
+      <text x="360" y="226" text-anchor="middle" font-size="12" fill="var(--fig-accent, #a95a22)">cavity forms by tribonucleation</text>
+    </g>
+
+    <g data-step="3" data-pulse="" data-hot="when the sound arrives" data-tip="Kawchuk and colleagues imaged the event in real time in 2015 and reported that joint cracking is the result of cavity inception within synovial fluid rather than collapse of a pre existing bubble. The noise belongs to the moment of formation.">
+      <path d="M400 137 L 412 137" stroke="var(--fig-accent, #a95a22)" stroke-width="2" fill="none"/>
+      <path d="M395 127 L 404 119" stroke="var(--fig-accent, #a95a22)" stroke-width="2" fill="none"/>
+      <path d="M395 147 L 404 155" stroke="var(--fig-accent, #a95a22)" stroke-width="2" fill="none"/>
+      <path d="M320 137 L 308 137" stroke="var(--fig-accent, #a95a22)" stroke-width="2" fill="none"/>
+      <path d="M325 127 L 316 119" stroke="var(--fig-accent, #a95a22)" stroke-width="2" fill="none"/>
+      <path d="M325 147 L 316 155" stroke="var(--fig-accent, #a95a22)" stroke-width="2" fill="none"/>
+      <text x="360" y="244" text-anchor="middle" font-size="12" fill="var(--fig-accent, #a95a22)">the sound happens here</text>
+    </g>
+
+    <g data-step="4" data-hot="just after" data-tip="The surfaces are apart, the cavity has formed and the noise is finished. Everything audible about the procedure is already in the past by the time the practitioner releases the contact.">
+      <rect x="488" y="64" width="216" height="190" rx="8" fill="none" stroke="var(--fig-mute, #8a939e)"/>
+      <text x="596" y="52" text-anchor="middle" font-weight="600">Just after</text>
+      <rect x="512" y="79" width="168" height="32" rx="6" fill="none" stroke="currentColor" stroke-width="2"/>
+      <rect x="512" y="111" width="168" height="52" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="none"/>
+      <ellipse cx="596" cy="137" rx="32" ry="13" fill="none" stroke="var(--fig-accent, #a95a22)" stroke-width="2"/>
+      <text x="596" y="141" text-anchor="middle" font-size="11" fill="var(--fig-accent, #a95a22)">gas cavity</text>
+      <rect x="512" y="163" width="168" height="32" rx="6" fill="none" stroke="currentColor" stroke-width="2"/>
+      <text x="596" y="208" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">surfaces apart, cavity formed</text>
+      <text x="596" y="226" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">the sound is already over</text>
+    </g>
+
+    <g data-step="4" data-hot="the older explanation" data-tip="For decades the standard account was that a bubble already in the joint collapsed and that the collapse made the noise. It is a reasonable theory. It is also the one the real time imaging did not support.">
+      <rect x="16" y="270" width="336" height="106" rx="8" fill="none" stroke="var(--fig-warn, #b4423a)" stroke-dasharray="5 4"/>
+      <text x="36" y="294" font-weight="600" fill="var(--fig-warn, #b4423a)">The older explanation</text>
+      <text x="36" y="316" font-size="12">A bubble already present in the joint</text>
+      <text x="36" y="332" font-size="12">collapses, and that collapse is the</text>
+      <text x="36" y="348" font-size="12">crack you hear.</text>
+      <text x="36" y="368" font-size="12" fill="var(--fig-warn, #b4423a)">Not what the 2015 real time MRI showed.</text>
+    </g>
+
+    <g data-step="5" data-pulse="">
+      <rect x="368" y="270" width="336" height="106" rx="8" fill="none" stroke="var(--fig-accent, #a95a22)"/>
+      <text x="388" y="294" font-weight="600" fill="var(--fig-accent, #a95a22)">What the sound is not</text>
+      <text x="388" y="316" font-size="12">The pop is a by product of the joint</text>
+      <text x="388" y="332" font-size="12">separating. It is not the treatment, and</text>
+      <text x="388" y="348" font-size="12">whether you hear one tells you nothing</text>
+      <text x="388" y="368" font-size="12">about whether the adjustment worked.</text>
+    </g>
+
+  </g>
+</svg>

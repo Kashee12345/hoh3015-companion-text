@@ -1,0 +1,72 @@
+<svg viewBox="0 0 720 546" role="img"
+  data-layers='[{"k": "fe", "label": "Flexion and extension", "note": "Bending forward and back. The lumbar spine flexes 65 degrees, as far as the neck flexes at 64, and the thoracic spine barely moves at 26. Extension is smaller everywhere and most uneven: 63 in the neck against 31 in the low back. Bending forward is not what the lumbar spine is bad at."}, {"k": "lb", "label": "Lateral bending", "note": "Bending sideways, given to each side. Below the neck the two regions come out the same at 30 degrees each side, and the cervical spine adds about half as much again at 49. This is the movement on which the three regions differ least."}, {"k": "ar", "label": "Axial rotation", "note": "Twisting about the long axis, given to each side. This is where the regions separate hardest. The neck turns 85 degrees to each side, the thoracic spine 47, and the lumbar spine only 15.3, because the lumbar facet surfaces lie close to the sagittal plane and present a flat wall to any twist."}]' aria-label="Range of motion by region on one scale: cervical axial rotation is by far the largest single movement at 85 degrees to each side, lumbar axial rotation the smallest at 15.3, while lumbar flexion at 65 degrees is as large as cervical flexion.">
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13" fill="currentColor">
+    <text x="16" y="26" font-size="14" font-weight="600">Range of motion by region</text>
+    <text x="16" y="44" font-size="12" fill="var(--fig-mute, #8a939e)">one scale for all three regions, in degrees</text>
+    <g stroke="var(--fig-mute, #8a939e)" stroke-width="1">
+      <path d="M 170 76 L 170 400" fill="none" stroke-dasharray="0"/>
+      <path d="M 270 76 L 270 400" fill="none" stroke-dasharray="3 4"/>
+      <path d="M 370 76 L 370 400" fill="none" stroke-dasharray="3 4"/>
+      <path d="M 470 76 L 470 400" fill="none" stroke-dasharray="3 4"/>
+      <path d="M 570 76 L 570 400" fill="none" stroke-dasharray="3 4"/>
+    </g>
+    <text x="170" y="420" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">0</text>
+    <text x="270" y="420" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">20</text>
+    <text x="370" y="420" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">40</text>
+    <text x="470" y="420" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">60</text>
+    <text x="570" y="420" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">80</text>
+    <text x="612" y="420" font-size="11" fill="var(--fig-mute, #8a939e)">degrees</text>
+    <text x="16" y="74" font-size="14" font-weight="600">Cervical</text>
+    <text x="16" y="188" font-size="14" font-weight="600">Thoracic</text>
+    <text x="16" y="302" font-size="14" font-weight="600">Lumbar</text>
+
+    <g data-layer="fe">
+      <rect x="170" y="82" width="320.0" height="20" rx="3" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="1.4"/>
+      <text x="162" y="96" text-anchor="end" font-size="11" fill="var(--fig-mute, #8a939e)">flexion</text>
+      <text x="499.0" y="97" font-size="12" font-weight="600" fill="currentColor">64 degrees</text>
+      <rect x="170" y="104" width="315.0" height="20" rx="3" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="1.4"/>
+      <text x="162" y="118" text-anchor="end" font-size="11" fill="var(--fig-mute, #8a939e)">extension</text>
+      <text x="494.0" y="119" font-size="12" font-weight="600" fill="currentColor">63 degrees</text>
+      <rect x="170" y="196" width="130.0" height="20" rx="3" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="1.4"/>
+      <text x="162" y="210" text-anchor="end" font-size="11" fill="var(--fig-mute, #8a939e)">flexion</text>
+      <text x="309.0" y="211" font-size="12" font-weight="600" fill="currentColor">26 degrees</text>
+      <rect x="170" y="218" width="110.0" height="20" rx="3" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="1.4"/>
+      <text x="162" y="232" text-anchor="end" font-size="11" fill="var(--fig-mute, #8a939e)">extension</text>
+      <text x="289.0" y="233" font-size="12" font-weight="600" fill="currentColor">22 degrees</text>
+      <rect x="170" y="310" width="325.0" height="20" rx="3" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)" stroke-width="2.5"/>
+      <text x="162" y="324" text-anchor="end" font-size="11" fill="var(--fig-mute, #8a939e)">flexion</text>
+      <text x="504.0" y="325" font-size="12" font-weight="600" fill="var(--fig-accent, #a95a22)">65 degrees</text>
+      <rect x="170" y="332" width="155.0" height="20" rx="3" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="1.4"/>
+      <text x="162" y="346" text-anchor="end" font-size="11" fill="var(--fig-mute, #8a939e)">extension</text>
+      <text x="334.0" y="347" font-size="12" font-weight="600" fill="currentColor">31 degrees</text>
+      <text x="16" y="448" font-size="12" fill="var(--fig-accent, #a95a22)">lumbar flexion 65 is as large as cervical flexion 64, so the low back is not a stiff region</text>
+    </g>
+    <g data-layer="lb">
+      <rect x="170" y="126" width="245.0" height="20" rx="3" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="1.4"/>
+      <text x="162" y="140" text-anchor="end" font-size="11" fill="var(--fig-mute, #8a939e)">bending, each side</text>
+      <text x="424.0" y="141" font-size="12" font-weight="600" fill="currentColor">49 degrees</text>
+      <rect x="170" y="240" width="150.0" height="20" rx="3" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="1.4"/>
+      <text x="162" y="254" text-anchor="end" font-size="11" fill="var(--fig-mute, #8a939e)">bending, each side</text>
+      <text x="329.0" y="255" font-size="12" font-weight="600" fill="currentColor">30 degrees</text>
+      <rect x="170" y="354" width="150.0" height="20" rx="3" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="1.4"/>
+      <text x="162" y="368" text-anchor="end" font-size="11" fill="var(--fig-mute, #8a939e)">bending, each side</text>
+      <text x="329.0" y="369" font-size="12" font-weight="600" fill="currentColor">30 degrees</text>
+      <text x="16" y="468" font-size="12" fill="var(--fig-accent, #a95a22)">lateral bending is the most evenly shared movement, 30 degrees to each side below the neck</text>
+    </g>
+    <g data-layer="ar">
+      <rect x="170" y="148" width="425.0" height="20" rx="3" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)" stroke-width="2.5"/>
+      <text x="162" y="162" text-anchor="end" font-size="11" fill="var(--fig-mute, #8a939e)">rotation, each side</text>
+      <text x="604.0" y="163" font-size="12" font-weight="600" fill="var(--fig-accent, #a95a22)">85 degrees</text>
+      <rect x="170" y="262" width="235.0" height="20" rx="3" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="1.4"/>
+      <text x="162" y="276" text-anchor="end" font-size="11" fill="var(--fig-mute, #8a939e)">rotation, each side</text>
+      <text x="414.0" y="277" font-size="12" font-weight="600" fill="currentColor">47 degrees</text>
+      <rect x="170" y="376" width="76.5" height="20" rx="3" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-warn, #b4423a)" stroke-width="2.5"/>
+      <text x="162" y="390" text-anchor="end" font-size="11" fill="var(--fig-mute, #8a939e)">rotation, each side</text>
+      <text x="255.5" y="391" font-size="12" font-weight="600" fill="var(--fig-warn, #b4423a)">15.3 degrees</text>
+      <text x="16" y="488" font-size="12" fill="var(--fig-accent, #a95a22)">cervical rotation is more than five times lumbar rotation, 85 against 15.3 to each side</text>
+    </g>
+
+    <text x="16" y="514" font-size="11" fill="var(--fig-mute, #8a939e)">Set B: Anatomy Standard pooled in vivo study means.</text>
+    <text x="16" y="532" font-size="11" fill="var(--fig-mute, #8a939e)">Other reference sets give meaningfully different numbers, so do not mix them.</text>
+  </g>
+</svg>

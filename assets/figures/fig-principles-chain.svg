@@ -1,0 +1,85 @@
+<svg viewBox="0 0 720 600" role="img"
+  data-steps='["Stephenson published thirty three principles in 1927, but they are not thirty three separate claims. They are a chain, and this is the first link, quoted exactly as he wrote it.","If a universal intelligence is in all matter, then it is in living matter too. Stephenson calls it Innate Intelligence there. Nothing new is asserted at this step, only the same premise applied to a narrower class of things.","Innate maintains the living body in active organization, and it works through the nervous system. Every claim below now has to pass through that one channel.","If expression runs through that channel, then interference in the channel limits expression. The lesion is defined by the argument before any patient has been examined.","So the practitioner subtracts rather than adds. Now look at what the last four steps did: each one follows from the one above it. The reasoning is valid, which is not the same as true, because a deduction carries exactly as much weight as its premise, and every link here rests on the one sentence at the top."]'
+  aria-label="Stephenson's 33 Principles drawn as a deductive chain: a single major premise about universal intelligence descends through innate intelligence, the nervous system and interference to the practitioner's task of removing an obstruction, with every conclusion resting on that one premise.">
+  <defs>
+    <marker id="fig-principles-chain-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
+    </marker>
+    <marker id="fig-principles-chain-arrow-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--fig-accent, #a95a22)"/>
+    </marker>
+    <marker id="fig-principles-chain-arrow-warn" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--fig-warn, #b4423a)"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+
+    <text x="16" y="26" font-size="12" fill="var(--fig-mute, #8a939e)">one premise, five moves, one job</text>
+
+    <g data-step="1" data-hot="the Major Premise" data-tip="Stephenson gives thirty three numbered principles, but only this one is assumed. Everything else in the book is derived from it, which is why the whole system stands or falls here.">
+      <rect x="150" y="36" width="460" height="92" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)" stroke-width="2"/>
+      <text x="162" y="58" font-size="12" fill="var(--fig-mute, #8a939e)">Principle 1, the Major Premise. Stephenson, 1927</text>
+      <text x="162" y="80" font-size="13">"A Universal Intelligence is in all matter and continually</text>
+      <text x="162" y="98" font-size="13">gives to it all its properties and actions, thus maintaining</text>
+      <text x="162" y="116" font-size="13">it in existence"</text>
+    </g>
+
+    <path data-step="2" d="M380 128 L 380 144" stroke="currentColor" fill="none" marker-end="url(#fig-principles-chain-arrow)"/>
+    <text data-step="2" x="392" y="141" font-size="12" fill="var(--fig-mute, #8a939e)">so also in living matter</text>
+
+    <g data-step="2" data-hot="Innate Intelligence" data-tip="The move from all matter to living matter looks like an observation but is not one. It is the same premise applied to a subset, and Innate Intelligence is simply the name given to that subset.">
+      <rect x="150" y="148" width="460" height="52" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="380" y="172" text-anchor="middle" font-weight="600">In living matter it is called Innate Intelligence</text>
+      <text x="380" y="190" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">the same intelligence, in a living thing</text>
+    </g>
+
+    <path data-step="3" d="M380 200 L 380 216" stroke="currentColor" fill="none" marker-end="url(#fig-principles-chain-arrow)"/>
+    <text data-step="3" x="392" y="213" font-size="12" fill="var(--fig-mute, #8a939e)">and what it does is</text>
+
+    <g data-step="3" data-hot="active organization" data-tip="Active organization is Stephenson's term for the coordinated working of a living body. Notice that maintaining it has been assigned to Innate rather than to the ordinary physiology of tissues and organs.">
+      <rect x="150" y="220" width="460" height="52" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="380" y="244" text-anchor="middle" font-weight="600">It maintains the body in active organization</text>
+      <text x="380" y="262" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">holding the parts working together</text>
+    </g>
+
+    <path data-step="3" d="M380 272 L 380 288" stroke="currentColor" fill="none" marker-end="url(#fig-principles-chain-arrow)"/>
+    <text data-step="3" x="392" y="285" font-size="12" fill="var(--fig-mute, #8a939e)">and it works through</text>
+
+    <g data-step="3" data-hot="the nervous system as channel" data-tip="This is the load bearing step for practice. Once expression is routed through the nervous system, a spinal lesion becomes the natural thing to look for and the spine becomes the natural place to work.">
+      <rect x="150" y="292" width="460" height="52" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="380" y="316" text-anchor="middle" font-weight="600">It is expressed through the nervous system</text>
+      <text x="380" y="334" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">the one channel every impulse must pass</text>
+    </g>
+
+    <path data-step="4" d="M380 344 L 380 360" stroke="var(--fig-warn, #b4423a)" fill="none" marker-end="url(#fig-principles-chain-arrow-warn)"/>
+    <text data-step="4" x="392" y="357" font-size="12" fill="var(--fig-mute, #8a939e)">so anything in the way of it</text>
+
+    <g data-step="4" data-hot="interference" data-tip="Nothing here is measured. The interference is required by the argument rather than found by examination, which is why a century of attempts to define and locate it have been so difficult.">
+      <rect x="150" y="364" width="460" height="52" rx="8" fill="none" stroke="var(--fig-warn, #b4423a)"/>
+      <text x="380" y="388" text-anchor="middle" font-weight="600" fill="var(--fig-warn, #b4423a)">Interference in that channel limits expression</text>
+      <text x="380" y="406" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">this is where the lesion is placed</text>
+    </g>
+
+    <path data-step="5" d="M380 416 L 380 432" stroke="var(--fig-accent, #a95a22)" fill="none" marker-end="url(#fig-principles-chain-arrow-accent)"/>
+    <text data-step="5" x="392" y="429" font-size="12" fill="var(--fig-mute, #8a939e)">therefore the task is</text>
+
+    <g data-step="5" data-pulse="" data-hot="remove, do not add" data-tip="The word remove is doing real work. On this account an adjustment puts nothing into the body, it only takes an obstruction out of the way, and that is what the tradition offers as the difference between an adjustment and a drug.">
+      <rect x="150" y="436" width="460" height="58" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)" stroke-width="2"/>
+      <text x="380" y="462" text-anchor="middle" font-size="14" font-weight="600" fill="var(--fig-accent, #a95a22)">So the practitioner removes the interference</text>
+      <text x="380" y="482" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">subtract the obstruction, do not add a remedy</text>
+    </g>
+
+    <g data-step="5" data-hot="where the weight sits" data-tip="Read the chain from the bottom and every conclusion points back to one sentence about the universe. Accept that sentence and the rest is hard to refuse. Decline it and nothing below it survives.">
+      <path d="M150 551 L 70 551 L 70 84 L 144 84" stroke="var(--fig-accent, #a95a22)" stroke-width="2" fill="none" marker-end="url(#fig-principles-chain-arrow-accent)"/>
+      <text transform="rotate(-90 52 320)" x="52" y="320" text-anchor="middle" font-size="12" fill="var(--fig-accent, #a95a22)">everything below rests on this one sentence</text>
+    </g>
+
+    <g data-step="5" data-pulse="">
+      <rect x="150" y="516" width="460" height="70" rx="8" fill="none" stroke="var(--fig-accent, #a95a22)"/>
+      <text x="380" y="540" text-anchor="middle" font-weight="600" fill="var(--fig-accent, #a95a22)">Each step follows from the one above it.</text>
+      <text x="380" y="560" text-anchor="middle" font-size="12">The reasoning is valid. That is not the same as true.</text>
+      <text x="380" y="578" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">A deduction carries exactly as much weight as its premise.</text>
+    </g>
+
+  </g>
+</svg>
