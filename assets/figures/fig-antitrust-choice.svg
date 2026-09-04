@@ -1,0 +1,45 @@
+<svg viewBox="0 0 720 300" role="img"
+  data-layers='[{"k":"a","label":"The defamation route","note":"The single question this route forces a court to answer: is the charge true, is chiropractic unscientific? It puts the plaintiffs to the proof of their own practice, before a jury, on the literature available in the 1970s."},{"k":"b","label":"The antitrust route","note":"The single question this route forces a court to answer: did competitors agree among themselves to restrain trade? Whether chiropractic works is not an element of the claim, so the court never reaches it."}]' aria-label="Two possible legal routes: a defamation claim would have required the court to rule on whether chiropractic works, while the antitrust claim routed around that question entirely.">
+  <defs>
+    <marker id="arrow-antitrust" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
+    </marker>
+    <marker id="arrow-antitrust-warn" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--fig-warn, #b4423a)"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+    <g data-hot="the plaintiffs" data-tip="Chester Wilk, a Chicago chiropractor, and four co plaintiffs, filing in 1976. They sued the residue of a campaign rather than an ongoing one: the Committee on Quackery had been dissolved in 1974.">
+      <rect x="16" y="118" width="150" height="64" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="91" y="145" text-anchor="middle" font-weight="600">Chiropractors</text>
+      <text x="91" y="164" text-anchor="middle" fill="var(--fig-mute, #8a939e)">shut out of practice</text>
+    </g>
+
+    <path data-layer="a" d="M170 138 L 300 86" stroke="var(--fig-warn, #b4423a)" fill="none" marker-end="url(#arrow-antitrust-warn)"/>
+    <text data-layer="a" x="212" y="104" font-size="12" fill="var(--fig-warn, #b4423a)">defamation</text>
+
+    <path data-layer="b" d="M170 162 L 300 214" stroke="var(--fig-brand, #0f5f66)" fill="none" marker-end="url(#arrow-antitrust)" stroke-width="2"/>
+    <text data-layer="b" x="206" y="200" font-size="12" fill="var(--fig-brand, #0f5f66)">antitrust</text>
+
+    <g data-layer="a" data-hot="is the claim true?" data-tip="Suing over the 1966 unscientific cult resolution would have put the truth of the charge squarely in issue, meaning the plaintiffs would have had to prove their practice scientific to a jury at a moment when there was essentially no body of controlled trial evidence for manipulation.">
+      <rect x="304" y="54" width="196" height="66" rx="8" fill="none" stroke="var(--fig-warn, #b4423a)" stroke-dasharray="5 4"/>
+      <text x="402" y="80" text-anchor="middle" font-weight="600" fill="var(--fig-warn, #b4423a)">Is the claim true?</text>
+      <text x="402" y="99" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">court must judge the science</text>
+    </g>
+
+    <g data-layer="b" data-hot="was trade restrained?" data-tip="Section 1 of the Sherman Act reaches agreements among competitors in restraint of trade. It regulates how competitors may treat one another, not who is right about medicine, so a boycott of a worthless service and a boycott of a valuable one can both violate it.">
+      <rect x="304" y="182" width="196" height="66" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-brand, #0f5f66)"/>
+      <text x="402" y="208" text-anchor="middle" font-weight="600">Was trade restrained?</text>
+      <text x="402" y="227" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">court judges conduct only</text>
+    </g>
+
+    <path data-layer="b" d="M504 215 L 610 215" stroke="var(--fig-brand, #0f5f66)" fill="none" marker-end="url(#arrow-antitrust)" stroke-width="2"/>
+    <g data-layer="b" data-hot="the Wilk outcome" data-tip="Judge Getzendanner ruled on September 25, 1987 that the AMA and certain members had conspired unlawfully in restraint of trade. Everything the case did and did not accomplish follows from the narrow gate it went through: standing in the marketplace, not standing in science.">
+      <rect x="614" y="186" width="92" height="58" rx="8" fill="none" stroke="var(--fig-brand, #0f5f66)"/>
+      <text x="660" y="212" text-anchor="middle" font-weight="600">Wilk</text>
+      <text x="660" y="230" text-anchor="middle" font-size="12">1987</text>
+    </g>
+
+    <text data-layer="a" x="504" y="88" font-size="12" fill="var(--fig-mute, #8a939e)">route not taken</text>
+  </g>
+</svg>

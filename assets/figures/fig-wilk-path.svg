@@ -1,0 +1,100 @@
+<svg viewBox="0 0 720 410" role="img"
+  data-steps='["1976. Chester Wilk and four co plaintiffs file under Section 1 of the Sherman Antitrust Act, two years after the Committee on Quackery was dissolved. Much of the litigation would turn on whether conduct that had formally ended was still producing effects.","1981. The first trial goes to the AMA and the case is all but over. Nothing that follows was inevitable: it continues only because the Seventh Circuit ordered a new trial.","1987. A bench trial before Judge Susan Getzendanner ends in a ruling that the AMA and certain members conspired unlawfully in restraint of trade. The remedy is a permanent injunction, no damages, and an order to print it in the journal of the association itself.","1990. The Seventh Circuit affirms on February 7 and the Supreme Court denies review later that year. Fourteen years from the filing to the last word.","And here is what fourteen years did not settle. The court expressly declined to rule on the validity or efficacy of chiropractic. Wilk won standing in the marketplace, not standing in science, and every brochure that begins with the words a federal court found is misreading it."]' aria-label="Wilk against the AMA ran fourteen years, from filing in 1976 through a 1981 verdict for the AMA that nearly ended it, a new trial, the 1987 ruling and injunction, to affirmance in 1990, and it never decided whether chiropractic works.">
+  <defs>
+    <marker id="arrow-wilk" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
+    </marker>
+    <marker id="arrow-wilk-warn" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--fig-warn, #b4423a)"/>
+    </marker>
+    <marker id="arrow-wilk-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--fig-accent, #a95a22)"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+    <g data-step="2" data-pulse="">
+      <rect x="250" y="16" width="300" height="54" rx="8" fill="none" stroke="var(--fig-warn, #b4423a)" stroke-dasharray="5 4"/>
+      <text x="400" y="40" text-anchor="middle" font-weight="600" fill="var(--fig-warn, #b4423a)">branch not taken</text>
+      <text x="400" y="59" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">the verdict stands and the case ends in 1981</text>
+      <path d="M360 108 L 360 74" stroke="var(--fig-warn, #b4423a)" fill="none" stroke-dasharray="5 4" marker-end="url(#arrow-wilk-warn)"/>
+      <text x="368" y="90" font-size="12" fill="var(--fig-warn, #b4423a)">if not appealed</text>
+    </g>
+
+    <g data-step="1" data-hot="1976, the filing" data-tip="Five plaintiffs, led by a Chicago chiropractor, choosing a federal antitrust theory over defamation. That choice of statute was the single most important strategic decision in the case, because under it the plaintiffs never had to prove that chiropractic works.">
+      <rect x="20" y="110" width="200" height="72" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="120" y="138" text-anchor="middle" font-weight="600">1976 filed</text>
+      <text x="120" y="158" text-anchor="middle" font-size="12">Chester Wilk and four co plaintiffs</text>
+      <text x="120" y="175" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">Sherman Act, Section 1</text>
+    </g>
+
+    <text data-step="2" x="238" y="102" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">goes to trial</text>
+    <path data-step="2" d="M220 146 L 252 146" stroke="currentColor" fill="none" marker-end="url(#arrow-wilk)"/>
+
+    <g data-step="2" data-hot="1981, the first trial" data-tip="A verdict for the AMA. Students who know only the 1987 headline miss that the case spent its first five years losing, and that everything afterwards depended on an appellate court agreeing to send it back.">
+      <rect x="260" y="110" width="200" height="72" rx="8" fill="none" stroke="var(--fig-warn, #b4423a)"/>
+      <text x="360" y="138" text-anchor="middle" font-weight="600" fill="var(--fig-warn, #b4423a)">1981 first trial</text>
+      <text x="360" y="158" text-anchor="middle" font-size="12">verdict for the AMA</text>
+      <text x="360" y="175" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">the case nearly ends here</text>
+    </g>
+
+    <g data-step="2">
+      <text x="480" y="102" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">appealed</text>
+      <path d="M460 146 L 492 146" stroke="currentColor" fill="none" marker-end="url(#arrow-wilk)"/>
+      <rect x="500" y="110" width="200" height="72" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="600" y="138" text-anchor="middle" font-weight="600">new trial ordered</text>
+      <text x="600" y="158" text-anchor="middle" font-size="12">the Seventh Circuit sends</text>
+      <text x="600" y="175" text-anchor="middle" font-size="12">the case back</text>
+      <path d="M600 182 L 600 196 L 50 196 L 50 220" stroke="currentColor" fill="none" marker-end="url(#arrow-wilk)"/>
+      <text x="330" y="190" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">the case continues to a second trial</text>
+    </g>
+
+    <g data-step="3" data-hot="1987, the bench trial" data-tip="No jury this time. The ruling of September 25, 1987 is reported at 671 F. Supp. 1465. The patient care defense failed not because the court doubted the association's sincerity but because a boycott was more restrictive than necessary when publishing the evidence was available.">
+      <rect x="20" y="226" width="150" height="72" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-brand, #0f5f66)"/>
+      <text x="95" y="254" text-anchor="middle" font-weight="600">1987 bench trial</text>
+      <text x="95" y="272" text-anchor="middle" font-size="12">unlawful conspiracy</text>
+      <text x="95" y="288" text-anchor="middle" font-size="12">in restraint of trade</text>
+    </g>
+
+    <text data-step="3" x="185" y="218" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">remedy</text>
+    <path data-step="3" d="M170 262 L 192 262" stroke="var(--fig-brand, #0f5f66)" fill="none" marker-end="url(#arrow-wilk)"/>
+
+    <g data-step="3" data-hot="the injunction" data-tip="The shape of a remedy tells you what the court thought the wrong was. Damages would have said the plaintiffs were robbed of a quantified amount of business; an injunction says the conduct must stop and must be seen to have stopped.">
+      <rect x="200" y="226" width="150" height="72" rx="8" fill="none" stroke="var(--fig-brand, #0f5f66)"/>
+      <text x="275" y="254" text-anchor="middle" font-weight="600">injunction</text>
+      <text x="275" y="272" text-anchor="middle" font-size="12">permanent, and</text>
+      <text x="275" y="288" text-anchor="middle" font-size="12">no damages</text>
+    </g>
+
+    <g data-step="3">
+      <text x="365" y="218" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">notice to members</text>
+      <path d="M350 262 L 372 262" stroke="var(--fig-brand, #0f5f66)" fill="none" marker-end="url(#arrow-wilk)"/>
+      <rect x="380" y="226" width="150" height="72" rx="8" fill="none" stroke="var(--fig-brand, #0f5f66)"/>
+      <text x="455" y="254" text-anchor="middle" font-weight="600">printed in JAMA</text>
+      <text x="455" y="272" text-anchor="middle" font-size="12">the AMA is ordered</text>
+      <text x="455" y="288" text-anchor="middle" font-size="12">to publish it</text>
+    </g>
+
+    <text data-step="4" x="545" y="218" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">AMA appeals</text>
+    <path data-step="4" d="M530 262 L 552 262" stroke="var(--fig-brand, #0f5f66)" fill="none" marker-end="url(#arrow-wilk)"/>
+
+    <g data-step="4" data-hot="1990, affirmed" data-tip="Affirmed on February 7, 1990, with review denied later that year. The associational clause had already been revised out of the ethics code in 1980, so part of what this made permanent and enforceable was a change the association had already made.">
+      <rect x="560" y="226" width="150" height="72" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-brand, #0f5f66)"/>
+      <text x="635" y="254" text-anchor="middle" font-weight="600">1990 affirmed</text>
+      <text x="635" y="272" text-anchor="middle" font-size="12">Seventh Circuit upholds</text>
+      <text x="635" y="288" text-anchor="middle" font-size="12">review then declined</text>
+    </g>
+
+    <g data-step="5">
+      <path d="M95 298 L 95 362 L 372 362" stroke="var(--fig-accent, #a95a22)" fill="none" stroke-dasharray="5 4" marker-end="url(#arrow-wilk-accent)"/>
+      <text x="112" y="354" font-size="12" fill="var(--fig-accent, #a95a22)">expressly left open</text>
+    </g>
+
+    <g data-step="5" data-pulse="" data-hot="not decided" data-tip="The most tested point in this course. The court declined to rule on the validity or efficacy of chiropractic, so the judgment is evidence about a boycott and about nothing else. Standing in science was earned elsewhere and later, through the RAND consensus work and the 1994 acute low back pain guideline.">
+      <rect x="380" y="330" width="324" height="64" rx="8" fill="none" stroke="var(--fig-accent, #a95a22)" stroke-dasharray="5 4"/>
+      <text x="542" y="354" text-anchor="middle" font-weight="600" fill="var(--fig-accent, #a95a22)">Not decided</text>
+      <text x="542" y="376" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">the court declined to rule on validity or efficacy</text>
+    </g>
+
+    <text data-step="4" x="20" y="392" font-size="12" fill="var(--fig-mute, #8a939e)">1976 to 1990, fourteen years</text>
+  </g>
+</svg>

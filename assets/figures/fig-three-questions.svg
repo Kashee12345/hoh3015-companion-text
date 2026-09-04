@@ -1,0 +1,33 @@
+<svg viewBox="0 0 720 380" role="img" aria-label="Three questions a graduate of this course should be able to answer, drawn as three supports holding up one thing, a practitioner a patient can trust. Removing any one of the three collapses something different.">
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+    <text x="360" y="40" text-anchor="middle" font-size="15" font-weight="600">A practitioner a patient can trust</text>
+
+    <rect x="90" y="64" width="540" height="14" rx="3" fill="var(--fig-accent, #a95a22)"/>
+
+    <line x1="70" y1="260" x2="650" y2="260" stroke="currentColor"/>
+
+    <g data-hot="What does the evidence support" data-tip="Answered alone, without the other two, this makes a technician: skilled hands with no sense of the limit or the purpose behind them.">
+      <line x1="180" y1="78" x2="180" y2="260" stroke="currentColor" stroke-width="3"/>
+      <rect x="160" y="252" width="40" height="8" rx="2" fill="currentColor"/>
+      <text x="180" y="295" text-anchor="middle" font-weight="600">What does</text>
+      <text x="180" y="311" text-anchor="middle" font-weight="600">the evidence</text>
+      <text x="180" y="327" text-anchor="middle" font-weight="600">support?</text>
+    </g>
+
+    <g data-hot="Where does it stop" data-tip="Skip this one and you will eventually be embarrassed by a patient who asks a question your training never prepared you to answer.">
+      <line x1="360" y1="78" x2="360" y2="260" stroke="currentColor" stroke-width="3"/>
+      <rect x="340" y="252" width="40" height="8" rx="2" fill="currentColor"/>
+      <text x="360" y="295" text-anchor="middle" font-weight="600">Where does</text>
+      <text x="360" y="311" text-anchor="middle" font-weight="600">it</text>
+      <text x="360" y="327" text-anchor="middle" font-weight="600">stop?</text>
+    </g>
+
+    <g data-hot="Why is this still worth doing" data-tip="Answered alone, without the other two, this makes a believer: conviction with no evidence underneath it and no sense of where it stops.">
+      <line x1="540" y1="78" x2="540" y2="260" stroke="currentColor" stroke-width="3"/>
+      <rect x="520" y="252" width="40" height="8" rx="2" fill="currentColor"/>
+      <text x="540" y="295" text-anchor="middle" font-weight="600">Why is this</text>
+      <text x="540" y="311" text-anchor="middle" font-weight="600">still worth</text>
+      <text x="540" y="327" text-anchor="middle" font-weight="600">doing?</text>
+    </g>
+  </g>
+</svg>

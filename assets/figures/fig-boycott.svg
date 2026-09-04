@@ -1,0 +1,79 @@
+<svg viewBox="0 0 720 400" role="img"
+  data-steps='["Two professionals, and the five ordinary connections between them. Nothing unusual here: this is what colleagues in adjacent fields normally do.","One clause arrives. Principle 3 of the AMA Principles of Medical Ethics says a physician should not voluntarily associate professionally with a practitioner of an unscientific method.","Every one of the five is now an ethics violation. Count them. The clause never mentions chiropractic by name and never has to.","Five of five severed by a single sentence. That is the conduct Wilk v. AMA eventually put on trial, and it is why the case was an antitrust case rather than a scientific one."]' aria-label="Five ordinary professional connections between physician and chiropractor, referral out, referral in, hospital privileges, laboratory access and teaching, all severed at once by a single ethical clause, Principle 3.">
+  <defs>
+    <marker id="arrow-boycott-warn" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--fig-warn, #b4423a)"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+    <text x="16" y="40" font-weight="600">Five ordinary professional connections</text>
+    <text x="16" y="58" font-size="12" fill="var(--fig-mute, #8a939e)">one clause cuts all of them</text>
+
+    <rect data-step="1" x="16" y="96" width="140" height="200" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+    <text data-step="1" x="86" y="190" text-anchor="middle" font-weight="600">Physician</text>
+    <text data-step="1" x="86" y="209" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">AMA member</text>
+
+    <rect data-step="1" x="564" y="96" width="140" height="200" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+    <text data-step="1" x="634" y="190" text-anchor="middle" font-weight="600">Chiropractor</text>
+    <text data-step="1" x="634" y="209" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">outside the clause</text>
+
+    <g data-step="1" data-hot="referral out" data-tip="A physician sending a patient to a chiropractor. The most ordinary act in adjacent practice, and the first one the clause made unethical.">
+      <circle data-step="1" cx="168" cy="112" r="9" fill="none" stroke="currentColor"/>
+      <text data-step="1" x="168" y="116" text-anchor="middle" font-size="12">1</text>
+      <text data-step="1" x="186" y="104" font-size="12">referral out</text>
+    </g>
+    <path data-step="1" d="M180 112 L 344 112" stroke="var(--fig-warn, #b4423a)" fill="none" marker-end="url(#arrow-boycott-warn)"/>
+    <path data-step="1" d="M372 112 L 560 112" stroke="var(--fig-mute, #8a939e)" fill="none" stroke-dasharray="4 4"/>
+    <path data-step="3" data-pulse="" d="M354 106 L 366 118" stroke="var(--fig-warn, #b4423a)" stroke-width="2" fill="none"/>
+    <path data-step="3" data-pulse="" d="M354 118 L 366 106" stroke="var(--fig-warn, #b4423a)" stroke-width="2" fill="none"/>
+
+    <g data-step="1" data-hot="referral in" data-tip="A chiropractor sending a patient back to a physician. Cutting this one hurts patients directly, since it discourages the referral a chiropractor most needs to make.">
+      <circle data-step="1" cx="168" cy="152" r="9" fill="none" stroke="currentColor"/>
+      <text data-step="1" x="168" y="156" text-anchor="middle" font-size="12">2</text>
+      <text data-step="1" x="186" y="144" font-size="12">referral in</text>
+    </g>
+    <path data-step="1" d="M180 152 L 344 152" stroke="var(--fig-mute, #8a939e)" fill="none" stroke-dasharray="4 4"/>
+    <path data-step="1" d="M560 152 L 376 152" stroke="var(--fig-warn, #b4423a)" fill="none" marker-end="url(#arrow-boycott-warn)"/>
+    <path data-step="3" data-pulse="" d="M354 146 L 366 158" stroke="var(--fig-warn, #b4423a)" stroke-width="2" fill="none"/>
+    <path data-step="3" data-pulse="" d="M354 158 L 366 146" stroke="var(--fig-warn, #b4423a)" stroke-width="2" fill="none"/>
+
+    <g data-step="1" data-hot="hospital privileges" data-tip="Access to admit or co manage a patient in a hospital. Without it a practitioner is locked out of the institution where serious cases go.">
+      <circle data-step="1" cx="168" cy="192" r="9" fill="none" stroke="currentColor"/>
+      <text data-step="1" x="168" y="196" text-anchor="middle" font-size="12">3</text>
+      <text data-step="1" x="186" y="184" font-size="12">hospital privileges</text>
+    </g>
+    <path data-step="1" d="M180 192 L 344 192" stroke="var(--fig-warn, #b4423a)" fill="none" marker-end="url(#arrow-boycott-warn)"/>
+    <path data-step="1" d="M372 192 L 560 192" stroke="var(--fig-mute, #8a939e)" fill="none" stroke-dasharray="4 4"/>
+    <path data-step="3" data-pulse="" d="M354 186 L 366 198" stroke="var(--fig-warn, #b4423a)" stroke-width="2" fill="none"/>
+    <path data-step="3" data-pulse="" d="M354 198 L 366 186" stroke="var(--fig-warn, #b4423a)" stroke-width="2" fill="none"/>
+
+    <g data-step="1" data-hot="laboratory access" data-tip="Ordering and reading the tests that tell you whether your own diagnosis is right. Denying this makes careful practice harder, not easier.">
+      <circle data-step="1" cx="168" cy="232" r="9" fill="none" stroke="currentColor"/>
+      <text data-step="1" x="168" y="236" text-anchor="middle" font-size="12">4</text>
+      <text data-step="1" x="186" y="224" font-size="12">laboratory access</text>
+    </g>
+    <path data-step="1" d="M180 232 L 344 232" stroke="var(--fig-warn, #b4423a)" fill="none" marker-end="url(#arrow-boycott-warn)"/>
+    <path data-step="1" d="M372 232 L 560 232" stroke="var(--fig-mute, #8a939e)" fill="none" stroke-dasharray="4 4"/>
+    <path data-step="3" data-pulse="" d="M354 226 L 366 238" stroke="var(--fig-warn, #b4423a)" stroke-width="2" fill="none"/>
+    <path data-step="3" data-pulse="" d="M354 238 L 366 226" stroke="var(--fig-warn, #b4423a)" stroke-width="2" fill="none"/>
+
+    <g data-step="1" data-hot="teaching, either way" data-tip="A physician teaching chiropractic students, or a chiropractor teaching in a medical setting. Cutting this one is how a boycott outlives the people who started it.">
+      <circle data-step="1" cx="168" cy="272" r="9" fill="none" stroke="currentColor"/>
+      <text data-step="1" x="168" y="276" text-anchor="middle" font-size="12">5</text>
+      <text data-step="1" x="186" y="264" font-size="12">teaching, either way</text>
+    </g>
+    <path data-step="1" d="M180 272 L 344 272" stroke="var(--fig-warn, #b4423a)" fill="none" marker-end="url(#arrow-boycott-warn)"/>
+    <path data-step="1" d="M560 272 L 376 272" stroke="var(--fig-warn, #b4423a)" fill="none" marker-end="url(#arrow-boycott-warn)"/>
+    <path data-step="3" data-pulse="" d="M354 266 L 366 278" stroke="var(--fig-warn, #b4423a)" stroke-width="2" fill="none"/>
+    <path data-step="3" data-pulse="" d="M354 278 L 366 266" stroke="var(--fig-warn, #b4423a)" stroke-width="2" fill="none"/>
+
+    <path data-step="2" data-pulse="" data-hot="Principle 3" data-tip="A physician should practice a method of healing founded on a scientific basis, and should not voluntarily professionally associate with anyone who violates this principle. That is the whole instrument." d="M360 70 L 360 308" stroke="var(--fig-warn, #b4423a)" stroke-width="3" fill="none"/>
+    <text data-step="2" x="360" y="58" text-anchor="middle" font-size="15" font-weight="600" fill="var(--fig-warn, #b4423a)">Principle 3</text>
+    <text data-step="3" x="470" y="94" font-size="12" fill="var(--fig-mute, #8a939e)">no path past the clause</text>
+    <text data-step="4" data-pulse="" x="634" y="330" text-anchor="middle" font-weight="600" fill="var(--fig-warn, #b4423a)">5 of 5 severed</text>
+
+    <text data-step="2" x="300" y="330" text-anchor="middle" font-size="12" fill="var(--fig-warn, #b4423a)">a physician should not voluntarily professionally associate</text>
+    <text data-step="2" x="300" y="348" text-anchor="middle" font-size="12" fill="var(--fig-warn, #b4423a)">with anyone who violates this principle</text>
+    <text data-step="4" x="300" y="374" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">pre 1980 text; the associational prohibition was removed in 1980</text>
+  </g>
+</svg>

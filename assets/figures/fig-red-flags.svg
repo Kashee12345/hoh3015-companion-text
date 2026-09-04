@@ -1,0 +1,98 @@
+<svg viewBox="0 0 720 490" role="img"
+  aria-label="The referral decision: a patient presents, the practitioner screens, and four categories of finding mean the person needs a physician now rather than an adjustment, while a documented negative screen is what allows care to proceed.">
+  <defs>
+    <marker id="fig-red-flags-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
+    </marker>
+    <marker id="fig-red-flags-arrow-warn" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--fig-warn, #b4423a)"/>
+    </marker>
+    <marker id="fig-red-flags-arrow-brand" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--fig-brand, #0f5f66)"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+    <text x="16" y="26" font-size="15" font-weight="600">The referral decision</text>
+    <text x="16" y="46" font-size="12" fill="var(--fig-mute, #8a939e)">Screening is not a formality. It is the one thing separating a safe practitioner from a dangerous one.</text>
+
+    <rect x="16" y="164" width="124" height="48" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+    <text x="78" y="186" text-anchor="middle" font-weight="600">Patient</text>
+    <text x="78" y="203" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">presents with pain</text>
+    <path d="M140 188 L152 188" stroke="currentColor" fill="none" marker-end="url(#fig-red-flags-arrow)"/>
+
+    <g data-hot="the screen" data-tip="A history and an examination aimed at one question, which is whether this presentation belongs to you at all. The categories on the right are rare, and that rarity is exactly the danger: a practitioner who has never seen one can talk themselves out of the first one they meet.">
+      <rect x="156" y="152" width="130" height="72" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-width="2"/>
+      <text x="221" y="180" text-anchor="middle" font-weight="600">Screen</text>
+      <text x="221" y="198" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">history and</text>
+      <text x="221" y="214" text-anchor="middle" font-size="11" fill="var(--fig-mute, #8a939e)">examination</text>
+    </g>
+
+    <g stroke="var(--fig-warn, #b4423a)" fill="none">
+      <path d="M286 188 L302 188 L302 90 L314 90" marker-end="url(#fig-red-flags-arrow-warn)"/>
+      <path d="M286 188 L302 188 L302 154 L314 154" marker-end="url(#fig-red-flags-arrow-warn)"/>
+      <path d="M286 188 L302 188 L302 218 L314 218" marker-end="url(#fig-red-flags-arrow-warn)"/>
+      <path d="M286 188 L302 188 L302 282 L314 282" marker-end="url(#fig-red-flags-arrow-warn)"/>
+    </g>
+
+    <g data-hot="cauda equina syndrome" data-tip="Saddle anesthesia, meaning numbness across the perineal area, and sudden onset bladder dysfunction were the two signs most consistently cited across the guidelines in the review, present in nine of them. This is the category asked about at the first visit rather than deferred to the second.">
+      <rect x="320" y="64" width="212" height="52" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-warn, #b4423a)"/>
+      <text x="336" y="86" font-weight="600">Cauda equina syndrome</text>
+      <text x="336" y="104" font-size="11" fill="var(--fig-mute, #8a939e)">saddle numbness, bladder change</text>
+    </g>
+
+    <g data-hot="suspected fracture" data-tip="Major or significant trauma, use of steroids or immunosuppressants, age over 50, and female sex, the last two standing in for osteoporotic fracture risk. None of these is a diagnosis on its own. The point of the flag is that a thrust is the wrong next move until imaging or a referral has answered the question.">
+      <rect x="320" y="128" width="212" height="52" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-warn, #b4423a)"/>
+      <text x="336" y="150" font-weight="600">Suspected fracture</text>
+      <text x="336" y="168" font-size="11" fill="var(--fig-mute, #8a939e)">major trauma, steroids, over 50</text>
+    </g>
+
+    <g data-hot="suspected malignancy" data-tip="A history of cancer and unexplained or unintentional weight loss are the two findings most consistently endorsed across guidelines. Pain at rest, pain at night, elevated inflammatory markers and loss of appetite also appear in the set, less consistently.">
+      <rect x="320" y="192" width="212" height="52" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-warn, #b4423a)"/>
+      <text x="336" y="214" font-weight="600">Suspected malignancy</text>
+      <text x="336" y="232" font-size="11" fill="var(--fig-mute, #8a939e)">cancer history, weight loss</text>
+    </g>
+
+    <g data-hot="suspected infection" data-tip="Fever, intravenous drug use, corticosteroid or immunosuppressant therapy, night pain, and bone tenderness over the lumbar spinous processes. Note how far several of these sit from the spine itself: they come out of the history, not the palpation.">
+      <rect x="320" y="256" width="212" height="52" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-warn, #b4423a)"/>
+      <text x="336" y="278" font-weight="600">Suspected infection</text>
+      <text x="336" y="296" font-size="11" fill="var(--fig-mute, #8a939e)">fever, intravenous drug use</text>
+    </g>
+
+    <g stroke="var(--fig-warn, #b4423a)" fill="none">
+      <path d="M532 90 L548 90"/>
+      <path d="M532 154 L548 154"/>
+      <path d="M532 218 L548 218"/>
+      <path d="M532 282 L548 282"/>
+      <path d="M548 90 L548 282" stroke-width="2"/>
+      <path d="M548 186 L560 186" stroke-width="2" marker-end="url(#fig-red-flags-arrow-warn)"/>
+    </g>
+
+    <g data-hot="referral" data-tip="Any one of these branches ends the same way. Referral is not a failure and not the loss of a patient, and the finding does not have to be certain: the flag is a reason to send the question somewhere it can be answered, which is a lower bar than a diagnosis.">
+      <rect x="564" y="156" width="140" height="64" rx="8" fill="none" stroke="var(--fig-warn, #b4423a)" stroke-width="2"/>
+      <text x="634" y="182" text-anchor="middle" font-weight="600" fill="var(--fig-warn, #b4423a)">Refer to a</text>
+      <text x="634" y="200" text-anchor="middle" font-weight="600" fill="var(--fig-warn, #b4423a)">physician now</text>
+    </g>
+
+    <path d="M221 224 L221 338 L312 338" stroke="var(--fig-brand, #0f5f66)" fill="none" marker-end="url(#fig-red-flags-arrow-brand)"/>
+    <rect x="320" y="312" width="212" height="52" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-brand, #0f5f66)"/>
+    <text x="336" y="334" font-weight="600">No red flag found</text>
+    <text x="336" y="352" font-size="11" fill="var(--fig-mute, #8a939e)">and the screen is documented</text>
+    <path d="M532 338 L560 338" stroke="var(--fig-brand, #0f5f66)" fill="none" marker-end="url(#fig-red-flags-arrow-brand)"/>
+    <rect x="564" y="312" width="140" height="52" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-brand, #0f5f66)" stroke-width="2"/>
+    <text x="634" y="334" text-anchor="middle" font-weight="600" fill="var(--fig-brand, #0f5f66)">Care may</text>
+    <text x="634" y="352" text-anchor="middle" font-size="11">proceed within scope</text>
+
+    <rect x="16" y="384" width="688" height="90" rx="8" fill="none" stroke="var(--fig-mute, #8a939e)" stroke-dasharray="6 4"/>
+    <text x="32" y="406" font-size="12" font-weight="600">What the source review itself says</text>
+    <text x="32" y="424" font-size="11" fill="var(--fig-mute, #8a939e)">Guidelines disagree about which flags to</text>
+    <text x="32" y="440" font-size="11" fill="var(--fig-mute, #8a939e)">prioritize, and the evidence on how accurately</text>
+    <text x="32" y="456" font-size="11" fill="var(--fig-mute, #8a939e)">any single flag predicts serious disease is limited.</text>
+
+    <g data-hot="a caution from a different literature" data-tip="This one is not part of the four category framework, which was drawn from low back pain guidelines. It comes from the cervical artery dissection literature, where the central observation is that neck pain and headache can themselves be the early symptoms of a dissection already in progress, which is why a patient may seek manual treatment because of it. A new headache or neck pain unlike the patient's usual pattern is a reason to ask more questions before deciding anything.">
+      <text x="380" y="406" font-size="12" font-weight="600">A caution from a different literature</text>
+      <text x="380" y="424" font-size="11" fill="var(--fig-mute, #8a939e)">Neck pain and headache can themselves be the</text>
+      <text x="380" y="440" font-size="11" fill="var(--fig-mute, #8a939e)">early symptoms of a cervical artery dissection</text>
+      <text x="380" y="456" font-size="11" fill="var(--fig-mute, #8a939e)">already in progress.</text>
+    </g>
+  </g>
+</svg>

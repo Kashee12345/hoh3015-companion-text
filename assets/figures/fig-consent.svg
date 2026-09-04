@@ -1,0 +1,75 @@
+<svg viewBox="0 0 720 460" role="img"
+  data-steps='["A patient is in the room and cervical manipulation is proposed. Everything that follows has to happen today, long before the research is finished.","An association between recent cervical manipulation and vertebral artery dissection has been reported and vigorously debated. Causation is contested, and the absolute risk of a catastrophic vascular event is low.","One route is closed. Nobody can wait for causation to be settled: the event is rare, the exposure and the earliest symptom of the disease look alike, and no one may allocate patients to a procedure in order to see whether a catastrophic event follows.","So the disclosure becomes the required step. It names the reported association, says that the causal status is disputed, says that the absolute risk is low, and gives the alternatives, including waiting and doing nothing.","Either answer is a proper outcome. Consent in the meaningful sense is the conversation rather than the signature, and what a board or a court reads afterwards is the record of what was actually said."]'
+  aria-label="Because causation cannot be settled before the appointment, the only available route runs through a disclosure that names the association, its contested status, the low absolute risk and the alternatives.">
+  <defs>
+    <marker id="arrow-consent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
+    </marker>
+    <marker id="arrow-consent-warn" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--fig-warn, #b4423a)"/>
+    </marker>
+    <marker id="arrow-consent-accent" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--fig-accent, #a95a22)"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13">
+    <g data-step="1">
+      <rect x="260" y="30" width="200" height="56" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="360" y="54" text-anchor="middle" font-weight="600">Cervical manipulation</text>
+      <text x="360" y="74" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">is proposed to a patient today</text>
+      <path d="M360 86 L 360 116" stroke="currentColor" fill="none" marker-end="url(#arrow-consent)"/>
+      <text x="370" y="106" font-size="12" fill="var(--fig-mute, #8a939e)">the risk question arises</text>
+    </g>
+
+    <g data-step="2" data-hot="an association is reported" data-tip="Case reports and then case control studies reported it. The leading competing explanation is confounding by indication: neck pain and headache are among the first symptoms of a dissection already in progress, so a patient may seek care because of it, and studies of visits to primary care physicians have reported associations of similar shape. Critics reply that this shows the timing evidence cannot separate the possibilities, not that manipulation is harmless.">
+      <rect x="230" y="120" width="260" height="70" rx="8" fill="none" stroke="var(--fig-warn, #b4423a)"/>
+      <text x="360" y="144" text-anchor="middle" font-weight="600" fill="var(--fig-warn, #b4423a)">an association is reported</text>
+      <text x="360" y="163" text-anchor="middle" font-size="12">with vertebral artery dissection</text>
+      <text x="360" y="181" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">causation contested, absolute risk low</text>
+    </g>
+
+    <g data-step="3">
+      <path d="M360 190 L 360 210 L 180 210 L 180 230" stroke="var(--fig-warn, #b4423a)" fill="none" stroke-dasharray="5 4" marker-end="url(#arrow-consent-warn)"/>
+      <text x="250" y="204" text-anchor="middle" font-size="12" fill="var(--fig-warn, #b4423a)">not available in the clinic</text>
+    </g>
+    <g data-step="4">
+      <path d="M360 190 L 360 210 L 540 210 L 540 230" stroke="var(--fig-accent, #a95a22)" fill="none" stroke-width="2" marker-end="url(#arrow-consent-accent)"/>
+      <text x="474" y="204" text-anchor="middle" font-size="12" fill="var(--fig-accent, #a95a22)">the route that remains</text>
+    </g>
+
+    <g data-step="3" data-pulse="" data-hot="wait for causation to be settled" data-tip="Crossed out because it is unavailable, not because the question has been answered. The event is rare, so studies large enough to detect it lean on records collected for billing; the exposure and the earliest symptom resemble each other; and a randomized trial is out of the question. This figure takes no position on whether manipulation causes dissection, in either direction.">
+      <rect x="30" y="234" width="300" height="76" rx="8" fill="none" stroke="var(--fig-warn, #b4423a)" stroke-dasharray="5 4"/>
+      <text x="180" y="260" text-anchor="middle" font-weight="600" fill="var(--fig-warn, #b4423a)">wait for causation to be settled</text>
+      <text x="180" y="280" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">the appointment happens either way,</text>
+      <text x="180" y="298" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">so the patient cannot wait for it</text>
+      <path d="M36 240 L 324 304" stroke="var(--fig-warn, #b4423a)" fill="none"/>
+      <path d="M36 304 L 324 240" stroke="var(--fig-warn, #b4423a)" fill="none"/>
+    </g>
+
+    <g data-step="4">
+      <rect x="390" y="234" width="314" height="110" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="var(--fig-accent, #a95a22)" stroke-width="2"/>
+      <text x="547" y="258" text-anchor="middle" font-weight="600" fill="var(--fig-accent, #a95a22)">required step: the disclosure</text>
+      <text data-hot="name the association" data-tip="Materiality is judged from the point of view of a reasonable patient rather than the clinician. One camp holds that a rare catastrophic risk given a paragraph of its own frightens patients and singles out one procedure; the other holds that the magnitude of the harm rather than its frequency is what earns it a sentence." x="406" y="280" font-size="12">names the reported association</text>
+      <text data-hot="say that causation is contested" data-tip="Reporting the state of an argument is not the same as estimating anybody's chances. The accurate sentence is that an association has been reported and debated and that whether manipulation causes the injury remains disputed, which is neither a warning nor a reassurance." x="406" y="298" font-size="12">says that causation is contested</text>
+      <text data-hot="say that the risk is low" data-tip="Naming a rare harm without saying it is rare misleads in the other direction. What is not seriously contested is that the absolute risk of a catastrophic vascular event after cervical manipulation is low, and leaving that out lets the patient supply her own estimate." x="406" y="316" font-size="12">says that the absolute risk is low</text>
+      <text data-hot="offer the alternatives" data-tip="Alternatives include the other options for the same complaint and also waiting or doing nothing. A choice offered without them is not a choice, and they are what a patient who declines is choosing between." x="406" y="334" font-size="12">offers the alternatives</text>
+      <text x="30" y="340" font-size="12" fill="var(--fig-mute, #8a939e)">the science can stay unsettled;</text>
+      <text x="30" y="358" font-size="12" fill="var(--fig-mute, #8a939e)">the conversation cannot be postponed</text>
+    </g>
+
+    <g data-step="5">
+      <path d="M500 344 L 466 368" stroke="var(--fig-brand, #0f5f66)" fill="none" marker-end="url(#arrow-consent)"/>
+      <text x="452" y="362" text-anchor="end" font-size="12" fill="var(--fig-brand, #0f5f66)">consents</text>
+      <path d="M594 344 L 628 368" stroke="currentColor" fill="none" marker-end="url(#arrow-consent)"/>
+      <text x="640" y="362" font-size="12" fill="var(--fig-mute, #8a939e)">declines</text>
+      <rect x="376" y="372" width="166" height="60" rx="8" fill="none" stroke="var(--fig-brand, #0f5f66)"/>
+      <text x="459" y="396" text-anchor="middle" font-weight="600">consent given</text>
+      <text x="459" y="416" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">treatment proceeds</text>
+    </g>
+    <g data-step="5" data-hot="consent declined" data-tip="Declining is the process working rather than failing, and it is why the alternatives belong in the disclosure. The file that decides a later complaint is the chart: a note describing what was proposed, what was named as contested, what alternatives were offered and what was asked is a different document from a signature on a form.">
+      <rect x="550" y="372" width="154" height="60" rx="8" fill="none" stroke="currentColor"/>
+      <text x="627" y="396" text-anchor="middle" font-weight="600">consent declined</text>
+      <text x="627" y="416" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">an alternative is used</text>
+    </g>
+  </g>
+</svg>

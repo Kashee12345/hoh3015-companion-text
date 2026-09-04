@@ -1,0 +1,68 @@
+<svg viewBox="0 0 720 520" role="img"
+  data-steps='["A referring practitioner notices something outside their scope, or a case that is not improving, and decides this patient needs another set of eyes.","The referral itself. A useful letter names what was found, what was done, what has changed and what specifically is being asked, not just a name and a diagnosis code.","The patient is seen. This is the part everyone assumes happens, and mostly it does.","Information comes back. This return leg is the one most often skipped, and it is what decides whether this clinician ever refers to you again."]'
+  aria-label="A referral drawn as a closed loop rather than a one way handoff: a practitioner notices a limit, sends a letter containing four specific things, the patient is seen, and information returns, with the return leg marked as the step most often skipped.">
+  <defs>
+    <marker id="arrow-referral" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="currentColor"/>
+    </marker>
+    <marker id="arrow-referral-brand" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--fig-brand, #0f5f66)"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="12">
+    <text x="360" y="26" text-anchor="middle" font-size="15" font-weight="600">A referral is a loop, not a handoff</text>
+    <text x="360" y="44" text-anchor="middle" fill="var(--fig-mute, #8a939e)">the same patient, and the same information, coming back to where it started</text>
+
+    <g data-step="1" data-hot="notices the limit" data-tip="Red flags such as unexplained weight loss, major trauma, fever or steroid use are the clearest triggers, but plain lack of progress after a reasonable trial of care is a valid reason to refer as well.">
+      <rect x="285" y="75" width="170" height="90" rx="10" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="370" y="104" text-anchor="middle" font-weight="600">Practitioner</text>
+      <text x="370" y="122" text-anchor="middle" font-weight="600">notices a limit</text>
+      <text x="370" y="142" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">outside scope or</text>
+      <text x="370" y="158" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">not improving</text>
+    </g>
+
+    <path data-step="2" d="M420 165 Q470 180 500 225" stroke="currentColor" fill="none" marker-end="url(#arrow-referral)"/>
+
+    <g data-step="2" data-hot="referral sent" data-tip="A phone call, or a fax with only a diagnosis code, is not a referral in the sense this chapter means. The receiving clinician needs enough on paper to act without calling back to ask what you meant.">
+      <rect x="475" y="225" width="170" height="90" rx="10" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="560" y="260" text-anchor="middle" font-weight="600">Referral sent</text>
+      <text x="560" y="282" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">contents listed below</text>
+    </g>
+
+    <g data-step="2" data-hot="the four things" data-tip="Findings without a request produces a report nobody can act on. A request without findings produces a demand nobody can evaluate. A referral needs all four together.">
+      <rect x="475" y="335" width="190" height="155" rx="8" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor" stroke-dasharray="5 4"/>
+      <text x="570" y="358" text-anchor="middle" font-weight="600" font-size="12">a referral should name</text>
+      <text x="490" y="382" font-size="12">1  what was found</text>
+      <text x="490" y="406" font-size="12">2  what was done</text>
+      <text x="490" y="430" font-size="12">3  what has changed</text>
+      <text x="490" y="454" font-size="12">4  what is being asked</text>
+    </g>
+
+    <path data-step="3" d="M520 315 Q480 360 420 375" stroke="currentColor" fill="none" marker-end="url(#arrow-referral)"/>
+
+    <g data-step="3" data-hot="the visit" data-tip="This is the step a referring practitioner assumes happened and rarely verifies directly. It is also the one step in the whole loop that the referring practitioner cannot observe.">
+      <rect x="285" y="375" width="170" height="90" rx="10" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="370" y="408" text-anchor="middle" font-weight="600">Patient is seen</text>
+      <text x="370" y="428" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">by the receiving</text>
+      <text x="370" y="444" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">clinician</text>
+    </g>
+
+    <path data-step="4" d="M320 375 Q260 360 220 315" stroke="currentColor" fill="none" marker-end="url(#arrow-referral)"/>
+
+    <g data-step="4" data-hot="the return leg" data-tip="A referring clinician who never hears back stops referring, not out of spite but because they have no way to know whether the referral helped anyone.">
+      <rect x="95" y="225" width="170" height="90" rx="10" fill="var(--fig-fill, rgba(127,127,127,.08))" stroke="currentColor"/>
+      <text x="180" y="255" text-anchor="middle" font-weight="600">Information</text>
+      <text x="180" y="273" text-anchor="middle" font-weight="600">returns</text>
+      <text x="180" y="293" text-anchor="middle" font-size="12" fill="var(--fig-mute, #8a939e)">closes the loop</text>
+    </g>
+
+    <path data-step="4" data-pulse="" d="M220 225 Q260 180 320 165" stroke="var(--fig-brand, #0f5f66)" stroke-width="2.5" fill="none" marker-end="url(#arrow-referral-brand)"/>
+
+    <g data-step="4" data-pulse="">
+      <text x="180" y="345" text-anchor="middle" font-weight="600" fill="var(--fig-brand, #0f5f66)">the step most</text>
+      <text x="180" y="361" text-anchor="middle" font-weight="600" fill="var(--fig-brand, #0f5f66)">often skipped</text>
+      <text x="180" y="381" text-anchor="middle" fill="var(--fig-brand, #0f5f66)">decides whether they</text>
+      <text x="180" y="397" text-anchor="middle" fill="var(--fig-brand, #0f5f66)">refer to you again</text>
+    </g>
+  </g>
+</svg>
