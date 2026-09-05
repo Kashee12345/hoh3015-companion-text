@@ -7,7 +7,7 @@ required reading for the course and it replaces a purchased textbook, so it cost
 **[Read it online](https://kashee12345.github.io/hoh3015-companion-text/)** &middot;
 **[Download the PDF](HOH3015_Companion_Text.pdf)** (127 pages)
 
-Akash Garg, D.C.
+Vidya Aggrawal, D.C.
 
 ---
 
